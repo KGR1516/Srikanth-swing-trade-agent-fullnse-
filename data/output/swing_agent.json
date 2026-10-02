@@ -1,13 +1,14 @@
 {
   "as_of": "2026-10-01",
-  "generated_at": "2026-10-02 16:12 IST",
-  "session": "morning",
-  "session_label": "Morning run 16:12 IST — setups from the 2026-10-01 close, with live status today",
+  "generated_at": "2026-10-02 20:35 IST",
+  "session": "afternoon",
+  "session_label": "Afternoon run 20:34 IST — PROVISIONAL: today's candle is not final until 15:30",
   "capital": 500000.0,
   "universe_size": 2319,
   "universe_name": "Full NSE",
   "data_sources": [
     "Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar)",
+    "prefetched history + live refresh of 1175 liquid stocks at 20:34:44 IST",
     "NSE bhavcopy 2026-10-01 (close cross-check)",
     "904 clearly illiquid stocks skipped before indicators",
     "pandas-ta-classic indicator confluence"
@@ -29928,7 +29929,7 @@
       "avg_traded_value_cr": 33.98,
       "liquid": false,
       "rsi": 79.5,
-      "adx": 44.7,
+      "adx": 44.5,
       "atr_pct": 3.66,
       "volume_ratio": 1.68,
       "ext_ema20_pct": 9.99,
