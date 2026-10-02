@@ -1,8 +1,8 @@
 # Swing Trade Agent — setups for the session after 2026-10-01
 
-_Generated 2026-10-01 16:38 IST · Universe: Full NSE (2319 stocks) · Capital ₹500,000_
+_Generated 2026-10-02 16:12 IST · Universe: Full NSE (2319 stocks) · Capital ₹500,000_
 
-**Morning run 16:38 IST — setups from the 2026-10-01 close, with live status today**
+**Morning run 16:12 IST — setups from the 2026-10-01 close, with live status today**
 
 ## Market regime: 🔴 BEARISH (risk × 0)
 
@@ -20,31 +20,31 @@ _No setups passed every gate today. Cash is a position._
 
 | Symbol | Action | Setup | Score | Why not a setup |
 |---|---|---|---:|---|
-| MOREPENLAB | WATCH | Breakout | 96 | risk: market regime: no new longs |
-| RATNAVEER | WATCH | Breakout | 91 | risk: market regime: no new longs |
-| RAMRAT | WATCH | Breakout | 91 | risk: market regime: no new longs |
-| LALPATHLAB | WATCH | Pre-Breakout | 90 | risk: market regime: no new longs |
-| DEEPINDS | WATCH | Pullback | 88 | risk: market regime: no new longs |
-| CASTROLIND | WATCH | Pre-Breakout | 88 | risk: market regime: no new longs |
-| WELSPUNLIV | WATCH | Breakout | 88 | breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback |
-| GPPL | WATCH | Pre-Breakout | 86 | risk: market regime: no new longs |
-| AXISCADES | WATCH | Breakout | 85 | breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback |
-| YATHARTH | WATCH | Pullback | 85 | risk: market regime: no new longs |
-| GRAPHITE | WATCH | Pullback | 85 | risk: market regime: no new longs |
-| MARKSANS | WATCH | Pullback | 84 | risk: market regime: no new longs |
-| COFORGE | WATCH | Pullback | 84 | risk: market regime: no new longs |
-| TARSONS | WATCH | Pullback | 84 | risk: market regime: no new longs |
-| LGEINDIA | WATCH | Pre-Breakout | 83 | risk: market regime: no new longs |
-| INDGN | WATCH | Pullback | 83 | risk: market regime: no new longs |
-| JYOTICNC | WATCH | Pullback | 83 | risk: market regime: no new longs |
-| CUB | WATCH | Pullback | 82 | risk: market regime: no new longs |
-| HERITGFOOD | WATCH | Pullback | 82 | risk: market regime: no new longs |
-| AUROPHARMA | WATCH | Pullback | 81 | risk: market regime: no new longs |
-| DIVISLAB | WATCH | Pullback | 80 | risk: market regime: no new longs |
-| BHEL | WATCH | Pullback | 80 | risk: market regime: no new longs |
-| TNPETRO | WATCH | Pullback | 80 | risk: market regime: no new longs |
-| SAILIFE | WATCH | Pullback | 76 | risk: market regime: no new longs |
-| GOODLUCK | WATCH | Pullback | 75 | risk: market regime: no new longs |
+| RAMRAT | WATCH | Breakout | 89 | risk: market regime: no new longs |
+| MOREPENLAB | WATCH | Breakout | 88 | risk: market regime: no new longs |
+| AXISCADES | WATCH | Breakout | 88 | breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback |
+| RATNAVEER | WATCH | Breakout | 87 | risk: market regime: no new longs |
+| WELSPUNLIV | WATCH | Breakout | 84 | breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback |
+| LALPATHLAB | WATCH | Pre-Breakout | 82 | risk: market regime: no new longs |
+| TARSONS | WATCH | Pullback | 82 | risk: market regime: no new longs |
+| SHOPERSTOP | WATCH | Pullback | 80 | risk: market regime: no new longs |
+| DEEPINDS | WATCH | Pullback | 80 | risk: market regime: no new longs |
+| HERITGFOOD | WATCH | Pullback | 80 | risk: market regime: no new longs |
+| CASTROLIND | WATCH | Pre-Breakout | 80 | risk: market regime: no new longs |
+| INDGN | WATCH | Pullback | 79 | risk: market regime: no new longs |
+| JYOTICNC | WATCH | Pullback | 79 | risk: market regime: no new longs |
+| GPPL | WATCH | Pre-Breakout | 78 | risk: market regime: no new longs |
+| YATHARTH | WATCH | Pullback | 77 | risk: market regime: no new longs |
+| MARKSANS | WATCH | Pullback | 76 | risk: market regime: no new longs |
+| GRAPHITE | WATCH | Pullback | 76 | risk: market regime: no new longs |
+| RBLBANK | WATCH | Pullback | 76 | risk: market regime: no new longs |
+| COFORGE | WATCH | Pullback | 76 | risk: market regime: no new longs |
+| LGEINDIA | WATCH | Pre-Breakout | 74 | risk: market regime: no new longs |
+| DIVISLAB | WATCH | Pullback | 74 | risk: market regime: no new longs |
+| CUB | WATCH | Pullback | 73 | risk: market regime: no new longs |
+| AUROPHARMA | WATCH | Pullback | 73 | risk: market regime: no new longs |
+| BHEL | WATCH | Pullback | 72 | risk: market regime: no new longs |
+| TNPETRO | WATCH | Pullback | 71 | risk: market regime: no new longs |
 
 ## Strongest sectors
 
