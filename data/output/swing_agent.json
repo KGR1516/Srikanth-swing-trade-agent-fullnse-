@@ -1,13 +1,14 @@
 {
   "as_of": "2026-10-09",
-  "generated_at": "2026-10-09 17:02 IST",
-  "session": "morning",
-  "session_label": "Morning run 17:01 IST — setups from the 2026-10-09 close, with live status today",
+  "generated_at": "2026-10-09 21:10 IST",
+  "session": "afternoon",
+  "session_label": "Afternoon run 21:07 IST — PROVISIONAL: today's candle is not final until 15:30",
   "capital": 500000.0,
   "universe_size": 2335,
   "universe_name": "Full NSE",
   "data_sources": [
     "Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar)",
+    "prefetched history + live refresh of 1170 liquid stocks at 21:09:31 IST",
     "NSE bhavcopy 2026-10-09 (close cross-check)",
     "941 clearly illiquid stocks skipped before indicators",
     "pandas-ta-classic indicator confluence"
@@ -29344,7 +29345,7 @@
       "avg_traded_value_cr": 39.78,
       "liquid": false,
       "rsi": 60.1,
-      "adx": 43.5,
+      "adx": 43.7,
       "atr_pct": 3.85,
       "volume_ratio": 0.47,
       "ext_ema20_pct": 2.54,
@@ -44056,10 +44057,10 @@
       "symbol": "ACEVECTOR",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:5<220"
       ],
       "last_date": "2026-10-09",
-      "bars": 1
+      "bars": 5
     },
     {
       "symbol": "ACGL",
@@ -44255,10 +44256,10 @@
       "symbol": "AONESTEELS",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:6<220"
       ],
       "last_date": "2026-10-09",
-      "bars": 1
+      "bars": 6
     },
     {
       "symbol": "AQYLON",
@@ -44310,10 +44311,10 @@
       "symbol": "ARMEE",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:7<220"
       ],
       "last_date": "2026-10-09",
-      "bars": 1
+      "bars": 7
     },
     {
       "symbol": "ARYAMAN",
@@ -44852,10 +44853,10 @@
       "symbol": "ELEVATE",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:7<220"
       ],
       "last_date": "2026-10-09",
-      "bars": 1
+      "bars": 7
     },
     {
       "symbol": "ELITECON",
@@ -45014,10 +45015,10 @@
       "symbol": "GERMAN",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:5<220"
       ],
       "last_date": "2026-10-09",
-      "bars": 1
+      "bars": 5
     },
     {
       "symbol": "GKB",
@@ -46057,10 +46058,10 @@
       "symbol": "ORIENTCABL",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:5<220"
       ],
       "last_date": "2026-10-09",
-      "bars": 1
+      "bars": 5
     },
     {
       "symbol": "ORIRAIL",
@@ -46763,10 +46764,10 @@
       "symbol": "SSRETAIL",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:12<220"
       ],
       "last_date": "2026-10-09",
-      "bars": 1
+      "bars": 12
     },
     {
       "symbol": "STEAMHOUSE",
