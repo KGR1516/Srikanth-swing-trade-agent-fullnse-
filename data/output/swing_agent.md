@@ -1,8 +1,8 @@
 # Swing Trade Agent — setups for the session after 2026-10-13
 
-_Generated 2026-10-13 17:36 IST · Universe: Full NSE (2349 stocks) · Capital ₹500,000_
+_Generated 2026-10-13 22:03 IST · Universe: Full NSE (2349 stocks) · Capital ₹500,000_
 
-**Morning run 17:36 IST — setups from the 2026-10-13 close, with live status today**
+**Afternoon run 22:02 IST — PROVISIONAL: today's candle is not final until 15:30**
 
 ## Market regime: 🔴 BEARISH (risk × 0)
 
@@ -62,7 +62,7 @@ _No setups passed every gate today. Cash is a position._
 - AASTHA: insufficient_history:69<220
 - ABANSENT: insufficient_history:38<220
 - ABMKNO: insufficient_history:38<220
-- ACEVECTOR: insufficient_history:6<220
+- ACEVECTOR: insufficient_history:1<220
 - ACGL: insufficient_history:38<220
 - ADDIND: insufficient_history:38<220
 - ADVAIT: insufficient_history:179<220
@@ -80,6 +80,6 @@ _No setups passed every gate today. Cash is a position._
 - ALPINETEX: insufficient_history:58<220
 
 ---
-Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), NSE bhavcopy 2026-10-13 (close cross-check), 946 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
+Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), prefetched history + live refresh of 1176 liquid stocks at 22:03:30 IST, NSE bhavcopy 2026-10-13 (close cross-check), 946 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
 
 > Research output only — not investment advice and not an order. Verify prices, results dates and liquidity before trading; size positions to your own risk tolerance.
