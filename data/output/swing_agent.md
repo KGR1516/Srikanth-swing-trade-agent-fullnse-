@@ -1,8 +1,8 @@
 # Swing Trade Agent — setups for the session after 2026-10-14
 
-_Generated 2026-10-14 19:39 IST · Universe: Full NSE (2348 stocks) · Capital ₹500,000_
+_Generated 2026-10-15 14:51 IST · Universe: Full NSE (2344 stocks) · Capital ₹500,000_
 
-**Afternoon run 19:37 IST — PROVISIONAL: today's candle is not final until 15:30**
+**Morning run 14:50 IST — setups from the 2026-10-14 close, with live status today**
 
 ## Market regime: 🔴 BEARISH (risk × 0)
 
@@ -56,7 +56,7 @@ _No setups passed every gate today. Cash is a position._
 | Services | -4.4 | 54 | 86 |
 | Textiles | -5.1 | 50 | 81 |
 
-## Data quality — 366 excluded
+## Data quality — 368 excluded
 
 - 3BBLACKBIO: insufficient_history:40<220
 - AASTHA: insufficient_history:71<220
@@ -65,6 +65,7 @@ _No setups passed every gate today. Cash is a position._
 - ACEVECTOR: insufficient_history:8<220
 - ACGL: insufficient_history:40<220
 - ADDIND: insufficient_history:40<220
+- ADROITIND: insufficient_history:10<220
 - ADVAIT: insufficient_history:181<220
 - ADVIKCA: insufficient_history:40<220
 - AEPL: insufficient_history:146<220
@@ -77,9 +78,8 @@ _No setups passed every gate today. Cash is a position._
 - ALGOQUANT: insufficient_history:190<220
 - ALLCARGO: extreme_move:64.9%_on_2025-11-12 (unadjusted split/bonus?)
 - ALPINETEX: insufficient_history:60<220
-- AMAGI: insufficient_history:180<220
 
 ---
-Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), prefetched history + live refresh of 1168 liquid stocks at 19:39:03 IST, NSE bhavcopy 2026-10-14 (close cross-check), 952 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
+Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), NSE bhavcopy 2026-10-14 (close cross-check), setups from last completed session; today's live candle used only for status (2332 symbols), 946 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
 
 > Research output only — not investment advice and not an order. Verify prices, results dates and liquidity before trading; size positions to your own risk tolerance.
