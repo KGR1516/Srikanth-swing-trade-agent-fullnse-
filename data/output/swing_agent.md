@@ -1,8 +1,8 @@
 # Swing Trade Agent — setups for the session after 2026-10-19
 
-_Generated 2026-10-20 19:26 IST · Universe: Full NSE (2351 stocks) · Capital ₹500,000_
+_Generated 2026-10-21 15:05 IST · Universe: Full NSE (2354 stocks) · Capital ₹500,000_
 
-**Afternoon run 19:25 IST — PROVISIONAL: today's candle is not final until 15:30**
+**Morning run 15:04 IST — setups from the 2026-10-19 close, with live status today**
 
 ## Market regime: 🔴 BEARISH (risk × 0)
 
@@ -10,7 +10,7 @@ _Generated 2026-10-20 19:26 IST · Universe: Full NSE (2351 stocks) · Capital �
 - Nifty below 50-EMA, below 200-EMA; 50-EMA falling.
 - Breadth: 28% of universe above 50-EMA.
 - Bearish regime → no new long setups; watchlist only.
-- Verdicts: BUY NOW 0 · BUY 0 · WATCH 30 · AVOID 0 · SKIP 1000
+- Verdicts: BUY NOW 0 · BUY 0 · WATCH 29 · AVOID 0 · SKIP 1000
 
 ## Next-session setups (0)
 
@@ -54,15 +54,15 @@ _No setups passed every gate today. Cash is a position._
 | Media Entertainment & Publication | +16.7 | 50 | 95 |
 | Unclassified | -0.3 | 33 | 90 |
 | Consumer Services | -2.3 | 29 | 86 |
-| Oil Gas & Consumable Fuels | -3.8 | 24 | 81 |
+| Oil Gas & Consumable Fuels | -4.5 | 19 | 81 |
 
-## Data quality — 368 excluded
+## Data quality — 373 excluded
 
 - 3BBLACKBIO: insufficient_history:43<220
 - AASTHA: insufficient_history:74<220
 - ABANSENT: insufficient_history:43<220
 - ABMKNO: insufficient_history:43<220
-- ACEVECTOR: insufficient_history:1<220
+- ACEVECTOR: no_data_from_provider
 - ACGL: insufficient_history:43<220
 - ADDIND: insufficient_history:43<220
 - ADROITIND: insufficient_history:13<220
@@ -80,6 +80,6 @@ _No setups passed every gate today. Cash is a position._
 - ALPINETEX: insufficient_history:63<220
 
 ---
-Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), prefetched history + live refresh of 1167 liquid stocks at 19:26:06 IST, NSE bhavcopy 2026-10-19 (close cross-check), 953 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
+Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), NSE bhavcopy 2026-10-19 (close cross-check), setups from last completed session; today's live candle used only for status (2341 symbols), 952 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
 
 > Research output only — not investment advice and not an order. Verify prices, results dates and liquidity before trading; size positions to your own risk tolerance.
