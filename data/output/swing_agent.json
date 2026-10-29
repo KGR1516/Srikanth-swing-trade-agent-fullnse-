@@ -1,13 +1,14 @@
 {
   "as_of": "2026-10-29",
-  "generated_at": "2026-10-29 16:36 IST",
-  "session": "morning",
-  "session_label": "Morning run 16:34 IST — setups from the 2026-10-29 close, with live status today",
+  "generated_at": "2026-10-29 21:09 IST",
+  "session": "afternoon",
+  "session_label": "Afternoon run 21:07 IST — PROVISIONAL: today's candle is not final until 15:30",
   "capital": 500000.0,
   "universe_size": 2368,
   "universe_name": "Full NSE",
   "data_sources": [
     "Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar)",
+    "prefetched history + live refresh of 1146 liquid stocks at 21:09:11 IST",
     "NSE bhavcopy 2026-10-29 (close cross-check)",
     "982 clearly illiquid stocks skipped before indicators",
     "pandas-ta-classic indicator confluence"
@@ -43440,10 +43441,10 @@
       "symbol": "ACEVECTOR",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:18<220"
+        "insufficient_history:1<220"
       ],
       "last_date": "2026-10-29",
-      "bars": 18
+      "bars": 1
     },
     {
       "symbol": "ACGL",
@@ -43630,10 +43631,10 @@
       "symbol": "AONESTEELS",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:19<220"
+        "insufficient_history:1<220"
       ],
       "last_date": "2026-10-29",
-      "bars": 19
+      "bars": 1
     },
     {
       "symbol": "AQYLON",
@@ -43948,10 +43949,10 @@
       "symbol": "BONFIG",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:5<220"
+        "insufficient_history:1<220"
       ],
       "last_date": "2026-10-29",
-      "bars": 5
+      "bars": 1
     },
     {
       "symbol": "BONLON",
@@ -44254,10 +44255,10 @@
       "symbol": "ELEVATE",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:20<220"
+        "insufficient_history:1<220"
       ],
       "last_date": "2026-10-29",
-      "bars": 20
+      "bars": 1
     },
     {
       "symbol": "ELITECON",
@@ -44362,10 +44363,10 @@
       "symbol": "FUSIONCX",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:6<220"
+        "insufficient_history:1<220"
       ],
       "last_date": "2026-10-29",
-      "bars": 6
+      "bars": 1
     },
     {
       "symbol": "GAJA",
@@ -44416,10 +44417,10 @@
       "symbol": "GERMAN",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:18<220"
+        "insufficient_history:1<220"
       ],
       "last_date": "2026-10-29",
-      "bars": 18
+      "bars": 1
     },
     {
       "symbol": "GKB",
@@ -44806,10 +44807,10 @@
       "symbol": "JPL",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:2<220"
+        "insufficient_history:1<220"
       ],
       "last_date": "2026-10-29",
-      "bars": 2
+      "bars": 1
     },
     {
       "symbol": "JYOTIRES",
@@ -45440,10 +45441,10 @@
       "symbol": "NITYAS",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:15<220"
+        "insufficient_history:1<220"
       ],
       "last_date": "2026-10-29",
-      "bars": 15
+      "bars": 1
     },
     {
       "symbol": "NOVARTIND",
@@ -45522,10 +45523,10 @@
       "symbol": "ORIENTCABL",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:18<220"
+        "insufficient_history:1<220"
       ],
       "last_date": "2026-10-29",
-      "bars": 18
+      "bars": 1
     },
     {
       "symbol": "ORIRAIL",
@@ -45567,10 +45568,10 @@
       "symbol": "PARASHLTH",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:2<220"
+        "insufficient_history:1<220"
       ],
       "last_date": "2026-10-29",
-      "bars": 2
+      "bars": 1
     },
     {
       "symbol": "PARKHOSPS",
@@ -46166,10 +46167,10 @@
       "symbol": "SMT",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:5<220"
+        "insufficient_history:1<220"
       ],
       "last_date": "2026-10-29",
-      "bars": 5
+      "bars": 1
     },
     {
       "symbol": "SONA",
@@ -46211,10 +46212,10 @@
       "symbol": "SSRETAIL",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:25<220"
+        "insufficient_history:1<220"
       ],
       "last_date": "2026-10-29",
-      "bars": 25
+      "bars": 1
     },
     {
       "symbol": "STEAMHOUSE",
@@ -46229,10 +46230,10 @@
       "symbol": "SUDARSHAN",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:2<220"
+        "insufficient_history:1<220"
       ],
       "last_date": "2026-10-29",
-      "bars": 2
+      "bars": 1
     },
     {
       "symbol": "SUMEDHA",
@@ -46301,10 +46302,10 @@
       "symbol": "SWASTIKAIN",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:20<220"
+        "insufficient_history:1<220"
       ],
       "last_date": "2026-10-29",
-      "bars": 20
+      "bars": 1
     },
     {
       "symbol": "SYMBIOTEC",
@@ -46427,10 +46428,10 @@
       "symbol": "TONBO",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:5<220"
+        "insufficient_history:1<220"
       ],
       "last_date": "2026-10-29",
-      "bars": 5
+      "bars": 1
     },
     {
       "symbol": "TOYAMSL",
@@ -46481,10 +46482,10 @@
       "symbol": "TRIVENIPT",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:13<220"
+        "insufficient_history:1<220"
       ],
       "last_date": "2026-10-29",
-      "bars": 13
+      "bars": 1
     },
     {
       "symbol": "TURTLEMINT",
@@ -46679,10 +46680,10 @@
       "symbol": "VNL",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:15<220"
+        "insufficient_history:1<220"
       ],
       "last_date": "2026-10-29",
-      "bars": 15
+      "bars": 1
     },
     {
       "symbol": "VOEPL",
@@ -46779,10 +46780,10 @@
       "symbol": "ZETWERK",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:5<220"
+        "insufficient_history:1<220"
       ],
       "last_date": "2026-10-29",
-      "bars": 5
+      "bars": 1
     },
     {
       "symbol": "ZFSTEERING",
