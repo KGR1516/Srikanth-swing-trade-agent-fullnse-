@@ -1,8 +1,8 @@
 # Swing Trade Agent — setups for the session after 2026-11-06
 
-_Generated 2026-11-06 17:54 IST · Universe: Full NSE (2390 stocks) · Capital ₹500,000_
+_Generated 2026-11-06 21:52 IST · Universe: Full NSE (2390 stocks) · Capital ₹500,000_
 
-**Morning run 17:54 IST — setups from the 2026-11-06 close, with live status today**
+**Afternoon run 21:51 IST — PROVISIONAL: today's candle is not final until 15:30**
 
 ## Market regime: 🟡 NEUTRAL (risk × 0.5)
 
@@ -22,15 +22,6 @@ _Generated 2026-11-06 17:54 IST · Universe: Full NSE (2390 stocks) · Capital �
 | 4 | **MRPL** | BUY NOW | Pullback | — | 175.67 | 177.85 | 181.40 | 163.75 | 7.9% | 206.05 (2R) | 220.15 (3R) | 177 | ₹2,496 | 88 |
 | 5 | **SHILPAMED** | BUY NOW | Pullback | — | 942.35 | 974.90 | 994.35 | 898.95 | 7.8% | 1,126.80 (2R) | 1,202.75 (3R) | 32 | ₹2,430 | 88 |
 | 6 | **SHYAMMETL** | BUY NOW | Breakout | Unconfirmed | 1,300.60 | 1,309.70 | 1,335.85 | 1,239.25 | 5.4% | 1,450.60 (2R) | 1,521.05 (3R) | 35 | ₹2,466 | 85 |
-
-### Live status today
-
-- **PNB** — Not triggered — needs ≥ 127.20 (now 126.55)
-- **GLENMARK** — Not triggered — needs ≥ 2,691.50 (now 2,590.00)
-- **UNIONBANK** — Not triggered — needs ≥ 189.40 (now 187.00)
-- **MRPL** — Not triggered — needs ≥ 177.85 (now 175.67)
-- **SHILPAMED** — Not triggered — needs ≥ 974.90 (now 942.35)
-- **SHYAMMETL** — Not triggered — needs ≥ 1,309.70 (now 1,300.60)
 
 **Execution rules:** buy-stop at the entry trigger · skip if the open gaps above the “don't chase” price · cancel if not triggered within 2 sessions · exit if T1 isn't hit within 5 sessions · book part at T1, trail the stop to entry.
 
@@ -104,6 +95,6 @@ _Generated 2026-11-06 17:54 IST · Universe: Full NSE (2390 stocks) · Capital �
 - AMAL: insufficient_history:56<220
 
 ---
-Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), NSE bhavcopy 2026-11-06 (close cross-check), 978 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
+Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), prefetched history + live refresh of 1157 liquid stocks at 21:51:58 IST, NSE bhavcopy 2026-11-06 (close cross-check), 978 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
 
 > Research output only — not investment advice and not an order. Verify prices, results dates and liquidity before trading; size positions to your own risk tolerance.
