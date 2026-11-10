@@ -1,8 +1,8 @@
 # Swing Trade Agent — setups for the session after 2026-11-09
 
-_Generated 2026-11-09 18:46 IST · Universe: Full NSE (2396 stocks) · Capital ₹500,000_
+_Generated 2026-11-10 18:27 IST · Universe: Full NSE (2396 stocks) · Capital ₹500,000_
 
-**Morning run 18:46 IST — setups from the 2026-11-09 close, with live status today**
+**Morning run 18:26 IST — setups from the 2026-11-09 close, with live status today**
 
 ## Market regime: 🟡 NEUTRAL (risk × 0.5)
 
@@ -25,12 +25,12 @@ _Generated 2026-11-09 18:46 IST · Universe: Full NSE (2396 stocks) · Capital �
 
 ### Live status today
 
-- **AARTIDRUGS** — Not triggered — needs ≥ 515.50 (now 499.75)
-- **GLAND** — Not triggered — needs ≥ 3,384.70 (now 3,302.40)
-- **PNB** — Not triggered — needs ≥ 132.85 (now 132.17)
-- **MAHABANK** — Not triggered — needs ≥ 88.40 (now 87.68)
-- **MRPL** — Not triggered — needs ≥ 180.20 (now 176.29)
-- **SAMBHV** — Not triggered — needs ≥ 168.90 (now 163.87)
+- **AARTIDRUGS** — No live data (holiday / feed delay)
+- **GLAND** — No live data (holiday / feed delay)
+- **PNB** — No live data (holiday / feed delay)
+- **MAHABANK** — No live data (holiday / feed delay)
+- **MRPL** — No live data (holiday / feed delay)
+- **SAMBHV** — No live data (holiday / feed delay)
 
 **Execution rules:** buy-stop at the entry trigger · skip if the open gaps above the “don't chase” price · cancel if not triggered within 2 sessions · exit if T1 isn't hit within 5 sessions · book part at T1, trail the stop to entry.
 
@@ -52,8 +52,8 @@ _Generated 2026-11-09 18:46 IST · Universe: Full NSE (2396 stocks) · Capital �
 | Symbol | Action | Setup | Score | Why not a setup |
 |---|---|---|---:|---|
 | MANKIND | WATCH | Breakout | 95 | portfolio: sector cap (2) for Healthcare |
-| LAURUSLABS | WATCH | Breakout | 94 | breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback |
 | SAILIFE | WATCH | Breakout | 94 | breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback |
+| LAURUSLABS | WATCH | Breakout | 94 | breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback |
 | ICICIBANK | WATCH | Breakout | 93 | breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback |
 | INDIANB | WATCH | Breakout | 90 | portfolio: sector cap (2) for Financial Services |
 | AUROPHARMA | WATCH | Breakout | 87 | portfolio: sector cap (2) for Healthcare |
@@ -70,7 +70,7 @@ _Generated 2026-11-09 18:46 IST · Universe: Full NSE (2396 stocks) · Capital �
 | GABRIEL | WATCH | Pullback | 79 | relative strength 54 < 65 |
 | TORNTPHARM | WATCH | Pre-Breakout | 77 | relative strength 56 < 65 |
 | APOLLO | WATCH | Pullback | 76 | portfolio: max open positions (6) reached |
-| EICHERMOT | WATCH | Pre-Breakout | 70 | earnings blackout: results on 2026-11-12 |
+| EICHERMOT | WATCH | Pre-Breakout | 70 | earnings blackout: results on 2026-11-13 |
 | 63MOONS | WATCH | Pullback | 70 | portfolio: max open positions (6) reached |
 | RAYMOND | WATCH | Pullback | 66 | setup: stop 9.2% wider than max 8.0% |
 | MOTHERSON | WATCH | Pullback | 65 | relative strength 58 < 65 |
@@ -92,7 +92,7 @@ _Generated 2026-11-09 18:46 IST · Universe: Full NSE (2396 stocks) · Capital �
 - AASTHA: insufficient_history:88<220
 - ABANSENT: insufficient_history:57<220
 - ABMKNO: insufficient_history:57<220
-- ACEVECTOR: insufficient_history:25<220
+- ACEVECTOR: insufficient_history:1<220
 - ACGL: insufficient_history:57<220
 - ADDIND: insufficient_history:57<220
 - ADROITIND: insufficient_history:27<220
