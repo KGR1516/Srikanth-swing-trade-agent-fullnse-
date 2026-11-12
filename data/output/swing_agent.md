@@ -1,8 +1,8 @@
 # Swing Trade Agent — setups for the session after 2026-11-12
 
-_Generated 2026-11-12 18:37 IST · Universe: Full NSE (2396 stocks) · Capital ₹500,000_
+_Generated 2026-11-12 22:40 IST · Universe: Full NSE (2396 stocks) · Capital ₹500,000_
 
-**Morning run 18:37 IST — setups from the 2026-11-12 close, with live status today**
+**Afternoon run 22:38 IST — PROVISIONAL: today's candle is not final until 15:30**
 
 ## Market regime: 🟢 BULLISH (risk × 1)
 
@@ -15,63 +15,56 @@ _Generated 2026-11-12 18:37 IST · Universe: Full NSE (2396 stocks) · Capital �
 
 | # | Symbol | Action | Setup | Grade | Close | Entry ≥ | Don't chase > | Stop | Stop % | T1 (R) | T2 (R) | Qty | At risk | Score |
 |---:|---|---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 1 | **AARTIPHARM** | BUY NOW | Breakout | Unconfirmed | 1,010.50 | 1,023.60 | 1,044.05 | 955.10 | 6.7% | 1,160.60 (2R) | 1,229.10 (3R) | 72 | ₹4,932 | 96 |
-| 2 | **DCBBANK** | BUY NOW | Breakout | Solid | 227.96 | 234.90 | 239.55 | 221.80 | 5.6% | 261.10 (2R) | 274.20 (3R) | 319 | ₹4,179 | 95 |
-| 3 | **INDGN** | BUY NOW | Breakout | Unconfirmed | 666.05 | 676.60 | 690.10 | 643.00 | 5.0% | 743.80 (2R) | 777.40 (3R) | 110 | ₹3,696 | 95 |
-| 4 | **MOTILALOFS** | BUY NOW | Breakout | Solid | 1,216.80 | 1,232.25 | 1,256.85 | 1,161.50 | 5.7% | 1,373.75 (2R) | 1,444.50 (3R) | 60 | ₹4,245 | 92 |
-| 5 | **DLF** | BUY NOW | Breakout | Unconfirmed | 769.30 | 772.40 | 787.80 | 743.85 | 3.7% | 829.50 (2R) | 858.05 (3R) | 97 | ₹2,769 | 88 |
-| 6 | **STYLEBAAZA** | BUY NOW | Breakout | Unconfirmed | 443.50 | 454.35 | 463.40 | 424.25 | 6.6% | 514.55 (2R) | 544.65 (3R) | 165 | ₹4,966 | 84 |
-
-### Live status today
-
-- **AARTIPHARM** — Not triggered — needs ≥ 1,023.60 (now 1,010.50)
-- **DCBBANK** — Not triggered — needs ≥ 234.90 (now 227.96)
-- **INDGN** — Not triggered — needs ≥ 676.60 (now 666.05)
-- **MOTILALOFS** — Not triggered — needs ≥ 1,232.25 (now 1,216.80)
-- **DLF** — Not triggered — needs ≥ 772.40 (now 769.30)
-- **STYLEBAAZA** — Not triggered — needs ≥ 454.35 (now 443.50)
+| 1 | **MOTILALOFS** | BUY NOW | Breakout | Solid | 1,216.80 | 1,232.25 | 1,256.85 | 1,161.50 | 5.7% | 1,373.75 (2R) | 1,444.50 (3R) | 60 | ₹4,245 | 87 |
+| 2 | **DLF** | BUY NOW | Breakout | Unconfirmed | 769.30 | 772.40 | 787.80 | 743.85 | 3.7% | 829.50 (2R) | 858.05 (3R) | 97 | ₹2,769 | 86 |
+| 3 | **MEESHO** | BUY NOW | Breakout | Unconfirmed | 254.11 | 260.00 | 265.20 | 245.15 | 5.7% | 289.70 (2R) | 304.55 (3R) | 288 | ₹4,277 | 85 |
+| 4 | **ABCAPITAL** | BUY NOW | Breakout | Unconfirmed | 419.50 | 421.25 | 429.65 | 402.55 | 4.4% | 458.65 (2R) | 477.35 (3R) | 178 | ₹3,329 | 85 |
+| 5 | **RKFORGE** | BUY NOW | Breakout | Unconfirmed | 785.60 | 799.65 | 815.60 | 750.10 | 6.2% | 898.75 (2R) | 948.30 (3R) | 93 | ₹4,608 | 83 |
+| 6 | **STYLEBAAZA** | BUY NOW | Breakout | Unconfirmed | 443.50 | 454.35 | 463.40 | 424.25 | 6.6% | 514.55 (2R) | 544.65 (3R) | 165 | ₹4,966 | 83 |
 
 **Execution rules:** buy-stop at the entry trigger · skip if the open gaps above the “don't chase” price · cancel if not triggered within 2 sessions · exit if T1 isn't hit within 5 sessions · book part at T1, trail the stop to entry.
 
 ### Risk notes
 
-- **AARTIPHARM** — High volatility (ATR 4.5% of price).
-- **DCBBANK** — Still below the 60-day closing high — major resistance overhead.
-- **INDGN** — RSI 71 — short-term overbought.
 - **MOTILALOFS** — RSI 74 — short-term overbought.
 - **DLF** — RSI 75 — short-term overbought.
 - **DLF** — Breakout volume is adequate but not exceptional (< 2× average).
+- **MEESHO** — RSI 71 — short-term overbought.
+- **MEESHO** — Breakout volume is adequate but not exceptional (< 2× average).
+- **ABCAPITAL** — RSI 70 — short-term overbought.
+- **ABCAPITAL** — 52-week high 430.70 is only 0.51R above entry — T1 faces overhead supply.
+- **RKFORGE** — Breakout volume is adequate but not exceptional (< 2× average).
+- **RKFORGE** — High volatility (ATR 4.2% of price).
 - **STYLEBAAZA** — RSI 70 — short-term overbought.
 - **STYLEBAAZA** — High volatility (ATR 4.5% of price).
-- **STYLEBAAZA** — Rich valuation: P/E 71 > 60 — less margin for error on bad news.
 
 ## Watchlist (23)
 
 | Symbol | Action | Setup | Score | Why not a setup |
 |---|---|---|---:|---|
-| PNB | WATCH | Breakout | 95 | breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback |
-| EMCURE | WATCH | Breakout | 95 | breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback |
-| PHOENIXLTD | WATCH | Breakout | 93 | breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback |
-| PETRONET | WATCH | Breakout | 91 | breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback |
-| TANLA | WATCH | Breakout | 91 | breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback |
-| MANAKCOAT | WATCH | Breakout | 90 | breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback |
-| KTKBANK | WATCH | Breakout | 90 | portfolio: sector cap (2) for Financial Services |
-| KMEW | WATCH | Breakout | 89 | setup: stop 8.3% wider than max 8.0% |
-| IIFLCAPS | WATCH | Pre-Breakout | 89 | portfolio: sector cap (2) for Financial Services |
-| KALYANKJIL | WATCH | Breakout | 88 | breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback |
-| OBEROIRLTY | WATCH | Breakout | 86 | relative strength 64 < 65 |
-| ABCAPITAL | WATCH | Breakout | 85 | portfolio: sector cap (2) for Financial Services |
-| RKFORGE | WATCH | Breakout | 84 | portfolio: max open positions (6) reached |
-| GRANULES | WATCH | Pre-Breakout | 79 | relative strength 53 < 65 |
-| ARFIN | WATCH | Pullback | 79 | relative strength 59 < 65 |
-| MEESHO | WATCH | Breakout | 77 | portfolio: max open positions (6) reached |
-| ACMESOLAR | WATCH | Pullback | 77 | portfolio: max open positions (6) reached |
-| SMCGLOBAL | WATCH | Pullback | 77 | relative strength 64 < 65 |
-| RAYMOND | WATCH | Pullback | 76 | setup: stop 8.4% wider than max 8.0% |
-| ASTRAMICRO | WATCH | Breakout | 74 | portfolio: max open positions (6) reached |
-| USHAMART | WATCH | Pre-Breakout | 73 | relative strength 47 < 65 |
-| BAJAJ-AUTO | WATCH | Pre-Breakout | 63 | relative strength 47 < 65 |
-| HBLENGINE | WATCH | Pullback | 61 | portfolio: max open positions (6) reached |
+| PNB | WATCH | Breakout | 87 | breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback |
+| PHOENIXLTD | WATCH | Breakout | 87 | breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback |
+| EMCURE | WATCH | Breakout | 87 | breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback |
+| PETRONET | WATCH | Breakout | 86 | breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback |
+| MANAKCOAT | WATCH | Breakout | 83 | breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback |
+| KMEW | WATCH | Breakout | 83 | setup: stop 8.3% wider than max 8.0% |
+| KTKBANK | WATCH | Breakout | 82 | portfolio: max open positions (6) reached |
+| DCBBANK | WATCH | Breakout | 82 | portfolio: max open positions (6) reached |
+| AARTIPHARM | WATCH | Breakout | 82 | portfolio: max open positions (6) reached |
+| TANLA | WATCH | Breakout | 82 | breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback |
+| INDGN | WATCH | Breakout | 82 | portfolio: max open positions (6) reached |
+| KALYANKJIL | WATCH | Breakout | 81 | breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback |
+| OBEROIRLTY | WATCH | Breakout | 80 | relative strength 64 < 65 |
+| ACMESOLAR | WATCH | Pullback | 76 | portfolio: max open positions (6) reached |
+| ASTRAMICRO | WATCH | Breakout | 76 | portfolio: max open positions (6) reached |
+| IIFLCAPS | WATCH | Pre-Breakout | 76 | portfolio: max open positions (6) reached |
+| RAYMOND | WATCH | Pullback | 75 | setup: stop 8.4% wider than max 8.0% |
+| ARFIN | WATCH | Pullback | 72 | relative strength 59 < 65 |
+| SMCGLOBAL | WATCH | Pullback | 71 | relative strength 64 < 65 |
+| GRANULES | WATCH | Pre-Breakout | 71 | relative strength 53 < 65 |
+| USHAMART | WATCH | Pre-Breakout | 65 | relative strength 47 < 65 |
+| HBLENGINE | WATCH | Pullback | 57 | final score 56.9 < 60 |
+| BAJAJ-AUTO | WATCH | Pre-Breakout | 54 | relative strength 47 < 65 |
 
 ## Strongest sectors
 
@@ -107,6 +100,6 @@ _Generated 2026-11-12 18:37 IST · Universe: Full NSE (2396 stocks) · Capital �
 - AMAL: insufficient_history:59<220
 
 ---
-Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), NSE bhavcopy 2026-11-12 (close cross-check), 970 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
+Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), prefetched history + live refresh of 1174 liquid stocks at 22:39:50 IST, NSE bhavcopy 2026-11-12 (close cross-check), 970 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
 
 > Research output only — not investment advice and not an order. Verify prices, results dates and liquidity before trading; size positions to your own risk tolerance.
