@@ -1,8 +1,8 @@
 # Swing Trade Agent — setups for the session after 2026-11-17
 
-_Generated 2026-11-17 19:16 IST · Universe: Full NSE (2404 stocks) · Capital ₹500,000_
+_Generated 2026-11-17 23:28 IST · Universe: Full NSE (2404 stocks) · Capital ₹500,000_
 
-**Morning run 19:16 IST — setups from the 2026-11-17 close, with live status today**
+**Afternoon run 23:27 IST — PROVISIONAL: today's candle is not final until 15:30**
 
 ## Market regime: 🟡 NEUTRAL (risk × 0.5)
 
@@ -22,15 +22,6 @@ _Generated 2026-11-17 19:16 IST · Universe: Full NSE (2404 stocks) · Capital �
 | 4 | **HONASA** | BUY NOW | Breakout | Unconfirmed | 517.80 | 525.90 | 536.40 | 497.65 | 5.4% | 582.40 (2R) | 610.65 (3R) | 88 | ₹2,486 | 81 |
 | 5 | **SMSPHARMA** | BUY | Pullback | — | 487.25 | 501.50 | 511.50 | 476.80 | 4.9% | 550.90 (2R) | 575.60 (3R) | 101 | ₹2,495 | 76 |
 | 6 | **BEML** | BUY | Pullback | — | 2,062.50 | 2,102.25 | 2,144.25 | 1,979.20 | 5.8% | 2,348.35 (2R) | 2,471.40 (3R) | 20 | ₹2,461 | 76 |
-
-### Live status today
-
-- **MOTILALOFS** — Not triggered — needs ≥ 1,282.70 (now 1,240.25)
-- **BANKINDIA** — Not triggered — needs ≥ 160.45 (now 159.28)
-- **SGFIN** — Not triggered — needs ≥ 803.35 (now 793.80)
-- **HONASA** — Not triggered — needs ≥ 525.90 (now 517.80)
-- **SMSPHARMA** — Not triggered — needs ≥ 501.50 (now 487.25)
-- **BEML** — Not triggered — needs ≥ 2,102.25 (now 2,062.50)
 
 **Execution rules:** buy-stop at the entry trigger · skip if the open gaps above the “don't chase” price · cancel if not triggered within 2 sessions · exit if T1 isn't hit within 5 sessions · book part at T1, trail the stop to entry.
 
@@ -87,7 +78,7 @@ _Generated 2026-11-17 19:16 IST · Universe: Full NSE (2404 stocks) · Capital �
 - AASTHA: insufficient_history:93<220
 - ABANSENT: insufficient_history:62<220
 - ABMKNO: insufficient_history:62<220
-- ACEVECTOR: insufficient_history:30<220
+- ACEVECTOR: insufficient_history:1<220
 - ACGL: insufficient_history:62<220
 - ADDIND: insufficient_history:62<220
 - ADROITIND: insufficient_history:32<220
@@ -105,6 +96,6 @@ _Generated 2026-11-17 19:16 IST · Universe: Full NSE (2404 stocks) · Capital �
 - AMAL: insufficient_history:62<220
 
 ---
-Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), NSE bhavcopy 2026-11-17 (close cross-check), 966 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
+Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), prefetched history + live refresh of 1184 liquid stocks at 23:27:41 IST, NSE bhavcopy 2026-11-17 (close cross-check), 966 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
 
 > Research output only — not investment advice and not an order. Verify prices, results dates and liquidity before trading; size positions to your own risk tolerance.
