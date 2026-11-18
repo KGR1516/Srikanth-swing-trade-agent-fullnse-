@@ -1,13 +1,14 @@
 {
   "as_of": "2026-11-18",
-  "generated_at": "2026-11-18 18:51 IST",
-  "session": "morning",
-  "session_label": "Morning run 18:50 IST — setups from the 2026-11-18 close, with live status today",
+  "generated_at": "2026-11-18 23:08 IST",
+  "session": "afternoon",
+  "session_label": "Afternoon run 23:07 IST — PROVISIONAL: today's candle is not final until 15:30",
   "capital": 500000.0,
   "universe_size": 2404,
   "universe_name": "Full NSE",
   "data_sources": [
     "Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar)",
+    "prefetched history + live refresh of 1184 liquid stocks at 23:08:18 IST",
     "NSE bhavcopy 2026-11-18 (close cross-check)",
     "969 clearly illiquid stocks skipped before indicators",
     "pandas-ta-classic indicator confluence"
@@ -81,8 +82,8 @@
         "conf_volume": 88.9,
         "indicators_computed": 403
       },
-      "today_status": "Not triggered — needs ≥ 706.75 (now 696.35)",
-      "today_last": 696.3499755859375,
+      "today_status": "",
+      "today_last": null,
       "status": "RESEARCH SETUP",
       "evidence": [
         {
@@ -346,8 +347,8 @@
         "conf_volume": 94.4,
         "indicators_computed": 403
       },
-      "today_status": "Not triggered — needs ≥ 191.75 (now 190.00)",
-      "today_last": 190.0,
+      "today_status": "",
+      "today_last": null,
       "status": "RESEARCH SETUP",
       "evidence": [
         {
@@ -612,8 +613,8 @@
         "conf_volume": 100.0,
         "indicators_computed": 403
       },
-      "today_status": "Not triggered — needs ≥ 844.20 (now 833.95)",
-      "today_last": 833.9500122070312,
+      "today_status": "",
+      "today_last": null,
       "status": "RESEARCH SETUP",
       "evidence": [
         {
@@ -878,8 +879,8 @@
         "conf_volume": 44.4,
         "indicators_computed": 403
       },
-      "today_status": "Not triggered — needs ≥ 2,413.85 (now 2,375.10)",
-      "today_last": 2375.10009765625,
+      "today_status": "",
+      "today_last": null,
       "status": "RESEARCH SETUP",
       "evidence": [
         {
@@ -1136,8 +1137,8 @@
         "conf_volume": 83.3,
         "indicators_computed": 403
       },
-      "today_status": "Not triggered — needs ≥ 242.65 (now 236.86)",
-      "today_last": 236.86000061035156,
+      "today_status": "",
+      "today_last": null,
       "status": "RESEARCH SETUP",
       "evidence": [
         {
@@ -1395,8 +1396,8 @@
         "conf_volume": 94.4,
         "indicators_computed": 403
       },
-      "today_status": "Not triggered — needs ≥ 2,164.70 (now 2,123.20)",
-      "today_last": 2123.199951171875,
+      "today_status": "",
+      "today_last": null,
       "status": "RESEARCH SETUP",
       "evidence": [
         {
@@ -46307,10 +46308,10 @@
       "symbol": "ACEVECTOR",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:31<220"
       ],
       "last_date": "2026-11-18",
-      "bars": 1
+      "bars": 31
     },
     {
       "symbol": "ACGL",
@@ -46488,10 +46489,10 @@
       "symbol": "AONESTEELS",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:32<220"
       ],
       "last_date": "2026-11-18",
-      "bars": 1
+      "bars": 32
     },
     {
       "symbol": "APOORVA",
@@ -46833,10 +46834,10 @@
       "symbol": "BONFIG",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:18<220"
       ],
       "last_date": "2026-11-18",
-      "bars": 1
+      "bars": 18
     },
     {
       "symbol": "BONLON",
@@ -47148,10 +47149,10 @@
       "symbol": "ELEVATE",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:33<220"
       ],
       "last_date": "2026-11-18",
-      "bars": 1
+      "bars": 33
     },
     {
       "symbol": "ELITECON",
@@ -47257,10 +47258,10 @@
       "symbol": "FUSIONCX",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:19<220"
       ],
       "last_date": "2026-11-18",
-      "bars": 1
+      "bars": 19
     },
     {
       "symbol": "GAJA",
@@ -47311,10 +47312,10 @@
       "symbol": "GERMAN",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:31<220"
       ],
       "last_date": "2026-11-18",
-      "bars": 1
+      "bars": 31
     },
     {
       "symbol": "GKB",
@@ -48299,10 +48300,10 @@
       "symbol": "NITYAS",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:28<220"
       ],
       "last_date": "2026-11-18",
-      "bars": 1
+      "bars": 28
     },
     {
       "symbol": "NTCIND",
@@ -48353,10 +48354,10 @@
       "symbol": "ORIENTCABL",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:31<220"
       ],
       "last_date": "2026-11-18",
-      "bars": 1
+      "bars": 31
     },
     {
       "symbol": "ORIRAIL",
@@ -48780,10 +48781,10 @@
       "symbol": "SFCTECH",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:11<220"
       ],
       "last_date": "2026-11-18",
-      "bars": 1
+      "bars": 11
     },
     {
       "symbol": "SGLRES",
@@ -48998,10 +48999,10 @@
       "symbol": "SMT",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:18<220"
       ],
       "last_date": "2026-11-18",
-      "bars": 1
+      "bars": 18
     },
     {
       "symbol": "SONA",
@@ -49052,10 +49053,10 @@
       "symbol": "SSRETAIL",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:38<220"
       ],
       "last_date": "2026-11-18",
-      "bars": 1
+      "bars": 38
     },
     {
       "symbol": "STEAMHOUSE",
@@ -49151,10 +49152,10 @@
       "symbol": "SWASTIKAIN",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:33<220"
       ],
       "last_date": "2026-11-18",
-      "bars": 1
+      "bars": 33
     },
     {
       "symbol": "SWISSMLTRY",
@@ -49287,10 +49288,10 @@
       "symbol": "TONBO",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:18<220"
       ],
       "last_date": "2026-11-18",
-      "bars": 1
+      "bars": 18
     },
     {
       "symbol": "TOYAMSL",
@@ -49350,10 +49351,10 @@
       "symbol": "TRIVENIPT",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:26<220"
       ],
       "last_date": "2026-11-18",
-      "bars": 1
+      "bars": 26
     },
     {
       "symbol": "TURTLEMINT",
@@ -49541,10 +49542,10 @@
       "symbol": "VNL",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:28<220"
       ],
       "last_date": "2026-11-18",
-      "bars": 1
+      "bars": 28
     },
     {
       "symbol": "VOEPL",
@@ -49633,10 +49634,10 @@
       "symbol": "ZETWERK",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:18<220"
       ],
       "last_date": "2026-11-18",
-      "bars": 1
+      "bars": 18
     },
     {
       "symbol": "ZFSTEERING",
