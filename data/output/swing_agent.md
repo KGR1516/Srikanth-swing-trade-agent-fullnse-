@@ -1,8 +1,8 @@
 # Swing Trade Agent — setups for the session after 2026-11-19
 
-_Generated 2026-11-19 19:15 IST · Universe: Full NSE (2405 stocks) · Capital ₹500,000_
+_Generated 2026-11-19 23:13 IST · Universe: Full NSE (2405 stocks) · Capital ₹500,000_
 
-**Morning run 19:15 IST — setups from the 2026-11-19 close, with live status today**
+**Afternoon run 23:12 IST — PROVISIONAL: today's candle is not final until 15:30**
 
 ## Market regime: 🟡 NEUTRAL (risk × 0.5)
 
@@ -16,65 +16,56 @@ _Generated 2026-11-19 19:15 IST · Universe: Full NSE (2405 stocks) · Capital �
 
 | # | Symbol | Action | Setup | Grade | Close | Entry ≥ | Don't chase > | Stop | Stop % | T1 (R) | T2 (R) | Qty | At risk | Score |
 |---:|---|---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 1 | **MINDACORP** | BUY NOW | Breakout | Unconfirmed | 753.20 | 765.70 | 781.00 | 723.45 | 5.5% | 850.20 (2R) | 892.45 (3R) | 59 | ₹2,493 | 94 |
-| 2 | **WOCKPHARMA** | BUY NOW | Breakout | Unconfirmed | 2,187.00 | 2,205.55 | 2,249.65 | 2,077.65 | 5.8% | 2,461.35 (2R) | 2,589.25 (3R) | 19 | ₹2,430 | 90 |
-| 3 | **EICHERMOT** | BUY NOW | Breakout | Unconfirmed | 8,058.50 | 8,094.10 | 8,255.95 | 7,770.20 | 4.0% | 8,741.90 (2R) | 9,065.80 (3R) | 7 | ₹2,267 | 89 |
-| 4 | **SUNPHARMA** | BUY NOW | Pre-Breakout | — | 1,900.00 | 1,948.10 | 1,987.05 | 1,885.25 | 3.2% | 2,073.80 (2R) | 2,136.65 (3R) | 38 | ₹2,388 | 88 |
-| 5 | **ARIS** | BUY NOW | Breakout | Unconfirmed | 157.98 | 159.80 | 162.95 | 148.20 | 7.3% | 183.00 (2R) | 194.60 (3R) | 215 | ₹2,494 | 85 |
-| 6 | **IDFCFIRSTB** | BUY NOW | Breakout | Unconfirmed | 86.05 | 87.00 | 88.70 | 83.65 | 3.9% | 93.70 (2R) | 97.05 (3R) | 746 | ₹2,499 | 83 |
-
-### Live status today
-
-- **MINDACORP** — Not triggered — needs ≥ 765.70 (now 753.20)
-- **WOCKPHARMA** — Not triggered — needs ≥ 2,205.55 (now 2,187.00)
-- **EICHERMOT** — Not triggered — needs ≥ 8,094.10 (now 8,058.50)
-- **SUNPHARMA** — Not triggered — needs ≥ 1,948.10 (now 1,900.00)
-- **ARIS** — Not triggered — needs ≥ 159.80 (now 157.98)
-- **IDFCFIRSTB** — Not triggered — needs ≥ 87.00 (now 86.05)
+| 1 | **WOCKPHARMA** | BUY NOW | Breakout | Unconfirmed | 2,187.00 | 2,205.55 | 2,249.65 | 2,077.65 | 5.8% | 2,461.35 (2R) | 2,589.25 (3R) | 19 | ₹2,430 | 87 |
+| 2 | **MINDACORP** | BUY NOW | Breakout | Unconfirmed | 753.20 | 765.70 | 781.00 | 723.45 | 5.5% | 850.20 (2R) | 892.45 (3R) | 59 | ₹2,493 | 85 |
+| 3 | **SUNPHARMA** | BUY NOW | Pre-Breakout | — | 1,900.00 | 1,948.10 | 1,987.05 | 1,885.25 | 3.2% | 2,073.80 (2R) | 2,136.65 (3R) | 38 | ₹2,388 | 83 |
+| 4 | **URBANCO** | BUY NOW | Breakout | Solid | 176.05 | 178.80 | 182.35 | 167.25 | 6.5% | 201.90 (2R) | 213.45 (3R) | 216 | ₹2,495 | 83 |
+| 5 | **ARIS** | BUY NOW | Breakout | Unconfirmed | 157.98 | 159.80 | 162.95 | 148.20 | 7.3% | 183.00 (2R) | 194.60 (3R) | 215 | ₹2,494 | 81 |
+| 6 | **EICHERMOT** | BUY NOW | Breakout | Unconfirmed | 8,058.50 | 8,094.10 | 8,255.95 | 7,770.20 | 4.0% | 8,741.90 (2R) | 9,065.80 (3R) | 7 | ₹2,267 | 81 |
 
 **Execution rules:** buy-stop at the entry trigger · skip if the open gaps above the “don't chase” price · cancel if not triggered within 2 sessions · exit if T1 isn't hit within 5 sessions · book part at T1, trail the stop to entry.
 
 ### Risk notes
 
 - **WOCKPHARMA** — Still below the 60-day closing high — major resistance overhead.
-- **WOCKPHARMA** — Rich valuation: P/E 87 > 60 — less margin for error on bad news.
 - **WOCKPHARMA** — 52-week high 2422.30 is only 1.69R above entry — T1 faces overhead supply.
+- **SUNPHARMA** — 52-week high 2046.90 is only 1.57R above entry — T1 faces overhead supply.
+- **URBANCO** — Still below the 60-day closing high — major resistance overhead.
+- **URBANCO** — High volatility (ATR 4.4% of price).
+- **URBANCO** — 52-week high 183.97 is only 0.45R above entry — T1 faces overhead supply.
+- **ARIS** — High volatility (ATR 4.9% of price).
 - **EICHERMOT** — Breakout volume is adequate but not exceptional (< 2× average).
 - **EICHERMOT** — Still below the 60-day closing high — major resistance overhead.
 - **EICHERMOT** — 52-week high 8165.00 is only 0.22R above entry — T1 faces overhead supply.
-- **SUNPHARMA** — 52-week high 2046.90 is only 1.57R above entry — T1 faces overhead supply.
-- **ARIS** — High volatility (ATR 4.9% of price).
-- **IDFCFIRSTB** — Still below the 60-day closing high — major resistance overhead.
-- **IDFCFIRSTB** — 52-week high 89.61 is only 0.78R above entry — T1 faces overhead supply.
 
 ## Watchlist (24)
 
 | Symbol | Action | Setup | Score | Why not a setup |
 |---|---|---|---:|---|
-| PNB | WATCH | Breakout | 95 | breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback |
-| SBIN | WATCH | Breakout | 92 | breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback |
-| FEDERALBNK | WATCH | Pre-Breakout | 90 | relative strength 63 < 65 |
-| SMSPHARMA | WATCH | Pullback | 86 | portfolio: sector cap (2) for Healthcare |
-| MRPL | WATCH | Pullback | 86 | relative strength 60 < 65 |
-| IOLCP | WATCH | Pullback | 86 | setup: stop 8.1% wider than max 8.0% |
-| LGEINDIA | WATCH | Pullback | 83 | relative strength 64 < 65 |
-| ANANDRATHI | WATCH | Pre-Breakout | 83 | portfolio: max open positions (6) reached |
-| KOPRAN | WATCH | Pullback | 82 | setup: stop 8.5% wider than max 8.0% |
-| UNITDSPR | WATCH | Breakout | 80 | relative strength 58 < 65 |
-| SAMBHV | WATCH | Pullback | 79 | portfolio: max open positions (6) reached |
-| GRAPHITE | WATCH | Pullback | 78 | portfolio: max open positions (6) reached |
-| KROSS | WATCH | Pullback | 78 | portfolio: max open positions (6) reached |
-| MARINE | WATCH | Pullback | 77 | setup: stop 9.1% wider than max 8.0% |
-| CYIENTDLM | WATCH | Pullback | 76 | setup: stop 8.4% wider than max 8.0% |
-| DALMIASUG | WATCH | Pullback | 76 | relative strength 59 < 65 |
-| URBANCO | WATCH | Breakout | 75 | portfolio: max open positions (6) reached |
-| DIACABS | WATCH | Pullback | 74 | relative strength 61 < 65 |
-| CPPLUS | WATCH | Pullback | 73 | portfolio: max open positions (6) reached |
-| JSWINFRA | WATCH | Pullback | 73 | relative strength 63 < 65 |
-| BEML | WATCH | Pullback | 73 | portfolio: max open positions (6) reached |
-| PERSISTENT | WATCH | Pullback | 73 | portfolio: max open positions (6) reached |
-| HIKAL | WATCH | Pullback | 69 | relative strength 63 < 65 |
-| CYIENT | WATCH | Pullback | 68 | portfolio: max open positions (6) reached |
+| PNB | WATCH | Breakout | 86 | breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback |
+| SBIN | WATCH | Breakout | 84 | breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback |
+| FEDERALBNK | WATCH | Pre-Breakout | 82 | relative strength 63 < 65 |
+| IDFCFIRSTB | WATCH | Breakout | 80 | portfolio: max open positions (6) reached |
+| ANANDRATHI | WATCH | Pre-Breakout | 79 | portfolio: max open positions (6) reached |
+| MRPL | WATCH | Pullback | 79 | relative strength 60 < 65 |
+| UNITDSPR | WATCH | Breakout | 77 | relative strength 58 < 65 |
+| LGEINDIA | WATCH | Pullback | 74 | relative strength 64 < 65 |
+| IOLCP | WATCH | Pullback | 74 | setup: stop 8.1% wider than max 8.0% |
+| KOPRAN | WATCH | Pullback | 74 | setup: stop 8.5% wider than max 8.0% |
+| BEML | WATCH | Pullback | 74 | portfolio: max open positions (6) reached |
+| GRAPHITE | WATCH | Pullback | 73 | portfolio: max open positions (6) reached |
+| JSWINFRA | WATCH | Pullback | 72 | relative strength 63 < 65 |
+| CYIENTDLM | WATCH | Pullback | 72 | setup: stop 8.4% wider than max 8.0% |
+| DALMIASUG | WATCH | Pullback | 72 | relative strength 59 < 65 |
+| SAMBHV | WATCH | Pullback | 70 | portfolio: max open positions (6) reached |
+| SMSPHARMA | WATCH | Pullback | 70 | portfolio: max open positions (6) reached |
+| HIKAL | WATCH | Pullback | 70 | relative strength 63 < 65 |
+| MARINE | WATCH | Pullback | 70 | setup: stop 9.1% wider than max 8.0% |
+| KROSS | WATCH | Pullback | 69 | portfolio: max open positions (6) reached |
+| DIACABS | WATCH | Pullback | 69 | relative strength 61 < 65 |
+| CYIENT | WATCH | Pullback | 69 | portfolio: max open positions (6) reached |
+| PERSISTENT | WATCH | Pullback | 68 | portfolio: max open positions (6) reached |
+| CPPLUS | WATCH | Pullback | 67 | portfolio: max open positions (6) reached |
 
 ## Strongest sectors
 
@@ -92,7 +83,7 @@ _Generated 2026-11-19 19:15 IST · Universe: Full NSE (2405 stocks) · Capital �
 - AASTHA: insufficient_history:95<220
 - ABANSENT: insufficient_history:64<220
 - ABMKNO: insufficient_history:64<220
-- ACEVECTOR: insufficient_history:32<220
+- ACEVECTOR: insufficient_history:1<220
 - ACGL: insufficient_history:64<220
 - ADDIND: insufficient_history:63<220
 - ADROITIND: insufficient_history:34<220
@@ -110,6 +101,6 @@ _Generated 2026-11-19 19:15 IST · Universe: Full NSE (2405 stocks) · Capital �
 - AMAL: insufficient_history:64<220
 
 ---
-Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), NSE bhavcopy 2026-11-19 (close cross-check), 973 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
+Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), prefetched history + live refresh of 1176 liquid stocks at 23:13:02 IST, NSE bhavcopy 2026-11-19 (close cross-check), 973 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
 
 > Research output only — not investment advice and not an order. Verify prices, results dates and liquidity before trading; size positions to your own risk tolerance.
