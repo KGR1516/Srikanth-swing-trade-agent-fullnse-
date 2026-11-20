@@ -1,13 +1,14 @@
 {
   "as_of": "2026-11-20",
-  "generated_at": "2026-11-20 18:58 IST",
-  "session": "morning",
-  "session_label": "Morning run 18:57 IST — setups from the 2026-11-20 close, with live status today",
+  "generated_at": "2026-11-20 22:52 IST",
+  "session": "afternoon",
+  "session_label": "Afternoon run 22:50 IST — PROVISIONAL: today's candle is not final until 15:30",
   "capital": 500000.0,
   "universe_size": 2407,
   "universe_name": "Full NSE",
   "data_sources": [
     "Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar)",
+    "prefetched history + live refresh of 1177 liquid stocks at 22:51:55 IST",
     "NSE bhavcopy 2026-11-20 (close cross-check)",
     "977 clearly illiquid stocks skipped before indicators",
     "pandas-ta-classic indicator confluence"
@@ -53,9 +54,9 @@
       "technical_score": 100.0,
       "rs_percentile": 78.3,
       "sector_score": 100.0,
-      "fundamental_score": 100.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
-      "final_score": 95.7,
+      "final_score": 87.2,
       "action": "BUY NOW",
       "confluence_score": 95.6,
       "penalty": 0.0,
@@ -65,13 +66,13 @@
       "score_breakdown": {
         "technical_pts": 34.0,
         "relative_strength_pts": 13.3,
-        "fundamental_pts": 17.0,
+        "fundamental_pts": 8.5,
         "sector_pts": 8.5,
         "event_pts": 8.5,
         "confluence_pts": 14.3,
-        "weighted": 95.7,
+        "weighted": 87.2,
         "penalty": 0.0,
-        "final": 95.7
+        "final": 87.2
       },
       "confluence": {
         "confluence_score": 95.6,
@@ -81,8 +82,8 @@
         "conf_volume": 94.4,
         "indicators_computed": 403
       },
-      "today_status": "Not triggered — needs ≥ 9,304.55 (now 9,200.00)",
-      "today_last": 9200.0,
+      "today_status": "",
+      "today_last": null,
       "status": "RESEARCH SETUP",
       "evidence": [
         {
@@ -220,52 +221,52 @@
         },
         {
           "rule": "fund:ROE %",
-          "value": 22.53,
+          "value": null,
           "threshold": ">= 12",
-          "passed": true,
-          "note": ""
+          "passed": false,
+          "note": "unavailable"
         },
         {
           "rule": "fund:Debt/Equity",
-          "value": 0.73,
+          "value": null,
           "threshold": "<= 1.0",
-          "passed": true,
-          "note": ""
+          "passed": false,
+          "note": "unavailable"
         },
         {
           "rule": "fund:Revenue growth %",
-          "value": 20.8,
+          "value": null,
           "threshold": ">= 5",
-          "passed": true,
-          "note": ""
+          "passed": false,
+          "note": "unavailable"
         },
         {
           "rule": "fund:EPS growth %",
-          "value": 31.9,
+          "value": null,
           "threshold": ">= 0",
-          "passed": true,
-          "note": ""
+          "passed": false,
+          "note": "unavailable"
         },
         {
           "rule": "fund:Profit margin %",
-          "value": 8.05,
+          "value": null,
           "threshold": ">= 5",
-          "passed": true,
-          "note": ""
+          "passed": false,
+          "note": "unavailable"
         },
         {
           "rule": "fund:P/E",
-          "value": 59.56,
+          "value": null,
           "threshold": "<= 80",
-          "passed": true,
-          "note": ""
+          "passed": false,
+          "note": "unavailable"
         },
         {
-          "rule": "event:days_to_results",
-          "value": -16,
-          "threshold": "> 5",
-          "passed": true,
-          "note": "2026-11-04"
+          "rule": "fund:coverage",
+          "value": 0.0,
+          "threshold": ">= 40%",
+          "passed": false,
+          "note": "insufficient data → neutral score"
         },
         {
           "rule": "setup:entry_trigger",
@@ -295,269 +296,6 @@
     },
     {
       "rank": 2,
-      "symbol": "CUB",
-      "sector": "Financial Services",
-      "as_of": "2026-11-20",
-      "setup_type": "Breakout",
-      "close": 248.8,
-      "entry_trigger": 251.95,
-      "entry_limit": 256.95,
-      "stop": 238.3,
-      "target1": 279.25,
-      "target2": 292.9,
-      "risk_per_share": 13.65,
-      "stop_pct": 5.42,
-      "rr_t1": 2.0,
-      "rr_t2": 3.0,
-      "quantity": 183,
-      "position_value": 46106.85,
-      "capital_at_risk": 2497.95,
-      "room_to_52w_high_r": null,
-      "valid_sessions": 2,
-      "time_stop_sessions": 5,
-      "technical_score": 95.7,
-      "rs_percentile": 79.0,
-      "sector_score": 66.7,
-      "fundamental_score": 100.0,
-      "event_score": 100.0,
-      "final_score": 91.5,
-      "action": "BUY NOW",
-      "confluence_score": 95.9,
-      "penalty": 0.0,
-      "breakout_grade": "Unconfirmed",
-      "live_status": "Held",
-      "follow_through": "Partial",
-      "score_breakdown": {
-        "technical_pts": 32.5,
-        "relative_strength_pts": 13.4,
-        "fundamental_pts": 17.0,
-        "sector_pts": 5.7,
-        "event_pts": 8.5,
-        "confluence_pts": 14.4,
-        "weighted": 91.5,
-        "penalty": 0.0,
-        "final": 91.5
-      },
-      "confluence": {
-        "confluence_score": 95.9,
-        "conf_trend": 92.3,
-        "conf_momentum": 92.7,
-        "conf_overlap": 98.5,
-        "conf_volume": 100.0,
-        "indicators_computed": 403
-      },
-      "today_status": "Not triggered — needs ≥ 251.95 (now 248.80)",
-      "today_last": 248.8000030517578,
-      "status": "RESEARCH SETUP",
-      "evidence": [
-        {
-          "rule": "liq:min_price",
-          "value": 248.8,
-          "threshold": ">= 50",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "liq:avg_volume_20d",
-          "value": 4718756,
-          "threshold": ">= 250,000",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "liq:avg_traded_value_cr",
-          "value": 107.21,
-          "threshold": ">= 10",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "bo:close_above_20d_high",
-          "value": 4.1,
-          "threshold": "> 0%",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "bo:volume_ratio",
-          "value": 5.36,
-          "threshold": ">= 1.5",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "bo:extension_pct",
-          "value": 4.1,
-          "threshold": "<= 5.0%",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "bo:close_in_upper_range",
-          "value": 0.89,
-          "threshold": ">= 0.5",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "bo:trend_close>EMA50>EMA200",
-          "value": true,
-          "threshold": true,
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "bo:clears_60d_closing_high",
-          "value": 238.48,
-          "threshold": "close above",
-          "passed": true,
-          "note": "major level (stock-2)"
-        },
-        {
-          "rule": "mo:close>EMA20",
-          "value": 248.8,
-          "threshold": 228.62,
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "mo:EMA20>EMA50",
-          "value": 228.62,
-          "threshold": 225.13,
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "mo:EMA50>EMA200",
-          "value": 225.13,
-          "threshold": 210.62,
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "mo:EMA200_rising_20d_pct",
-          "value": 1.44,
-          "threshold": "> 0",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "mo:RSI",
-          "value": 67.4,
-          "threshold": "50–72",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "mo:ADX",
-          "value": 17.4,
-          "threshold": ">= 20",
-          "passed": false,
-          "note": ""
-        },
-        {
-          "rule": "mo:MACD_hist",
-          "value": 2.59,
-          "threshold": "> 0",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "mo:pct_of_52w_high",
-          "value": 99.1,
-          "threshold": ">= 75",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "mo:supertrend_up",
-          "value": "Up",
-          "threshold": "Up",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "mo:OBV_rising",
-          "value": true,
-          "threshold": true,
-          "passed": true,
-          "note": "accumulation"
-        },
-        {
-          "rule": "fund:ROE %",
-          "value": 14.11,
-          "threshold": ">= 12",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "fund:Debt/Equity",
-          "value": null,
-          "threshold": "<= 1.0",
-          "passed": false,
-          "note": "unavailable"
-        },
-        {
-          "rule": "fund:Revenue growth %",
-          "value": 27.0,
-          "threshold": ">= 5",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "fund:EPS growth %",
-          "value": 26.7,
-          "threshold": ">= 0",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "fund:Profit margin %",
-          "value": 37.76,
-          "threshold": ">= 5",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "fund:P/E",
-          "value": 15.63,
-          "threshold": "<= 80",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "event:days_to_results",
-          "value": -23,
-          "threshold": "> 5",
-          "passed": true,
-          "note": "2026-10-28"
-        },
-        {
-          "rule": "setup:entry_trigger",
-          "value": 251.95,
-          "threshold": "above breakout-day high (continuation confirmation)",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "setup:stop",
-          "value": 238.3,
-          "threshold": "1.5×ATR",
-          "passed": true,
-          "note": "5.42% below entry"
-        },
-        {
-          "rule": "setup:reward_risk_t1",
-          "value": 2.0,
-          "threshold": ">= 2.0",
-          "passed": true,
-          "note": ""
-        }
-      ],
-      "risks": []
-    },
-    {
-      "rank": 3,
       "symbol": "WELSPUNLIV",
       "sector": "Textiles",
       "as_of": "2026-11-20",
@@ -581,9 +319,9 @@
       "technical_score": 100.0,
       "rs_percentile": 98.0,
       "sector_score": 57.1,
-      "fundamental_score": 65.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
-      "final_score": 89.3,
+      "final_score": 86.8,
       "action": "BUY NOW",
       "confluence_score": 95.0,
       "penalty": 0.0,
@@ -593,13 +331,13 @@
       "score_breakdown": {
         "technical_pts": 34.0,
         "relative_strength_pts": 16.7,
-        "fundamental_pts": 11.1,
+        "fundamental_pts": 8.5,
         "sector_pts": 4.9,
         "event_pts": 8.5,
         "confluence_pts": 14.2,
-        "weighted": 89.3,
+        "weighted": 86.8,
         "penalty": 0.0,
-        "final": 89.3
+        "final": 86.8
       },
       "confluence": {
         "confluence_score": 95.0,
@@ -609,8 +347,8 @@
         "conf_volume": 88.9,
         "indicators_computed": 403
       },
-      "today_status": "Not triggered — needs ≥ 275.35 (now 268.78)",
-      "today_last": 268.7799987792969,
+      "today_status": "",
+      "today_last": null,
       "status": "RESEARCH SETUP",
       "evidence": [
         {
@@ -748,45 +486,52 @@
         },
         {
           "rule": "fund:ROE %",
-          "value": 8.85,
+          "value": null,
           "threshold": ">= 12",
           "passed": false,
-          "note": ""
+          "note": "unavailable"
         },
         {
           "rule": "fund:Debt/Equity",
-          "value": 0.47,
+          "value": null,
           "threshold": "<= 1.0",
-          "passed": true,
-          "note": ""
+          "passed": false,
+          "note": "unavailable"
         },
         {
           "rule": "fund:Revenue growth %",
-          "value": 16.3,
+          "value": null,
           "threshold": ">= 5",
-          "passed": true,
-          "note": ""
+          "passed": false,
+          "note": "unavailable"
         },
         {
           "rule": "fund:EPS growth %",
-          "value": 1284.6,
+          "value": null,
           "threshold": ">= 0",
-          "passed": true,
-          "note": ""
+          "passed": false,
+          "note": "unavailable"
         },
         {
           "rule": "fund:Profit margin %",
-          "value": 4.2,
+          "value": null,
           "threshold": ">= 5",
           "passed": false,
-          "note": ""
+          "note": "unavailable"
         },
         {
           "rule": "fund:P/E",
-          "value": 58.81,
+          "value": null,
           "threshold": "<= 80",
-          "passed": true,
-          "note": ""
+          "passed": false,
+          "note": "unavailable"
+        },
+        {
+          "rule": "fund:coverage",
+          "value": 0.0,
+          "threshold": ">= 40%",
+          "passed": false,
+          "note": "insufficient data → neutral score"
         },
         {
           "rule": "setup:entry_trigger",
@@ -816,273 +561,7 @@
       ]
     },
     {
-      "rank": 4,
-      "symbol": "ADANIPOWER",
-      "sector": "Power",
-      "as_of": "2026-11-20",
-      "setup_type": "Breakout",
-      "close": 211.95,
-      "entry_trigger": 214.05,
-      "entry_limit": 218.3,
-      "stop": 205.9,
-      "target1": 230.35,
-      "target2": 238.5,
-      "risk_per_share": 8.15,
-      "stop_pct": 3.81,
-      "rr_t1": 2.0,
-      "rr_t2": 3.0,
-      "quantity": 306,
-      "position_value": 65499.3,
-      "capital_at_risk": 2493.9,
-      "room_to_52w_high_r": 4.93,
-      "valid_sessions": 2,
-      "time_stop_sessions": 5,
-      "technical_score": 95.7,
-      "rs_percentile": 73.3,
-      "sector_score": 38.1,
-      "fundamental_score": 100.0,
-      "event_score": 100.0,
-      "final_score": 88.1,
-      "action": "BUY NOW",
-      "confluence_score": 95.7,
-      "penalty": 0.0,
-      "breakout_grade": "Unconfirmed",
-      "live_status": "Held",
-      "follow_through": "Partial",
-      "score_breakdown": {
-        "technical_pts": 32.5,
-        "relative_strength_pts": 12.5,
-        "fundamental_pts": 17.0,
-        "sector_pts": 3.2,
-        "event_pts": 8.5,
-        "confluence_pts": 14.4,
-        "weighted": 88.1,
-        "penalty": 0.0,
-        "final": 88.1
-      },
-      "confluence": {
-        "confluence_score": 95.7,
-        "conf_trend": 100.0,
-        "conf_momentum": 92.7,
-        "conf_overlap": 95.5,
-        "conf_volume": 94.4,
-        "indicators_computed": 403
-      },
-      "today_status": "Not triggered — needs ≥ 214.05 (now 211.95)",
-      "today_last": 211.9499969482422,
-      "status": "RESEARCH SETUP",
-      "evidence": [
-        {
-          "rule": "liq:min_price",
-          "value": 211.95,
-          "threshold": ">= 50",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "liq:avg_volume_20d",
-          "value": 18670123,
-          "threshold": ">= 250,000",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "liq:avg_traded_value_cr",
-          "value": 369.33,
-          "threshold": ">= 10",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "bo:close_above_20d_high",
-          "value": 0.69,
-          "threshold": "> 0%",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "bo:volume_ratio",
-          "value": 1.73,
-          "threshold": ">= 1.5",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "bo:extension_pct",
-          "value": 0.69,
-          "threshold": "<= 5.0%",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "bo:close_in_upper_range",
-          "value": 0.69,
-          "threshold": ">= 0.5",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "bo:trend_close>EMA50>EMA200",
-          "value": true,
-          "threshold": true,
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "bo:clears_60d_closing_high",
-          "value": 215.0,
-          "threshold": "close above",
-          "passed": false,
-          "note": "major level (stock-2)"
-        },
-        {
-          "rule": "mo:close>EMA20",
-          "value": 211.95,
-          "threshold": 202.74,
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "mo:EMA20>EMA50",
-          "value": 202.74,
-          "threshold": 201.26,
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "mo:EMA50>EMA200",
-          "value": 201.26,
-          "threshold": 194.42,
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "mo:EMA200_rising_20d_pct",
-          "value": 0.65,
-          "threshold": "> 0",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "mo:RSI",
-          "value": 64.2,
-          "threshold": "50–72",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "mo:ADX",
-          "value": 18.1,
-          "threshold": ">= 20",
-          "passed": false,
-          "note": ""
-        },
-        {
-          "rule": "mo:MACD_hist",
-          "value": 1.362,
-          "threshold": "> 0",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "mo:pct_of_52w_high",
-          "value": 83.4,
-          "threshold": ">= 75",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "mo:supertrend_up",
-          "value": "Up",
-          "threshold": "Up",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "mo:OBV_rising",
-          "value": true,
-          "threshold": true,
-          "passed": true,
-          "note": "accumulation"
-        },
-        {
-          "rule": "fund:ROE %",
-          "value": 27.02,
-          "threshold": ">= 12",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "fund:Debt/Equity",
-          "value": 0.8,
-          "threshold": "<= 1.0",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "fund:Revenue growth %",
-          "value": 44.5,
-          "threshold": ">= 5",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "fund:EPS growth %",
-          "value": 134.6,
-          "threshold": ">= 0",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "fund:Profit margin %",
-          "value": 28.03,
-          "threshold": ">= 5",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "fund:P/E",
-          "value": 22.43,
-          "threshold": "<= 80",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "event:days_to_results",
-          "value": -28,
-          "threshold": "> 5",
-          "passed": true,
-          "note": "2026-10-23"
-        },
-        {
-          "rule": "setup:entry_trigger",
-          "value": 214.05,
-          "threshold": "above breakout-day high (continuation confirmation)",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "setup:stop",
-          "value": 205.9,
-          "threshold": "1.5×ATR",
-          "passed": true,
-          "note": "3.81% below entry"
-        },
-        {
-          "rule": "setup:reward_risk_t1",
-          "value": 2.0,
-          "threshold": ">= 2.0",
-          "passed": true,
-          "note": ""
-        }
-      ],
-      "risks": [
-        "Breakout volume is adequate but not exceptional (< 2× average).",
-        "Still below the 60-day closing high — major resistance overhead."
-      ]
-    },
-    {
-      "rank": 5,
+      "rank": 3,
       "symbol": "DLF",
       "sector": "Realty",
       "as_of": "2026-11-20",
@@ -1106,9 +585,9 @@
       "technical_score": 93.5,
       "rs_percentile": 88.7,
       "sector_score": 95.2,
-      "fundamental_score": 60.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
-      "final_score": 87.9,
+      "final_score": 86.2,
       "action": "BUY NOW",
       "confluence_score": 94.7,
       "penalty": 0.0,
@@ -1118,13 +597,13 @@
       "score_breakdown": {
         "technical_pts": 31.8,
         "relative_strength_pts": 15.1,
-        "fundamental_pts": 10.2,
+        "fundamental_pts": 8.5,
         "sector_pts": 8.1,
         "event_pts": 8.5,
         "confluence_pts": 14.2,
-        "weighted": 87.9,
+        "weighted": 86.2,
         "penalty": 0.0,
-        "final": 87.9
+        "final": 86.2
       },
       "confluence": {
         "confluence_score": 94.7,
@@ -1134,8 +613,8 @@
         "conf_volume": 94.4,
         "indicators_computed": 403
       },
-      "today_status": "Not triggered — needs ≥ 793.90 (now 785.00)",
-      "today_last": 785.0,
+      "today_status": "",
+      "today_last": null,
       "status": "RESEARCH SETUP",
       "evidence": [
         {
@@ -1273,52 +752,52 @@
         },
         {
           "rule": "fund:ROE %",
-          "value": 10.31,
+          "value": null,
           "threshold": ">= 12",
           "passed": false,
-          "note": ""
+          "note": "unavailable"
         },
         {
           "rule": "fund:Debt/Equity",
-          "value": 0.01,
+          "value": null,
           "threshold": "<= 1.0",
-          "passed": true,
-          "note": ""
+          "passed": false,
+          "note": "unavailable"
         },
         {
           "rule": "fund:Revenue growth %",
-          "value": -23.3,
+          "value": null,
           "threshold": ">= 5",
           "passed": false,
-          "note": ""
+          "note": "unavailable"
         },
         {
           "rule": "fund:EPS growth %",
-          "value": 10.1,
+          "value": null,
           "threshold": ">= 0",
-          "passed": true,
-          "note": ""
+          "passed": false,
+          "note": "unavailable"
         },
         {
           "rule": "fund:Profit margin %",
-          "value": 71.64,
+          "value": null,
           "threshold": ">= 5",
-          "passed": true,
-          "note": ""
+          "passed": false,
+          "note": "unavailable"
         },
         {
           "rule": "fund:P/E",
-          "value": 42.57,
+          "value": null,
           "threshold": "<= 80",
-          "passed": true,
-          "note": ""
+          "passed": false,
+          "note": "unavailable"
         },
         {
-          "rule": "event:days_to_results",
-          "value": 55,
-          "threshold": "> 5",
-          "passed": true,
-          "note": "2027-01-14"
+          "rule": "fund:coverage",
+          "value": 0.0,
+          "threshold": ">= 40%",
+          "passed": false,
+          "note": "insufficient data → neutral score"
         },
         {
           "rule": "setup:entry_trigger",
@@ -1348,9 +827,537 @@
       ]
     },
     {
+      "rank": 4,
+      "symbol": "POONAWALLA",
+      "sector": "Financial Services",
+      "as_of": "2026-11-20",
+      "setup_type": "Breakout",
+      "close": 518.4,
+      "entry_trigger": 523.85,
+      "entry_limit": 534.3,
+      "stop": 496.1,
+      "target1": 579.35,
+      "target2": 607.1,
+      "risk_per_share": 27.75,
+      "stop_pct": 5.3,
+      "rr_t1": 2.0,
+      "rr_t2": 3.0,
+      "quantity": 90,
+      "position_value": 47146.5,
+      "capital_at_risk": 2497.5,
+      "room_to_52w_high_r": null,
+      "valid_sessions": 2,
+      "time_stop_sessions": 5,
+      "technical_score": 100.0,
+      "rs_percentile": 77.7,
+      "sector_score": 66.7,
+      "fundamental_score": 50.0,
+      "event_score": 100.0,
+      "final_score": 84.6,
+      "action": "BUY NOW",
+      "confluence_score": 98.2,
+      "penalty": 0.0,
+      "breakout_grade": "Unconfirmed",
+      "live_status": "Held",
+      "follow_through": "Strong",
+      "score_breakdown": {
+        "technical_pts": 34.0,
+        "relative_strength_pts": 13.2,
+        "fundamental_pts": 8.5,
+        "sector_pts": 5.7,
+        "event_pts": 8.5,
+        "confluence_pts": 14.7,
+        "weighted": 84.6,
+        "penalty": 0.0,
+        "final": 84.6
+      },
+      "confluence": {
+        "confluence_score": 98.2,
+        "conf_trend": 100.0,
+        "conf_momentum": 94.5,
+        "conf_overlap": 98.5,
+        "conf_volume": 100.0,
+        "indicators_computed": 403
+      },
+      "today_status": "",
+      "today_last": null,
+      "status": "RESEARCH SETUP",
+      "evidence": [
+        {
+          "rule": "liq:min_price",
+          "value": 518.4,
+          "threshold": ">= 50",
+          "passed": true,
+          "note": ""
+        },
+        {
+          "rule": "liq:avg_volume_20d",
+          "value": 3571365,
+          "threshold": ">= 250,000",
+          "passed": true,
+          "note": ""
+        },
+        {
+          "rule": "liq:avg_traded_value_cr",
+          "value": 166.33,
+          "threshold": ">= 10",
+          "passed": true,
+          "note": ""
+        },
+        {
+          "rule": "bo:close_above_20d_high",
+          "value": 2.01,
+          "threshold": "> 0%",
+          "passed": true,
+          "note": ""
+        },
+        {
+          "rule": "bo:volume_ratio",
+          "value": 2.02,
+          "threshold": ">= 1.5",
+          "passed": true,
+          "note": ""
+        },
+        {
+          "rule": "bo:extension_pct",
+          "value": 2.01,
+          "threshold": "<= 5.0%",
+          "passed": true,
+          "note": ""
+        },
+        {
+          "rule": "bo:close_in_upper_range",
+          "value": 0.89,
+          "threshold": ">= 0.5",
+          "passed": true,
+          "note": ""
+        },
+        {
+          "rule": "bo:trend_close>EMA50>EMA200",
+          "value": true,
+          "threshold": true,
+          "passed": true,
+          "note": ""
+        },
+        {
+          "rule": "bo:clears_60d_closing_high",
+          "value": 504.75,
+          "threshold": "close above",
+          "passed": true,
+          "note": "major level (stock-2)"
+        },
+        {
+          "rule": "mo:close>EMA20",
+          "value": 518.4,
+          "threshold": 478.29,
+          "passed": true,
+          "note": ""
+        },
+        {
+          "rule": "mo:EMA20>EMA50",
+          "value": 478.29,
+          "threshold": 464.84,
+          "passed": true,
+          "note": ""
+        },
+        {
+          "rule": "mo:EMA50>EMA200",
+          "value": 464.84,
+          "threshold": 454.76,
+          "passed": true,
+          "note": ""
+        },
+        {
+          "rule": "mo:EMA200_rising_20d_pct",
+          "value": 0.71,
+          "threshold": "> 0",
+          "passed": true,
+          "note": ""
+        },
+        {
+          "rule": "mo:RSI",
+          "value": 71.7,
+          "threshold": "50–72",
+          "passed": true,
+          "note": ""
+        },
+        {
+          "rule": "mo:ADX",
+          "value": 32.4,
+          "threshold": ">= 20",
+          "passed": true,
+          "note": ""
+        },
+        {
+          "rule": "mo:MACD_hist",
+          "value": 4.87,
+          "threshold": "> 0",
+          "passed": true,
+          "note": ""
+        },
+        {
+          "rule": "mo:pct_of_52w_high",
+          "value": 99.3,
+          "threshold": ">= 75",
+          "passed": true,
+          "note": ""
+        },
+        {
+          "rule": "mo:supertrend_up",
+          "value": "Up",
+          "threshold": "Up",
+          "passed": true,
+          "note": ""
+        },
+        {
+          "rule": "mo:OBV_rising",
+          "value": true,
+          "threshold": true,
+          "passed": true,
+          "note": "accumulation"
+        },
+        {
+          "rule": "fund:ROE %",
+          "value": null,
+          "threshold": ">= 12",
+          "passed": false,
+          "note": "unavailable"
+        },
+        {
+          "rule": "fund:Debt/Equity",
+          "value": null,
+          "threshold": "<= 1.0",
+          "passed": false,
+          "note": "unavailable"
+        },
+        {
+          "rule": "fund:Revenue growth %",
+          "value": null,
+          "threshold": ">= 5",
+          "passed": false,
+          "note": "unavailable"
+        },
+        {
+          "rule": "fund:EPS growth %",
+          "value": null,
+          "threshold": ">= 0",
+          "passed": false,
+          "note": "unavailable"
+        },
+        {
+          "rule": "fund:Profit margin %",
+          "value": null,
+          "threshold": ">= 5",
+          "passed": false,
+          "note": "unavailable"
+        },
+        {
+          "rule": "fund:P/E",
+          "value": null,
+          "threshold": "<= 80",
+          "passed": false,
+          "note": "unavailable"
+        },
+        {
+          "rule": "fund:coverage",
+          "value": 0.0,
+          "threshold": ">= 40%",
+          "passed": false,
+          "note": "insufficient data → neutral score"
+        },
+        {
+          "rule": "setup:entry_trigger",
+          "value": 523.85,
+          "threshold": "above breakout-day high (continuation confirmation)",
+          "passed": true,
+          "note": ""
+        },
+        {
+          "rule": "setup:stop",
+          "value": 496.1,
+          "threshold": "1.5×ATR",
+          "passed": true,
+          "note": "5.30% below entry"
+        },
+        {
+          "rule": "setup:reward_risk_t1",
+          "value": 2.0,
+          "threshold": ">= 2.0",
+          "passed": true,
+          "note": ""
+        }
+      ],
+      "risks": [
+        "RSI 72 — short-term overbought."
+      ]
+    },
+    {
+      "rank": 5,
+      "symbol": "CUB",
+      "sector": "Financial Services",
+      "as_of": "2026-11-20",
+      "setup_type": "Breakout",
+      "close": 248.8,
+      "entry_trigger": 251.95,
+      "entry_limit": 256.95,
+      "stop": 238.3,
+      "target1": 279.25,
+      "target2": 292.9,
+      "risk_per_share": 13.65,
+      "stop_pct": 5.42,
+      "rr_t1": 2.0,
+      "rr_t2": 3.0,
+      "quantity": 183,
+      "position_value": 46106.85,
+      "capital_at_risk": 2497.95,
+      "room_to_52w_high_r": null,
+      "valid_sessions": 2,
+      "time_stop_sessions": 5,
+      "technical_score": 95.7,
+      "rs_percentile": 79.0,
+      "sector_score": 66.7,
+      "fundamental_score": 50.0,
+      "event_score": 100.0,
+      "final_score": 83.0,
+      "action": "BUY NOW",
+      "confluence_score": 95.9,
+      "penalty": 0.0,
+      "breakout_grade": "Unconfirmed",
+      "live_status": "Held",
+      "follow_through": "Partial",
+      "score_breakdown": {
+        "technical_pts": 32.5,
+        "relative_strength_pts": 13.4,
+        "fundamental_pts": 8.5,
+        "sector_pts": 5.7,
+        "event_pts": 8.5,
+        "confluence_pts": 14.4,
+        "weighted": 83.0,
+        "penalty": 0.0,
+        "final": 83.0
+      },
+      "confluence": {
+        "confluence_score": 95.9,
+        "conf_trend": 92.3,
+        "conf_momentum": 92.7,
+        "conf_overlap": 98.5,
+        "conf_volume": 100.0,
+        "indicators_computed": 403
+      },
+      "today_status": "",
+      "today_last": null,
+      "status": "RESEARCH SETUP",
+      "evidence": [
+        {
+          "rule": "liq:min_price",
+          "value": 248.8,
+          "threshold": ">= 50",
+          "passed": true,
+          "note": ""
+        },
+        {
+          "rule": "liq:avg_volume_20d",
+          "value": 4718756,
+          "threshold": ">= 250,000",
+          "passed": true,
+          "note": ""
+        },
+        {
+          "rule": "liq:avg_traded_value_cr",
+          "value": 107.21,
+          "threshold": ">= 10",
+          "passed": true,
+          "note": ""
+        },
+        {
+          "rule": "bo:close_above_20d_high",
+          "value": 4.1,
+          "threshold": "> 0%",
+          "passed": true,
+          "note": ""
+        },
+        {
+          "rule": "bo:volume_ratio",
+          "value": 5.36,
+          "threshold": ">= 1.5",
+          "passed": true,
+          "note": ""
+        },
+        {
+          "rule": "bo:extension_pct",
+          "value": 4.1,
+          "threshold": "<= 5.0%",
+          "passed": true,
+          "note": ""
+        },
+        {
+          "rule": "bo:close_in_upper_range",
+          "value": 0.89,
+          "threshold": ">= 0.5",
+          "passed": true,
+          "note": ""
+        },
+        {
+          "rule": "bo:trend_close>EMA50>EMA200",
+          "value": true,
+          "threshold": true,
+          "passed": true,
+          "note": ""
+        },
+        {
+          "rule": "bo:clears_60d_closing_high",
+          "value": 238.48,
+          "threshold": "close above",
+          "passed": true,
+          "note": "major level (stock-2)"
+        },
+        {
+          "rule": "mo:close>EMA20",
+          "value": 248.8,
+          "threshold": 228.62,
+          "passed": true,
+          "note": ""
+        },
+        {
+          "rule": "mo:EMA20>EMA50",
+          "value": 228.62,
+          "threshold": 225.13,
+          "passed": true,
+          "note": ""
+        },
+        {
+          "rule": "mo:EMA50>EMA200",
+          "value": 225.13,
+          "threshold": 210.62,
+          "passed": true,
+          "note": ""
+        },
+        {
+          "rule": "mo:EMA200_rising_20d_pct",
+          "value": 1.44,
+          "threshold": "> 0",
+          "passed": true,
+          "note": ""
+        },
+        {
+          "rule": "mo:RSI",
+          "value": 67.4,
+          "threshold": "50–72",
+          "passed": true,
+          "note": ""
+        },
+        {
+          "rule": "mo:ADX",
+          "value": 17.4,
+          "threshold": ">= 20",
+          "passed": false,
+          "note": ""
+        },
+        {
+          "rule": "mo:MACD_hist",
+          "value": 2.59,
+          "threshold": "> 0",
+          "passed": true,
+          "note": ""
+        },
+        {
+          "rule": "mo:pct_of_52w_high",
+          "value": 99.1,
+          "threshold": ">= 75",
+          "passed": true,
+          "note": ""
+        },
+        {
+          "rule": "mo:supertrend_up",
+          "value": "Up",
+          "threshold": "Up",
+          "passed": true,
+          "note": ""
+        },
+        {
+          "rule": "mo:OBV_rising",
+          "value": true,
+          "threshold": true,
+          "passed": true,
+          "note": "accumulation"
+        },
+        {
+          "rule": "fund:ROE %",
+          "value": null,
+          "threshold": ">= 12",
+          "passed": false,
+          "note": "unavailable"
+        },
+        {
+          "rule": "fund:Debt/Equity",
+          "value": null,
+          "threshold": "<= 1.0",
+          "passed": false,
+          "note": "unavailable"
+        },
+        {
+          "rule": "fund:Revenue growth %",
+          "value": null,
+          "threshold": ">= 5",
+          "passed": false,
+          "note": "unavailable"
+        },
+        {
+          "rule": "fund:EPS growth %",
+          "value": null,
+          "threshold": ">= 0",
+          "passed": false,
+          "note": "unavailable"
+        },
+        {
+          "rule": "fund:Profit margin %",
+          "value": null,
+          "threshold": ">= 5",
+          "passed": false,
+          "note": "unavailable"
+        },
+        {
+          "rule": "fund:P/E",
+          "value": null,
+          "threshold": "<= 80",
+          "passed": false,
+          "note": "unavailable"
+        },
+        {
+          "rule": "fund:coverage",
+          "value": 0.0,
+          "threshold": ">= 40%",
+          "passed": false,
+          "note": "insufficient data → neutral score"
+        },
+        {
+          "rule": "setup:entry_trigger",
+          "value": 251.95,
+          "threshold": "above breakout-day high (continuation confirmation)",
+          "passed": true,
+          "note": ""
+        },
+        {
+          "rule": "setup:stop",
+          "value": 238.3,
+          "threshold": "1.5×ATR",
+          "passed": true,
+          "note": "5.42% below entry"
+        },
+        {
+          "rule": "setup:reward_risk_t1",
+          "value": 2.0,
+          "threshold": ">= 2.0",
+          "passed": true,
+          "note": ""
+        }
+      ],
+      "risks": []
+    },
+    {
       "rank": 6,
       "symbol": "ARIS",
-      "sector": "Industrials",
+      "sector": "Unclassified",
       "as_of": "2026-11-20",
       "setup_type": "Breakout",
       "close": 164.97,
@@ -1372,9 +1379,9 @@
       "technical_score": 100.0,
       "rs_percentile": 92.7,
       "sector_score": 14.3,
-      "fundamental_score": 75.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
-      "final_score": 86.9,
+      "final_score": 82.6,
       "action": "BUY NOW",
       "confluence_score": 97.8,
       "penalty": 0.0,
@@ -1384,13 +1391,13 @@
       "score_breakdown": {
         "technical_pts": 34.0,
         "relative_strength_pts": 15.8,
-        "fundamental_pts": 12.8,
+        "fundamental_pts": 8.5,
         "sector_pts": 1.2,
         "event_pts": 8.5,
         "confluence_pts": 14.7,
-        "weighted": 86.9,
+        "weighted": 82.6,
         "penalty": 0.0,
-        "final": 86.9
+        "final": 82.6
       },
       "confluence": {
         "confluence_score": 97.8,
@@ -1400,8 +1407,8 @@
         "conf_volume": 94.4,
         "indicators_computed": 403
       },
-      "today_status": "Not triggered — needs ≥ 167.05 (now 164.97)",
-      "today_last": 164.97000122070312,
+      "today_status": "",
+      "today_last": null,
       "status": "RESEARCH SETUP",
       "evidence": [
         {
@@ -1539,45 +1546,52 @@
         },
         {
           "rule": "fund:ROE %",
-          "value": 11.47,
+          "value": null,
           "threshold": ">= 12",
           "passed": false,
-          "note": ""
+          "note": "unavailable"
         },
         {
           "rule": "fund:Debt/Equity",
-          "value": 0.33,
+          "value": null,
           "threshold": "<= 1.0",
-          "passed": true,
-          "note": ""
+          "passed": false,
+          "note": "unavailable"
         },
         {
           "rule": "fund:Revenue growth %",
-          "value": 27.6,
+          "value": null,
           "threshold": ">= 5",
-          "passed": true,
-          "note": ""
+          "passed": false,
+          "note": "unavailable"
         },
         {
           "rule": "fund:EPS growth %",
-          "value": 26.8,
+          "value": null,
           "threshold": ">= 0",
-          "passed": true,
-          "note": ""
+          "passed": false,
+          "note": "unavailable"
         },
         {
           "rule": "fund:Profit margin %",
-          "value": 6.0,
+          "value": null,
           "threshold": ">= 5",
-          "passed": true,
-          "note": ""
+          "passed": false,
+          "note": "unavailable"
         },
         {
           "rule": "fund:P/E",
-          "value": 18.29,
+          "value": null,
           "threshold": "<= 80",
-          "passed": true,
-          "note": ""
+          "passed": false,
+          "note": "unavailable"
+        },
+        {
+          "rule": "fund:coverage",
+          "value": 0.0,
+          "threshold": ">= 40%",
+          "passed": false,
+          "note": "insufficient data → neutral score"
         },
         {
           "rule": "setup:entry_trigger",
@@ -1608,6 +1622,80 @@
   ],
   "watchlist": [
     {
+      "symbol": "ULTRACEMCO",
+      "sector": "Construction Materials",
+      "as_of": "2026-11-20",
+      "close": 12939.0,
+      "setup_type": "Breakout",
+      "technical_score": 93.5,
+      "rs_percentile": 85.4,
+      "rs_excess_pct": 5.85,
+      "sector_score": 85.7,
+      "fundamental_score": 50.0,
+      "event_score": 100.0,
+      "confluence_score": 97.5,
+      "penalty": 0.0,
+      "final_score": 85.2,
+      "action": "WATCH",
+      "breakout_grade": "Extended",
+      "live_status": "Held",
+      "follow_through": "Strong",
+      "loss_making": false,
+      "failed_breakout": false,
+      "confluence": {
+        "confluence_score": 97.5,
+        "conf_trend": 92.3,
+        "conf_momentum": 98.2,
+        "conf_overlap": 97.0,
+        "conf_volume": 100.0,
+        "indicators_computed": 403
+      },
+      "score_breakdown": {
+        "technical_pts": 31.8,
+        "relative_strength_pts": 14.5,
+        "fundamental_pts": 8.5,
+        "sector_pts": 7.3,
+        "event_pts": 8.5,
+        "confluence_pts": 14.6,
+        "weighted": 85.2,
+        "penalty": 0.0,
+        "final": 85.2
+      },
+      "fundamentals": {
+        "roe_pct": null,
+        "debt_to_equity": null,
+        "revenue_growth_pct": null,
+        "eps_growth_pct": null,
+        "profit_margin_pct": null,
+        "pe": null,
+        "market_cap_cr": null,
+        "trailing_eps": null,
+        "loss_making": false
+      },
+      "events": {
+        "next_earnings": null,
+        "ex_dividend": null
+      },
+      "metrics": {
+        "breakout_level": 12595.0,
+        "extension_pct": 2.73,
+        "volume_ratio": 1.96,
+        "breakout_grade": "Extended",
+        "clears_60d_close_high": true,
+        "rsi": 75.7,
+        "adx": 45.9,
+        "pct_of_52w_high": 100.0,
+        "rs_line_new_high": true,
+        "rs_excess_20d_pct": 4.36
+      },
+      "risks": [
+        "RSI 76 — short-term overbought.",
+        "Breakout volume is adequate but not exceptional (< 2× average).",
+        "Breakout graded Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback."
+      ],
+      "rejected_reason": "breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback"
+    },
+    {
       "symbol": "UNIONBANK",
       "sector": "Financial Services",
       "as_of": "2026-11-20",
@@ -1617,11 +1705,11 @@
       "rs_percentile": 89.3,
       "rs_excess_pct": 9.94,
       "sector_score": 66.7,
-      "fundamental_score": 100.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 96.9,
       "penalty": 0.0,
-      "final_score": 92.7,
+      "final_score": 84.2,
       "action": "WATCH",
       "breakout_grade": "Extended",
       "live_status": "Held",
@@ -1639,28 +1727,28 @@
       "score_breakdown": {
         "technical_pts": 31.8,
         "relative_strength_pts": 15.2,
-        "fundamental_pts": 17.0,
+        "fundamental_pts": 8.5,
         "sector_pts": 5.7,
         "event_pts": 8.5,
         "confluence_pts": 14.5,
-        "weighted": 92.7,
+        "weighted": 84.2,
         "penalty": 0.0,
-        "final": 92.7
+        "final": 84.2
       },
       "fundamentals": {
-        "roe_pct": 16.291,
+        "roe_pct": null,
         "debt_to_equity": null,
-        "revenue_growth_pct": 15.6,
-        "eps_growth_pct": 29.299999999999997,
-        "profit_margin_pct": 41.458,
-        "pe": 7.593685,
-        "market_cap_cr": 167061.4614016,
-        "trailing_eps": 28.82,
+        "revenue_growth_pct": null,
+        "eps_growth_pct": null,
+        "profit_margin_pct": null,
+        "pe": null,
+        "market_cap_cr": null,
+        "trailing_eps": null,
         "loss_making": false
       },
       "events": {
-        "next_earnings": "2027-01-14",
-        "ex_dividend": "2026-07-03"
+        "next_earnings": null,
+        "ex_dividend": null
       },
       "metrics": {
         "breakout_level": 210.57,
@@ -1691,11 +1779,11 @@
       "rs_percentile": 88.9,
       "rs_excess_pct": 9.93,
       "sector_score": 66.7,
-      "fundamental_score": 100.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 95.4,
       "penalty": 0.0,
-      "final_score": 92.4,
+      "final_score": 83.9,
       "action": "WATCH",
       "breakout_grade": "Extended",
       "live_status": "Held",
@@ -1713,28 +1801,28 @@
       "score_breakdown": {
         "technical_pts": 31.8,
         "relative_strength_pts": 15.1,
-        "fundamental_pts": 17.0,
+        "fundamental_pts": 8.5,
         "sector_pts": 5.7,
         "event_pts": 8.5,
         "confluence_pts": 14.3,
-        "weighted": 92.4,
+        "weighted": 83.9,
         "penalty": 0.0,
-        "final": 92.4
+        "final": 83.9
       },
       "fundamentals": {
-        "roe_pct": 13.885,
+        "roe_pct": null,
         "debt_to_equity": null,
-        "revenue_growth_pct": 21.099999999999998,
-        "eps_growth_pct": 39.0,
-        "profit_margin_pct": 37.017,
-        "pe": 15.08922,
-        "market_cap_cr": 450402.2941696,
-        "trailing_eps": 95.83,
+        "revenue_growth_pct": null,
+        "eps_growth_pct": null,
+        "profit_margin_pct": null,
+        "pe": null,
+        "market_cap_cr": null,
+        "trailing_eps": null,
         "loss_making": false
       },
       "events": {
-        "next_earnings": "2026-10-17",
-        "ex_dividend": "2026-07-10"
+        "next_earnings": null,
+        "ex_dividend": null
       },
       "metrics": {
         "breakout_level": 1380.8,
@@ -1755,220 +1843,6 @@
       "rejected_reason": "breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback"
     },
     {
-      "symbol": "ULTRACEMCO",
-      "sector": "Construction Materials",
-      "as_of": "2026-11-20",
-      "close": 12939.0,
-      "setup_type": "Breakout",
-      "technical_score": 93.5,
-      "rs_percentile": 85.4,
-      "rs_excess_pct": 5.85,
-      "sector_score": 85.7,
-      "fundamental_score": 75.0,
-      "event_score": 100.0,
-      "confluence_score": 97.5,
-      "penalty": 0.0,
-      "final_score": 89.5,
-      "action": "WATCH",
-      "breakout_grade": "Extended",
-      "live_status": "Held",
-      "follow_through": "Strong",
-      "loss_making": false,
-      "failed_breakout": false,
-      "confluence": {
-        "confluence_score": 97.5,
-        "conf_trend": 92.3,
-        "conf_momentum": 98.2,
-        "conf_overlap": 97.0,
-        "conf_volume": 100.0,
-        "indicators_computed": 403
-      },
-      "score_breakdown": {
-        "technical_pts": 31.8,
-        "relative_strength_pts": 14.5,
-        "fundamental_pts": 12.8,
-        "sector_pts": 7.3,
-        "event_pts": 8.5,
-        "confluence_pts": 14.6,
-        "weighted": 89.5,
-        "penalty": 0.0,
-        "final": 89.5
-      },
-      "fundamentals": {
-        "roe_pct": 11.4980005,
-        "debt_to_equity": 0.37694000000000005,
-        "revenue_growth_pct": 18.8,
-        "eps_growth_pct": 21.3,
-        "profit_margin_pct": 9.208999599999999,
-        "pe": 43.754227,
-        "market_cap_cr": 380490.1933056,
-        "trailing_eps": 295.72,
-        "loss_making": false
-      },
-      "events": {
-        "next_earnings": "2026-10-19",
-        "ex_dividend": "2026-07-30"
-      },
-      "metrics": {
-        "breakout_level": 12595.0,
-        "extension_pct": 2.73,
-        "volume_ratio": 1.96,
-        "breakout_grade": "Extended",
-        "clears_60d_close_high": true,
-        "rsi": 75.7,
-        "adx": 45.9,
-        "pct_of_52w_high": 100.0,
-        "rs_line_new_high": true,
-        "rs_excess_20d_pct": 4.36
-      },
-      "risks": [
-        "RSI 76 — short-term overbought.",
-        "Breakout volume is adequate but not exceptional (< 2× average).",
-        "Breakout graded Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback."
-      ],
-      "rejected_reason": "breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback"
-    },
-    {
-      "symbol": "POONAWALLA",
-      "sector": "Financial Services",
-      "as_of": "2026-11-20",
-      "close": 518.4,
-      "setup_type": "Breakout",
-      "technical_score": 100.0,
-      "rs_percentile": 77.7,
-      "rs_excess_pct": -2.06,
-      "sector_score": 66.7,
-      "fundamental_score": 55.0,
-      "event_score": 100.0,
-      "confluence_score": 98.2,
-      "penalty": 0.0,
-      "final_score": 85.5,
-      "action": "WATCH",
-      "breakout_grade": "Unconfirmed",
-      "live_status": "Held",
-      "follow_through": "Strong",
-      "loss_making": false,
-      "failed_breakout": false,
-      "confluence": {
-        "confluence_score": 98.2,
-        "conf_trend": 100.0,
-        "conf_momentum": 94.5,
-        "conf_overlap": 98.5,
-        "conf_volume": 100.0,
-        "indicators_computed": 403
-      },
-      "score_breakdown": {
-        "technical_pts": 34.0,
-        "relative_strength_pts": 13.2,
-        "fundamental_pts": 9.4,
-        "sector_pts": 5.7,
-        "event_pts": 8.5,
-        "confluence_pts": 14.7,
-        "weighted": 85.5,
-        "penalty": 0.0,
-        "final": 85.5
-      },
-      "fundamentals": {
-        "roe_pct": 9.206,
-        "debt_to_equity": 4.31207,
-        "revenue_growth_pct": 92.10000000000001,
-        "eps_growth_pct": 348.4,
-        "profit_margin_pct": 26.737,
-        "pe": 40.531666,
-        "market_cap_cr": 45651.9876608,
-        "trailing_eps": 12.79,
-        "loss_making": false
-      },
-      "events": {
-        "next_earnings": "2026-10-09",
-        "ex_dividend": "2024-01-31"
-      },
-      "metrics": {
-        "breakout_level": 508.2,
-        "extension_pct": 2.01,
-        "volume_ratio": 2.02,
-        "breakout_grade": "Unconfirmed",
-        "clears_60d_close_high": true,
-        "rsi": 71.7,
-        "adx": 32.4,
-        "pct_of_52w_high": 99.3,
-        "rs_line_new_high": false,
-        "rs_excess_20d_pct": 6.15
-      },
-      "risks": [
-        "RSI 72 — short-term overbought."
-      ],
-      "rejected_reason": "portfolio: max open positions (6) reached"
-    },
-    {
-      "symbol": "LGEINDIA",
-      "sector": "Consumer Durables",
-      "as_of": "2026-11-20",
-      "close": 1740.7,
-      "setup_type": "Pullback",
-      "technical_score": 95.7,
-      "rs_percentile": 67.0,
-      "rs_excess_pct": -1.34,
-      "sector_score": 50.0,
-      "fundamental_score": 100.0,
-      "event_score": 100.0,
-      "confluence_score": 76.8,
-      "penalty": 0.0,
-      "final_score": 85.2,
-      "action": "WATCH",
-      "breakout_grade": "",
-      "live_status": "",
-      "follow_through": "Partial",
-      "loss_making": false,
-      "failed_breakout": false,
-      "confluence": {
-        "confluence_score": 76.8,
-        "conf_trend": 84.6,
-        "conf_momentum": 65.5,
-        "conf_overlap": 84.8,
-        "conf_volume": 72.2,
-        "indicators_computed": 403
-      },
-      "score_breakdown": {
-        "technical_pts": 32.5,
-        "relative_strength_pts": 11.4,
-        "fundamental_pts": 17.0,
-        "sector_pts": 4.2,
-        "event_pts": 8.5,
-        "confluence_pts": 11.5,
-        "weighted": 85.2,
-        "penalty": 0.0,
-        "final": 85.2
-      },
-      "fundamentals": {
-        "roe_pct": 24.545999,
-        "debt_to_equity": 0.054720000000000005,
-        "revenue_growth_pct": 19.5,
-        "eps_growth_pct": 25.6,
-        "profit_margin_pct": 7.185999999999999,
-        "pe": 61.3787,
-        "market_cap_cr": 118153.9106816,
-        "trailing_eps": 28.36,
-        "loss_making": false
-      },
-      "events": {
-        "next_earnings": null,
-        "ex_dividend": null
-      },
-      "metrics": {
-        "dist_from_ema20_pct": 1.35,
-        "rsi": 54.1,
-        "adx": 21.2,
-        "pct_of_52w_high": 94.8,
-        "rs_line_new_high": false,
-        "rs_excess_20d_pct": -8.3
-      },
-      "risks": [
-        "Rich valuation: P/E 61 > 60 — less margin for error on bad news."
-      ],
-      "rejected_reason": "portfolio: max open positions (6) reached"
-    },
-    {
       "symbol": "IDFCFIRSTB",
       "sector": "Financial Services",
       "as_of": "2026-11-20",
@@ -1978,11 +1852,11 @@
       "rs_percentile": 71.3,
       "rs_excess_pct": -5.08,
       "sector_score": 66.7,
-      "fundamental_score": 68.8,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 94.5,
       "penalty": 0.0,
-      "final_score": 84.7,
+      "final_score": 81.5,
       "action": "WATCH",
       "breakout_grade": "Unconfirmed",
       "live_status": "Held",
@@ -2000,28 +1874,28 @@
       "score_breakdown": {
         "technical_pts": 32.5,
         "relative_strength_pts": 12.1,
-        "fundamental_pts": 11.7,
+        "fundamental_pts": 8.5,
         "sector_pts": 5.7,
         "event_pts": 8.5,
         "confluence_pts": 14.2,
-        "weighted": 84.7,
+        "weighted": 81.5,
         "penalty": 0.0,
-        "final": 84.7
+        "final": 81.5
       },
       "fundamentals": {
-        "roe_pct": 6.254999999999999,
+        "roe_pct": null,
         "debt_to_equity": null,
-        "revenue_growth_pct": 32.5,
-        "eps_growth_pct": 245.7,
-        "profit_margin_pct": 11.071999,
-        "pe": 25.292753,
-        "market_cap_cr": 75291.1712256,
-        "trailing_eps": 3.45,
+        "revenue_growth_pct": null,
+        "eps_growth_pct": null,
+        "profit_margin_pct": null,
+        "pe": null,
+        "market_cap_cr": null,
+        "trailing_eps": null,
         "loss_making": false
       },
       "events": {
-        "next_earnings": "2027-01-23",
-        "ex_dividend": "2026-08-07"
+        "next_earnings": null,
+        "ex_dividend": null
       },
       "metrics": {
         "breakout_level": 86.73,
@@ -2043,8 +1917,83 @@
       "rejected_reason": "portfolio: max open positions (6) reached"
     },
     {
+      "symbol": "SGMART",
+      "sector": "Unclassified",
+      "as_of": "2026-11-20",
+      "close": 1097.05,
+      "setup_type": "Breakout",
+      "technical_score": 93.5,
+      "rs_percentile": 98.2,
+      "rs_excess_pct": 29.43,
+      "sector_score": 14.3,
+      "fundamental_score": 50.0,
+      "event_score": 100.0,
+      "confluence_score": 97.4,
+      "penalty": 0.0,
+      "final_score": 81.3,
+      "action": "WATCH",
+      "breakout_grade": "Extended",
+      "live_status": "Held",
+      "follow_through": "Strong",
+      "loss_making": false,
+      "failed_breakout": false,
+      "confluence": {
+        "confluence_score": 97.4,
+        "conf_trend": 92.3,
+        "conf_momentum": 96.4,
+        "conf_overlap": 98.5,
+        "conf_volume": 100.0,
+        "indicators_computed": 403
+      },
+      "score_breakdown": {
+        "technical_pts": 31.8,
+        "relative_strength_pts": 16.7,
+        "fundamental_pts": 8.5,
+        "sector_pts": 1.2,
+        "event_pts": 8.5,
+        "confluence_pts": 14.6,
+        "weighted": 81.3,
+        "penalty": 0.0,
+        "final": 81.3
+      },
+      "fundamentals": {
+        "roe_pct": null,
+        "debt_to_equity": null,
+        "revenue_growth_pct": null,
+        "eps_growth_pct": null,
+        "profit_margin_pct": null,
+        "pe": null,
+        "market_cap_cr": null,
+        "trailing_eps": null,
+        "loss_making": false
+      },
+      "events": {
+        "next_earnings": null,
+        "ex_dividend": null
+      },
+      "metrics": {
+        "breakout_level": 1047.75,
+        "extension_pct": 4.71,
+        "volume_ratio": 1.96,
+        "breakout_grade": "Extended",
+        "clears_60d_close_high": true,
+        "rsi": 81.2,
+        "adx": 52.5,
+        "pct_of_52w_high": 99.0,
+        "rs_line_new_high": true,
+        "rs_excess_20d_pct": 31.26
+      },
+      "risks": [
+        "RSI 81 — short-term overbought.",
+        "Breakout volume is adequate but not exceptional (< 2× average).",
+        "Breakout graded Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback.",
+        "High volatility (ATR 4.2% of price)."
+      ],
+      "rejected_reason": "breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback"
+    },
+    {
       "symbol": "ALICON",
-      "sector": "Industrials",
+      "sector": "Unclassified",
       "as_of": "2026-11-20",
       "close": 1075.75,
       "setup_type": "Breakout",
@@ -2052,11 +2001,11 @@
       "rs_percentile": 98.1,
       "rs_excess_pct": 36.37,
       "sector_score": 14.3,
-      "fundamental_score": 65.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 95.4,
       "penalty": 0.0,
-      "final_score": 83.5,
+      "final_score": 81.0,
       "action": "WATCH",
       "breakout_grade": "Extended",
       "live_status": "Held",
@@ -2074,28 +2023,28 @@
       "score_breakdown": {
         "technical_pts": 31.8,
         "relative_strength_pts": 16.7,
-        "fundamental_pts": 11.1,
+        "fundamental_pts": 8.5,
         "sector_pts": 1.2,
         "event_pts": 8.5,
         "confluence_pts": 14.3,
-        "weighted": 83.5,
+        "weighted": 81.0,
         "penalty": 0.0,
-        "final": 83.5
+        "final": 81.0
       },
       "fundamentals": {
-        "roe_pct": 6.406000000000001,
-        "debt_to_equity": 0.6414799999999999,
-        "revenue_growth_pct": 51.800000000000004,
-        "eps_growth_pct": 27.3,
-        "profit_margin_pct": 1.87,
-        "pe": 47.747448,
-        "market_cap_cr": 1757.4354944,
-        "trailing_eps": 22.53,
+        "roe_pct": null,
+        "debt_to_equity": null,
+        "revenue_growth_pct": null,
+        "eps_growth_pct": null,
+        "profit_margin_pct": null,
+        "pe": null,
+        "market_cap_cr": null,
+        "trailing_eps": null,
         "loss_making": false
       },
       "events": {
         "next_earnings": null,
-        "ex_dividend": "2026-09-21"
+        "ex_dividend": null
       },
       "metrics": {
         "breakout_level": 1033.95,
@@ -2126,11 +2075,11 @@
       "rs_percentile": 63.6,
       "rs_excess_pct": -9.76,
       "sector_score": 100.0,
-      "fundamental_score": 65.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 94.7,
       "penalty": 0.0,
-      "final_score": 83.4,
+      "final_score": 80.8,
       "action": "WATCH",
       "breakout_grade": "Unconfirmed",
       "live_status": "Held",
@@ -2148,28 +2097,28 @@
       "score_breakdown": {
         "technical_pts": 30.3,
         "relative_strength_pts": 10.8,
-        "fundamental_pts": 11.1,
+        "fundamental_pts": 8.5,
         "sector_pts": 8.5,
         "event_pts": 8.5,
         "confluence_pts": 14.2,
-        "weighted": 83.4,
+        "weighted": 80.8,
         "penalty": 0.0,
-        "final": 83.4
+        "final": 80.8
       },
       "fundamentals": {
-        "roe_pct": 8.055,
-        "debt_to_equity": 0.64363,
-        "revenue_growth_pct": 136.3,
-        "eps_growth_pct": 49.8,
-        "profit_margin_pct": 7.2330000000000005,
-        "pe": 100.296005,
-        "market_cap_cr": 67851.5900416,
-        "trailing_eps": 7.77,
+        "roe_pct": null,
+        "debt_to_equity": null,
+        "revenue_growth_pct": null,
+        "eps_growth_pct": null,
+        "profit_margin_pct": null,
+        "pe": null,
+        "market_cap_cr": null,
+        "trailing_eps": null,
         "loss_making": false
       },
       "events": {
         "next_earnings": null,
-        "ex_dividend": "2026-04-02"
+        "ex_dividend": null
       },
       "metrics": {
         "breakout_level": 757.45,
@@ -2185,144 +2134,80 @@
       },
       "risks": [
         "Still below the 60-day closing high — major resistance overhead.",
-        "Relative strength percentile 64 < 65 — lagging the market.",
-        "Rich valuation: P/E 100 > 60 — less margin for error on bad news."
+        "Relative strength percentile 64 < 65 — lagging the market."
       ],
       "rejected_reason": "relative strength 64 < 65"
     },
     {
-      "symbol": "LOTUSDEV",
-      "sector": "Industrials",
+      "symbol": "ADANIPOWER",
+      "sector": "Power",
       "as_of": "2026-11-20",
-      "close": 235.48,
-      "setup_type": "Pullback",
+      "close": 211.95,
+      "setup_type": "Breakout",
       "technical_score": 95.7,
-      "rs_percentile": 78.2,
-      "rs_excess_pct": 36.95,
-      "sector_score": 14.3,
-      "fundamental_score": 100.0,
+      "rs_percentile": 73.3,
+      "rs_excess_pct": -3.27,
+      "sector_score": 38.1,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
-      "confluence_score": 71.1,
+      "confluence_score": 95.7,
       "penalty": 0.0,
-      "final_score": 83.2,
+      "final_score": 79.6,
       "action": "WATCH",
-      "breakout_grade": "",
-      "live_status": "",
+      "breakout_grade": "Unconfirmed",
+      "live_status": "Held",
       "follow_through": "Partial",
       "loss_making": false,
       "failed_breakout": false,
       "confluence": {
-        "confluence_score": 71.1,
-        "conf_trend": 53.8,
-        "conf_momentum": 61.8,
-        "conf_overlap": 90.9,
-        "conf_volume": 77.8,
+        "confluence_score": 95.7,
+        "conf_trend": 100.0,
+        "conf_momentum": 92.7,
+        "conf_overlap": 95.5,
+        "conf_volume": 94.4,
         "indicators_computed": 403
       },
       "score_breakdown": {
         "technical_pts": 32.5,
-        "relative_strength_pts": 13.3,
-        "fundamental_pts": 17.0,
-        "sector_pts": 1.2,
+        "relative_strength_pts": 12.5,
+        "fundamental_pts": 8.5,
+        "sector_pts": 3.2,
         "event_pts": 8.5,
-        "confluence_pts": 10.7,
-        "weighted": 83.2,
+        "confluence_pts": 14.4,
+        "weighted": 79.6,
         "penalty": 0.0,
-        "final": 83.2
+        "final": 79.6
       },
       "fundamentals": {
-        "roe_pct": 16.079001,
-        "debt_to_equity": 0.06408,
-        "revenue_growth_pct": 52.5,
-        "eps_growth_pct": 70.39999999999999,
-        "profit_margin_pct": 31.41,
-        "pe": 39.312187,
-        "market_cap_cr": 11508.465664,
-        "trailing_eps": 5.99,
+        "roe_pct": null,
+        "debt_to_equity": null,
+        "revenue_growth_pct": null,
+        "eps_growth_pct": null,
+        "profit_margin_pct": null,
+        "pe": null,
+        "market_cap_cr": null,
+        "trailing_eps": null,
         "loss_making": false
       },
       "events": {
         "next_earnings": null,
-        "ex_dividend": "2026-09-25"
+        "ex_dividend": null
       },
       "metrics": {
-        "dist_from_ema20_pct": 0.9,
-        "rsi": 53.2,
-        "adx": 21.2,
-        "pct_of_52w_high": 93.3,
+        "breakout_level": 210.5,
+        "extension_pct": 0.69,
+        "volume_ratio": 1.73,
+        "breakout_grade": "Unconfirmed",
+        "clears_60d_close_high": false,
+        "rsi": 64.2,
+        "adx": 18.1,
+        "pct_of_52w_high": 83.4,
         "rs_line_new_high": false,
-        "rs_excess_20d_pct": -14.51
+        "rs_excess_20d_pct": 0.68
       },
       "risks": [
-        "High volatility (ATR 4.6% of price)."
-      ],
-      "rejected_reason": "portfolio: max open positions (6) reached"
-    },
-    {
-      "symbol": "EDELWEISS",
-      "sector": "Financial Services",
-      "as_of": "2026-11-20",
-      "close": 130.5,
-      "setup_type": "Pullback",
-      "technical_score": 91.3,
-      "rs_percentile": 73.4,
-      "rs_excess_pct": 0.76,
-      "sector_score": 66.7,
-      "fundamental_score": 80.0,
-      "event_score": 100.0,
-      "confluence_score": 65.3,
-      "penalty": 0.0,
-      "final_score": 81.1,
-      "action": "WATCH",
-      "breakout_grade": "",
-      "live_status": "",
-      "follow_through": "Partial",
-      "loss_making": false,
-      "failed_breakout": false,
-      "confluence": {
-        "confluence_score": 65.3,
-        "conf_trend": 61.5,
-        "conf_momentum": 81.8,
-        "conf_overlap": 56.7,
-        "conf_volume": 61.1,
-        "indicators_computed": 403
-      },
-      "score_breakdown": {
-        "technical_pts": 31.0,
-        "relative_strength_pts": 12.5,
-        "fundamental_pts": 13.6,
-        "sector_pts": 5.7,
-        "event_pts": 8.5,
-        "confluence_pts": 9.8,
-        "weighted": 81.1,
-        "penalty": 0.0,
-        "final": 81.1
-      },
-      "fundamentals": {
-        "roe_pct": 13.225001,
-        "debt_to_equity": 3.1568400000000003,
-        "revenue_growth_pct": 63.0,
-        "eps_growth_pct": 16.8,
-        "profit_margin_pct": 8.415000000000001,
-        "pe": 16.752247,
-        "market_cap_cr": 12352.3612672,
-        "trailing_eps": 7.79,
-        "loss_making": false
-      },
-      "events": {
-        "next_earnings": "2027-02-10",
-        "ex_dividend": "2026-09-11"
-      },
-      "metrics": {
-        "dist_from_ema20_pct": 0.89,
-        "rsi": 52.2,
-        "adx": 17.3,
-        "pct_of_52w_high": 89.4,
-        "rs_line_new_high": false,
-        "rs_excess_20d_pct": -4.76
-      },
-      "risks": [
-        "High volatility (ATR 4.1% of price)."
+        "Breakout volume is adequate but not exceptional (< 2× average).",
+        "Still below the 60-day closing high — major resistance overhead."
       ],
       "rejected_reason": "portfolio: max open positions (6) reached"
     },
@@ -2336,11 +2221,11 @@
       "rs_percentile": 72.3,
       "rs_excess_pct": 1.58,
       "sector_score": 66.7,
-      "fundamental_score": 70.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 70.8,
       "penalty": 0.0,
-      "final_score": 80.8,
+      "final_score": 77.4,
       "action": "WATCH",
       "breakout_grade": "",
       "live_status": "",
@@ -2358,28 +2243,28 @@
       "score_breakdown": {
         "technical_pts": 31.8,
         "relative_strength_pts": 12.3,
-        "fundamental_pts": 11.9,
+        "fundamental_pts": 8.5,
         "sector_pts": 5.7,
         "event_pts": 8.5,
         "confluence_pts": 10.6,
-        "weighted": 80.8,
+        "weighted": 77.4,
         "penalty": 0.0,
-        "final": 80.8
+        "final": 77.4
       },
       "fundamentals": {
-        "roe_pct": 42.988998,
-        "debt_to_equity": 0.05337,
-        "revenue_growth_pct": 16.1,
-        "eps_growth_pct": -11.899999999999999,
-        "profit_margin_pct": 31.349,
-        "pe": 87.53869,
-        "market_cap_cr": 39448.08448,
-        "trailing_eps": 27.14,
+        "roe_pct": null,
+        "debt_to_equity": null,
+        "revenue_growth_pct": null,
+        "eps_growth_pct": null,
+        "profit_margin_pct": null,
+        "pe": null,
+        "market_cap_cr": null,
+        "trailing_eps": null,
         "loss_making": false
       },
       "events": {
         "next_earnings": null,
-        "ex_dividend": "2026-10-15"
+        "ex_dividend": null
       },
       "metrics": {
         "pivot": 2410.0,
@@ -2392,26 +2277,25 @@
         "rs_excess_20d_pct": -6.85
       },
       "risks": [
-        "RSI 71 — short-term overbought.",
-        "Rich valuation: P/E 88 > 60 — less margin for error on bad news."
+        "RSI 71 — short-term overbought."
       ],
       "rejected_reason": "portfolio: max open positions (6) reached"
     },
     {
-      "symbol": "KAJARIACER",
+      "symbol": "LGEINDIA",
       "sector": "Consumer Durables",
       "as_of": "2026-11-20",
-      "close": 1200.5,
-      "setup_type": "Pre-Breakout",
-      "technical_score": 84.8,
-      "rs_percentile": 58.6,
-      "rs_excess_pct": -6.26,
+      "close": 1740.7,
+      "setup_type": "Pullback",
+      "technical_score": 95.7,
+      "rs_percentile": 67.0,
+      "rs_excess_pct": -1.34,
       "sector_score": 50.0,
-      "fundamental_score": 100.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
-      "confluence_score": 75.7,
+      "confluence_score": 76.8,
       "penalty": 0.0,
-      "final_score": 79.9,
+      "final_score": 76.7,
       "action": "WATCH",
       "breakout_grade": "",
       "live_status": "",
@@ -2419,103 +2303,33 @@
       "loss_making": false,
       "failed_breakout": false,
       "confluence": {
-        "confluence_score": 75.7,
-        "conf_trend": 76.9,
-        "conf_momentum": 76.4,
-        "conf_overlap": 77.3,
+        "confluence_score": 76.8,
+        "conf_trend": 84.6,
+        "conf_momentum": 65.5,
+        "conf_overlap": 84.8,
         "conf_volume": 72.2,
         "indicators_computed": 403
       },
       "score_breakdown": {
-        "technical_pts": 28.8,
-        "relative_strength_pts": 10.0,
-        "fundamental_pts": 17.0,
+        "technical_pts": 32.5,
+        "relative_strength_pts": 11.4,
+        "fundamental_pts": 8.5,
         "sector_pts": 4.2,
         "event_pts": 8.5,
-        "confluence_pts": 11.4,
-        "weighted": 79.9,
+        "confluence_pts": 11.5,
+        "weighted": 76.7,
         "penalty": 0.0,
-        "final": 79.9
+        "final": 76.7
       },
       "fundamentals": {
-        "roe_pct": 19.986,
-        "debt_to_equity": 0.13274,
-        "revenue_growth_pct": 23.799999999999997,
-        "eps_growth_pct": 43.9,
-        "profit_margin_pct": 11.286,
-        "pe": 31.658756,
-        "market_cap_cr": 18865.0242048,
-        "trailing_eps": 37.92,
-        "loss_making": false
-      },
-      "events": {
-        "next_earnings": "2027-01-23",
-        "ex_dividend": "2026-10-29"
-      },
-      "metrics": {
-        "pivot": 1226.9,
-        "dist_to_pivot_pct": 2.2,
-        "base_depth_pct": 11.58,
-        "rsi": 55.7,
-        "adx": 15.3,
-        "pct_of_52w_high": 95.7,
-        "rs_line_new_high": false,
-        "rs_excess_20d_pct": -9.07
-      },
-      "risks": [
-        "Relative strength percentile 59 < 65 — lagging the market."
-      ],
-      "rejected_reason": "relative strength 59 < 65"
-    },
-    {
-      "symbol": "SGMART",
-      "sector": "Industrials",
-      "as_of": "2026-11-20",
-      "close": 1097.05,
-      "setup_type": "Breakout",
-      "technical_score": 93.5,
-      "rs_percentile": 98.2,
-      "rs_excess_pct": 29.43,
-      "sector_score": 14.3,
-      "fundamental_score": 40.0,
-      "event_score": 100.0,
-      "confluence_score": 97.4,
-      "penalty": 0.0,
-      "final_score": 79.6,
-      "action": "WATCH",
-      "breakout_grade": "Extended",
-      "live_status": "Held",
-      "follow_through": "Strong",
-      "loss_making": false,
-      "failed_breakout": false,
-      "confluence": {
-        "confluence_score": 97.4,
-        "conf_trend": 92.3,
-        "conf_momentum": 96.4,
-        "conf_overlap": 98.5,
-        "conf_volume": 100.0,
-        "indicators_computed": 403
-      },
-      "score_breakdown": {
-        "technical_pts": 31.8,
-        "relative_strength_pts": 16.7,
-        "fundamental_pts": 6.8,
-        "sector_pts": 1.2,
-        "event_pts": 8.5,
-        "confluence_pts": 14.6,
-        "weighted": 79.6,
-        "penalty": 0.0,
-        "final": 79.6
-      },
-      "fundamentals": {
-        "roe_pct": 9.398,
-        "debt_to_equity": 0.030950000000000002,
-        "revenue_growth_pct": -8.4,
-        "eps_growth_pct": 102.8,
-        "profit_margin_pct": 2.396,
-        "pe": 91.11711,
-        "market_cap_cr": 13830.9926912,
-        "trailing_eps": 12.04,
+        "roe_pct": null,
+        "debt_to_equity": null,
+        "revenue_growth_pct": null,
+        "eps_growth_pct": null,
+        "profit_margin_pct": null,
+        "pe": null,
+        "market_cap_cr": null,
+        "trailing_eps": null,
         "loss_making": false
       },
       "events": {
@@ -2523,297 +2337,14 @@
         "ex_dividend": null
       },
       "metrics": {
-        "breakout_level": 1047.75,
-        "extension_pct": 4.71,
-        "volume_ratio": 1.96,
-        "breakout_grade": "Extended",
-        "clears_60d_close_high": true,
-        "rsi": 81.2,
-        "adx": 52.5,
-        "pct_of_52w_high": 99.0,
-        "rs_line_new_high": true,
-        "rs_excess_20d_pct": 31.26
-      },
-      "risks": [
-        "RSI 81 — short-term overbought.",
-        "Breakout volume is adequate but not exceptional (< 2× average).",
-        "Breakout graded Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback.",
-        "High volatility (ATR 4.2% of price).",
-        "Rich valuation: P/E 91 > 60 — less margin for error on bad news."
-      ],
-      "rejected_reason": "breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback"
-    },
-    {
-      "symbol": "NELCAST",
-      "sector": "Industrials",
-      "as_of": "2026-11-20",
-      "close": 146.3,
-      "setup_type": "Pullback",
-      "technical_score": 93.5,
-      "rs_percentile": 92.3,
-      "rs_excess_pct": 17.54,
-      "sector_score": 14.3,
-      "fundamental_score": 65.0,
-      "event_score": 100.0,
-      "confluence_score": 70.0,
-      "penalty": 0.0,
-      "final_score": 78.7,
-      "action": "WATCH",
-      "breakout_grade": "",
-      "live_status": "",
-      "follow_through": "Partial",
-      "loss_making": false,
-      "failed_breakout": false,
-      "confluence": {
-        "confluence_score": 70.0,
-        "conf_trend": 76.9,
-        "conf_momentum": 56.4,
-        "conf_overlap": 63.6,
-        "conf_volume": 83.3,
-        "indicators_computed": 403
-      },
-      "score_breakdown": {
-        "technical_pts": 31.8,
-        "relative_strength_pts": 15.7,
-        "fundamental_pts": 11.1,
-        "sector_pts": 1.2,
-        "event_pts": 8.5,
-        "confluence_pts": 10.5,
-        "weighted": 78.7,
-        "penalty": 0.0,
-        "final": 78.7
-      },
-      "fundamentals": {
-        "roe_pct": 8.879,
-        "debt_to_equity": 0.38327,
-        "revenue_growth_pct": 35.9,
-        "eps_growth_pct": 236.39999999999998,
-        "profit_margin_pct": 3.6340002000000005,
-        "pe": 24.221855,
-        "market_cap_cr": 1276.3748352,
-        "trailing_eps": 6.04,
-        "loss_making": false
-      },
-      "events": {
-        "next_earnings": null,
-        "ex_dividend": "2026-07-20"
-      },
-      "metrics": {
-        "dist_from_ema20_pct": 1.03,
-        "rsi": 53.6,
-        "adx": 24.6,
-        "pct_of_52w_high": 84.9,
+        "dist_from_ema20_pct": 1.35,
+        "rsi": 54.1,
+        "adx": 21.2,
+        "pct_of_52w_high": 94.8,
         "rs_line_new_high": false,
-        "rs_excess_20d_pct": 5.91
-      },
-      "risks": [
-        "High volatility (ATR 5.8% of price)."
-      ],
-      "rejected_reason": "portfolio: max open positions (6) reached"
-    },
-    {
-      "symbol": "PERSISTENT",
-      "sector": "Information Technology",
-      "as_of": "2026-11-20",
-      "close": 6124.0,
-      "setup_type": "Pre-Breakout",
-      "technical_score": 79.2,
-      "rs_percentile": 74.4,
-      "rs_excess_pct": 3.99,
-      "sector_score": 50.0,
-      "fundamental_score": 80.0,
-      "event_score": 100.0,
-      "confluence_score": 80.7,
-      "penalty": 0.0,
-      "final_score": 78.0,
-      "action": "WATCH",
-      "breakout_grade": "",
-      "live_status": "",
-      "follow_through": "Partial",
-      "loss_making": false,
-      "failed_breakout": false,
-      "confluence": {
-        "confluence_score": 80.7,
-        "conf_trend": 84.6,
-        "conf_momentum": 67.3,
-        "conf_overlap": 98.5,
-        "conf_volume": 72.2,
-        "indicators_computed": 403
-      },
-      "score_breakdown": {
-        "technical_pts": 26.9,
-        "relative_strength_pts": 12.6,
-        "fundamental_pts": 13.6,
-        "sector_pts": 4.2,
-        "event_pts": 8.5,
-        "confluence_pts": 12.1,
-        "weighted": 78.0,
-        "penalty": 0.0,
-        "final": 78.0
-      },
-      "fundamentals": {
-        "roe_pct": 22.918,
-        "debt_to_equity": 0.06695999999999999,
-        "revenue_growth_pct": 30.3,
-        "eps_growth_pct": -26.3,
-        "profit_margin_pct": 10.7329994,
-        "pe": 53.568928,
-        "market_cap_cr": 100796.628992,
-        "trailing_eps": 114.32,
-        "loss_making": false
-      },
-      "events": {
-        "next_earnings": "2026-10-15",
-        "ex_dividend": "2026-07-27"
-      },
-      "metrics": {
-        "pivot": 6240.0,
-        "dist_to_pivot_pct": 1.89,
-        "base_depth_pct": 10.45,
-        "rsi": 62.3,
-        "adx": 12.5,
-        "pct_of_52w_high": 93.5,
-        "rs_line_new_high": false,
-        "rs_excess_20d_pct": -7.04
+        "rs_excess_20d_pct": -8.3
       },
       "risks": [],
-      "rejected_reason": "portfolio: max open positions (6) reached"
-    },
-    {
-      "symbol": "TECHM",
-      "sector": "Information Technology",
-      "as_of": "2026-11-20",
-      "close": 1746.2,
-      "setup_type": "Pullback",
-      "technical_score": 89.2,
-      "rs_percentile": 63.0,
-      "rs_excess_pct": 3.59,
-      "sector_score": 50.0,
-      "fundamental_score": 100.0,
-      "event_score": 100.0,
-      "confluence_score": 43.8,
-      "penalty": 0.0,
-      "final_score": 77.4,
-      "action": "WATCH",
-      "breakout_grade": "",
-      "live_status": "",
-      "follow_through": "Partial",
-      "loss_making": false,
-      "failed_breakout": false,
-      "confluence": {
-        "confluence_score": 43.8,
-        "conf_trend": 46.2,
-        "conf_momentum": 45.5,
-        "conf_overlap": 50.0,
-        "conf_volume": 33.3,
-        "indicators_computed": 403
-      },
-      "score_breakdown": {
-        "technical_pts": 30.3,
-        "relative_strength_pts": 10.7,
-        "fundamental_pts": 17.0,
-        "sector_pts": 4.2,
-        "event_pts": 8.5,
-        "confluence_pts": 6.6,
-        "weighted": 77.4,
-        "penalty": 0.0,
-        "final": 77.4
-      },
-      "fundamentals": {
-        "roe_pct": 19.186,
-        "debt_to_equity": 0.07249,
-        "revenue_growth_pct": 15.6,
-        "eps_growth_pct": 32.5,
-        "profit_margin_pct": 9.0059996,
-        "pe": 28.06493,
-        "market_cap_cr": 154707.9778304,
-        "trailing_eps": 62.22,
-        "loss_making": false
-      },
-      "events": {
-        "next_earnings": "2027-01-14",
-        "ex_dividend": "2026-10-23"
-      },
-      "metrics": {
-        "dist_from_ema20_pct": 0.3,
-        "rsi": 52.1,
-        "adx": 26.4,
-        "pct_of_52w_high": 93.9,
-        "rs_line_new_high": false,
-        "rs_excess_20d_pct": -17.46
-      },
-      "risks": [
-        "Relative strength percentile 63 < 65 — lagging the market."
-      ],
-      "rejected_reason": "relative strength 63 < 65"
-    },
-    {
-      "symbol": "CPPLUS",
-      "sector": "Capital Goods",
-      "as_of": "2026-11-20",
-      "close": 4026.2,
-      "setup_type": "Pullback",
-      "technical_score": 89.2,
-      "rs_percentile": 77.7,
-      "rs_excess_pct": 14.72,
-      "sector_score": 4.8,
-      "fundamental_score": 90.0,
-      "event_score": 100.0,
-      "confluence_score": 63.5,
-      "penalty": 0.0,
-      "final_score": 77.3,
-      "action": "WATCH",
-      "breakout_grade": "",
-      "live_status": "",
-      "follow_through": "Partial",
-      "loss_making": false,
-      "failed_breakout": false,
-      "confluence": {
-        "confluence_score": 63.5,
-        "conf_trend": 69.2,
-        "conf_momentum": 54.5,
-        "conf_overlap": 60.6,
-        "conf_volume": 33.3,
-        "indicators_computed": 403
-      },
-      "score_breakdown": {
-        "technical_pts": 30.3,
-        "relative_strength_pts": 13.2,
-        "fundamental_pts": 15.3,
-        "sector_pts": 0.4,
-        "event_pts": 8.5,
-        "confluence_pts": 9.5,
-        "weighted": 77.3,
-        "penalty": 0.0,
-        "final": 77.3
-      },
-      "fundamentals": {
-        "roe_pct": 22.564,
-        "debt_to_equity": 0.11377000000000001,
-        "revenue_growth_pct": 89.9,
-        "eps_growth_pct": 151.1,
-        "profit_margin_pct": 10.383000000000001,
-        "pe": 80.07558,
-        "market_cap_cr": 49391.4226688,
-        "trailing_eps": 50.28,
-        "loss_making": false
-      },
-      "events": {
-        "next_earnings": null,
-        "ex_dividend": "2026-07-20"
-      },
-      "metrics": {
-        "dist_from_ema20_pct": 0.04,
-        "rsi": 51.1,
-        "adx": 13.1,
-        "pct_of_52w_high": 87.1,
-        "rs_line_new_high": false,
-        "rs_excess_20d_pct": -10.61
-      },
-      "risks": [
-        "High volatility (ATR 4.5% of price).",
-        "Rich valuation: P/E 80 > 60 — less margin for error on bad news."
-      ],
       "rejected_reason": "portfolio: max open positions (6) reached"
     },
     {
@@ -2826,11 +2357,11 @@
       "rs_percentile": 64.5,
       "rs_excess_pct": -3.71,
       "sector_score": 71.4,
-      "fundamental_score": 55.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 80.4,
       "penalty": 0.0,
-      "final_score": 77.3,
+      "final_score": 76.4,
       "action": "WATCH",
       "breakout_grade": "",
       "live_status": "",
@@ -2848,28 +2379,28 @@
       "score_breakdown": {
         "technical_pts": 30.3,
         "relative_strength_pts": 11.0,
-        "fundamental_pts": 9.4,
+        "fundamental_pts": 8.5,
         "sector_pts": 6.1,
         "event_pts": 8.5,
         "confluence_pts": 12.1,
-        "weighted": 77.3,
+        "weighted": 76.4,
         "penalty": 0.0,
-        "final": 77.3
+        "final": 76.4
       },
       "fundamentals": {
-        "roe_pct": 9.8780006,
-        "debt_to_equity": 0.44645,
-        "revenue_growth_pct": 17.0,
-        "eps_growth_pct": -21.5,
-        "profit_margin_pct": 24.846001,
-        "pe": 50.78125,
-        "market_cap_cr": 79378.6712064,
-        "trailing_eps": 6.72,
+        "roe_pct": null,
+        "debt_to_equity": null,
+        "revenue_growth_pct": null,
+        "eps_growth_pct": null,
+        "profit_margin_pct": null,
+        "pe": null,
+        "market_cap_cr": null,
+        "trailing_eps": null,
         "loss_making": false
       },
       "events": {
         "next_earnings": null,
-        "ex_dividend": "2026-06-18"
+        "ex_dividend": null
       },
       "metrics": {
         "dist_from_ema20_pct": 1.41,
@@ -2885,20 +2416,20 @@
       "rejected_reason": "relative strength 64 < 65"
     },
     {
-      "symbol": "NUVAMA",
-      "sector": "Financial Services",
+      "symbol": "NELCAST",
+      "sector": "Unclassified",
       "as_of": "2026-11-20",
-      "close": 1820.8,
+      "close": 146.3,
       "setup_type": "Pullback",
-      "technical_score": 87.0,
-      "rs_percentile": 69.9,
-      "rs_excess_pct": -2.11,
-      "sector_score": 66.7,
-      "fundamental_score": 80.0,
+      "technical_score": 93.5,
+      "rs_percentile": 92.3,
+      "rs_excess_pct": 17.54,
+      "sector_score": 14.3,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
-      "confluence_score": 49.0,
+      "confluence_score": 70.0,
       "penalty": 0.0,
-      "final_score": 76.6,
+      "final_score": 76.2,
       "action": "WATCH",
       "breakout_grade": "",
       "live_status": "",
@@ -2906,67 +2437,67 @@
       "loss_making": false,
       "failed_breakout": false,
       "confluence": {
-        "confluence_score": 49.0,
-        "conf_trend": 46.2,
-        "conf_momentum": 61.8,
-        "conf_overlap": 37.9,
-        "conf_volume": 50.0,
+        "confluence_score": 70.0,
+        "conf_trend": 76.9,
+        "conf_momentum": 56.4,
+        "conf_overlap": 63.6,
+        "conf_volume": 83.3,
         "indicators_computed": 403
       },
       "score_breakdown": {
-        "technical_pts": 29.6,
-        "relative_strength_pts": 11.9,
-        "fundamental_pts": 13.6,
-        "sector_pts": 5.7,
+        "technical_pts": 31.8,
+        "relative_strength_pts": 15.7,
+        "fundamental_pts": 8.5,
+        "sector_pts": 1.2,
         "event_pts": 8.5,
-        "confluence_pts": 7.3,
-        "weighted": 76.6,
+        "confluence_pts": 10.5,
+        "weighted": 76.2,
         "penalty": 0.0,
-        "final": 76.6
+        "final": 76.2
       },
       "fundamentals": {
-        "roe_pct": 27.118,
-        "debt_to_equity": 2.9197100000000002,
-        "revenue_growth_pct": 19.3,
-        "eps_growth_pct": 19.2,
-        "profit_margin_pct": 27.714001999999997,
-        "pe": 29.967085,
-        "market_cap_cr": 33604.4752896,
-        "trailing_eps": 60.76,
+        "roe_pct": null,
+        "debt_to_equity": null,
+        "revenue_growth_pct": null,
+        "eps_growth_pct": null,
+        "profit_margin_pct": null,
+        "pe": null,
+        "market_cap_cr": null,
+        "trailing_eps": null,
         "loss_making": false
       },
       "events": {
         "next_earnings": null,
-        "ex_dividend": "2026-05-15"
+        "ex_dividend": null
       },
       "metrics": {
-        "dist_from_ema20_pct": 0.1,
-        "rsi": 51.4,
-        "adx": 18.4,
-        "pct_of_52w_high": 88.1,
+        "dist_from_ema20_pct": 1.03,
+        "rsi": 53.6,
+        "adx": 24.6,
+        "pct_of_52w_high": 84.9,
         "rs_line_new_high": false,
-        "rs_excess_20d_pct": -4.66
+        "rs_excess_20d_pct": 5.91
       },
       "risks": [
-        "High volatility (ATR 4.2% of price)."
+        "High volatility (ATR 5.8% of price)."
       ],
       "rejected_reason": "portfolio: max open positions (6) reached"
     },
     {
-      "symbol": "FSL",
-      "sector": "Services",
+      "symbol": "LOTUSDEV",
+      "sector": "Unclassified",
       "as_of": "2026-11-20",
-      "close": 281.45,
+      "close": 235.48,
       "setup_type": "Pullback",
-      "technical_score": 84.8,
-      "rs_percentile": 54.7,
-      "rs_excess_pct": -4.08,
-      "sector_score": 71.4,
-      "fundamental_score": 100.0,
+      "technical_score": 95.7,
+      "rs_percentile": 78.2,
+      "rs_excess_pct": 36.95,
+      "sector_score": 14.3,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
-      "confluence_score": 41.7,
+      "confluence_score": 71.1,
       "penalty": 0.0,
-      "final_score": 76.0,
+      "final_score": 74.7,
       "action": "WATCH",
       "breakout_grade": "",
       "live_status": "",
@@ -2974,52 +2505,51 @@
       "loss_making": false,
       "failed_breakout": false,
       "confluence": {
-        "confluence_score": 41.7,
-        "conf_trend": 38.5,
-        "conf_momentum": 36.4,
-        "conf_overlap": 36.4,
-        "conf_volume": 55.6,
+        "confluence_score": 71.1,
+        "conf_trend": 53.8,
+        "conf_momentum": 61.8,
+        "conf_overlap": 90.9,
+        "conf_volume": 77.8,
         "indicators_computed": 403
       },
       "score_breakdown": {
-        "technical_pts": 28.8,
-        "relative_strength_pts": 9.3,
-        "fundamental_pts": 17.0,
-        "sector_pts": 6.1,
+        "technical_pts": 32.5,
+        "relative_strength_pts": 13.3,
+        "fundamental_pts": 8.5,
+        "sector_pts": 1.2,
         "event_pts": 8.5,
-        "confluence_pts": 6.3,
-        "weighted": 76.0,
+        "confluence_pts": 10.7,
+        "weighted": 74.7,
         "penalty": 0.0,
-        "final": 76.0
+        "final": 74.7
       },
       "fundamentals": {
-        "roe_pct": 15.662999999999998,
-        "debt_to_equity": 0.5987899999999999,
-        "revenue_growth_pct": 22.2,
-        "eps_growth_pct": 30.3,
-        "profit_margin_pct": 6.848,
-        "pe": 27.378407,
-        "market_cap_cr": 19473.0934272,
-        "trailing_eps": 10.28,
+        "roe_pct": null,
+        "debt_to_equity": null,
+        "revenue_growth_pct": null,
+        "eps_growth_pct": null,
+        "profit_margin_pct": null,
+        "pe": null,
+        "market_cap_cr": null,
+        "trailing_eps": null,
         "loss_making": false
       },
       "events": {
         "next_earnings": null,
-        "ex_dividend": "2026-02-20"
+        "ex_dividend": null
       },
       "metrics": {
-        "dist_from_ema20_pct": 1.46,
-        "rsi": 47.4,
-        "adx": 23.5,
-        "pct_of_52w_high": 77.4,
+        "dist_from_ema20_pct": 0.9,
+        "rsi": 53.2,
+        "adx": 21.2,
+        "pct_of_52w_high": 93.3,
         "rs_line_new_high": false,
-        "rs_excess_20d_pct": -16.47
+        "rs_excess_20d_pct": -14.51
       },
       "risks": [
-        "High volatility (ATR 4.0% of price).",
-        "Relative strength percentile 55 < 65 — lagging the market."
+        "High volatility (ATR 4.6% of price)."
       ],
-      "rejected_reason": "relative strength 55 < 65"
+      "rejected_reason": "portfolio: max open positions (6) reached"
     },
     {
       "symbol": "BEML",
@@ -3031,11 +2561,11 @@
       "rs_percentile": 68.3,
       "rs_excess_pct": -2.19,
       "sector_score": 4.8,
-      "fundamental_score": 45.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 73.1,
       "penalty": 0.0,
-      "final_score": 73.1,
+      "final_score": 74.0,
       "action": "WATCH",
       "breakout_grade": "",
       "live_status": "",
@@ -3053,28 +2583,28 @@
       "score_breakdown": {
         "technical_pts": 34.0,
         "relative_strength_pts": 11.6,
-        "fundamental_pts": 7.7,
+        "fundamental_pts": 8.5,
         "sector_pts": 0.4,
         "event_pts": 8.5,
         "confluence_pts": 11.0,
-        "weighted": 73.1,
+        "weighted": 74.0,
         "penalty": 0.0,
-        "final": 73.1
+        "final": 74.0
       },
       "fundamentals": {
-        "roe_pct": 5.7740003,
-        "debt_to_equity": 0.21949000000000002,
-        "revenue_growth_pct": 42.0,
-        "eps_growth_pct": -30.599999999999998,
-        "profit_margin_pct": 3.3489999999999998,
-        "pe": 29.471567,
-        "market_cap_cr": 17094.2332928,
-        "trailing_eps": 69.64,
+        "roe_pct": null,
+        "debt_to_equity": null,
+        "revenue_growth_pct": null,
+        "eps_growth_pct": null,
+        "profit_margin_pct": null,
+        "pe": null,
+        "market_cap_cr": null,
+        "trailing_eps": null,
         "loss_making": false
       },
       "events": {
         "next_earnings": null,
-        "ex_dividend": "2026-09-22"
+        "ex_dividend": null
       },
       "metrics": {
         "dist_from_ema20_pct": 1.21,
@@ -3088,20 +2618,568 @@
       "rejected_reason": "portfolio: max open positions (6) reached"
     },
     {
-      "symbol": "KTKBANK",
+      "symbol": "PERSISTENT",
+      "sector": "Information Technology",
+      "as_of": "2026-11-20",
+      "close": 6124.0,
+      "setup_type": "Pre-Breakout",
+      "technical_score": 79.2,
+      "rs_percentile": 74.4,
+      "rs_excess_pct": 3.99,
+      "sector_score": 50.0,
+      "fundamental_score": 50.0,
+      "event_score": 100.0,
+      "confluence_score": 80.7,
+      "penalty": 0.0,
+      "final_score": 72.9,
+      "action": "WATCH",
+      "breakout_grade": "",
+      "live_status": "",
+      "follow_through": "Partial",
+      "loss_making": false,
+      "failed_breakout": false,
+      "confluence": {
+        "confluence_score": 80.7,
+        "conf_trend": 84.6,
+        "conf_momentum": 67.3,
+        "conf_overlap": 98.5,
+        "conf_volume": 72.2,
+        "indicators_computed": 403
+      },
+      "score_breakdown": {
+        "technical_pts": 26.9,
+        "relative_strength_pts": 12.6,
+        "fundamental_pts": 8.5,
+        "sector_pts": 4.2,
+        "event_pts": 8.5,
+        "confluence_pts": 12.1,
+        "weighted": 72.9,
+        "penalty": 0.0,
+        "final": 72.9
+      },
+      "fundamentals": {
+        "roe_pct": null,
+        "debt_to_equity": null,
+        "revenue_growth_pct": null,
+        "eps_growth_pct": null,
+        "profit_margin_pct": null,
+        "pe": null,
+        "market_cap_cr": null,
+        "trailing_eps": null,
+        "loss_making": false
+      },
+      "events": {
+        "next_earnings": null,
+        "ex_dividend": null
+      },
+      "metrics": {
+        "pivot": 6240.0,
+        "dist_to_pivot_pct": 1.89,
+        "base_depth_pct": 10.45,
+        "rsi": 62.3,
+        "adx": 12.5,
+        "pct_of_52w_high": 93.5,
+        "rs_line_new_high": false,
+        "rs_excess_20d_pct": -7.04
+      },
+      "risks": [],
+      "rejected_reason": "portfolio: max open positions (6) reached"
+    },
+    {
+      "symbol": "EDELWEISS",
+      "sector": "Unclassified",
+      "as_of": "2026-11-20",
+      "close": 130.5,
+      "setup_type": "Pullback",
+      "technical_score": 91.3,
+      "rs_percentile": 73.4,
+      "rs_excess_pct": 0.76,
+      "sector_score": 14.3,
+      "fundamental_score": 50.0,
+      "event_score": 100.0,
+      "confluence_score": 65.3,
+      "penalty": 0.0,
+      "final_score": 71.5,
+      "action": "WATCH",
+      "breakout_grade": "",
+      "live_status": "",
+      "follow_through": "Partial",
+      "loss_making": false,
+      "failed_breakout": false,
+      "confluence": {
+        "confluence_score": 65.3,
+        "conf_trend": 61.5,
+        "conf_momentum": 81.8,
+        "conf_overlap": 56.7,
+        "conf_volume": 61.1,
+        "indicators_computed": 403
+      },
+      "score_breakdown": {
+        "technical_pts": 31.0,
+        "relative_strength_pts": 12.5,
+        "fundamental_pts": 8.5,
+        "sector_pts": 1.2,
+        "event_pts": 8.5,
+        "confluence_pts": 9.8,
+        "weighted": 71.5,
+        "penalty": 0.0,
+        "final": 71.5
+      },
+      "fundamentals": {
+        "roe_pct": null,
+        "debt_to_equity": null,
+        "revenue_growth_pct": null,
+        "eps_growth_pct": null,
+        "profit_margin_pct": null,
+        "pe": null,
+        "market_cap_cr": null,
+        "trailing_eps": null,
+        "loss_making": false
+      },
+      "events": {
+        "next_earnings": null,
+        "ex_dividend": null
+      },
+      "metrics": {
+        "dist_from_ema20_pct": 0.89,
+        "rsi": 52.2,
+        "adx": 17.3,
+        "pct_of_52w_high": 89.4,
+        "rs_line_new_high": false,
+        "rs_excess_20d_pct": -4.76
+      },
+      "risks": [
+        "High volatility (ATR 4.1% of price)."
+      ],
+      "rejected_reason": "portfolio: max open positions (6) reached"
+    },
+    {
+      "symbol": "NUVAMA",
       "sector": "Financial Services",
+      "as_of": "2026-11-20",
+      "close": 1820.8,
+      "setup_type": "Pullback",
+      "technical_score": 87.0,
+      "rs_percentile": 69.9,
+      "rs_excess_pct": -2.11,
+      "sector_score": 66.7,
+      "fundamental_score": 50.0,
+      "event_score": 100.0,
+      "confluence_score": 49.0,
+      "penalty": 0.0,
+      "final_score": 71.5,
+      "action": "WATCH",
+      "breakout_grade": "",
+      "live_status": "",
+      "follow_through": "Partial",
+      "loss_making": false,
+      "failed_breakout": false,
+      "confluence": {
+        "confluence_score": 49.0,
+        "conf_trend": 46.2,
+        "conf_momentum": 61.8,
+        "conf_overlap": 37.9,
+        "conf_volume": 50.0,
+        "indicators_computed": 403
+      },
+      "score_breakdown": {
+        "technical_pts": 29.6,
+        "relative_strength_pts": 11.9,
+        "fundamental_pts": 8.5,
+        "sector_pts": 5.7,
+        "event_pts": 8.5,
+        "confluence_pts": 7.3,
+        "weighted": 71.5,
+        "penalty": 0.0,
+        "final": 71.5
+      },
+      "fundamentals": {
+        "roe_pct": null,
+        "debt_to_equity": null,
+        "revenue_growth_pct": null,
+        "eps_growth_pct": null,
+        "profit_margin_pct": null,
+        "pe": null,
+        "market_cap_cr": null,
+        "trailing_eps": null,
+        "loss_making": false
+      },
+      "events": {
+        "next_earnings": null,
+        "ex_dividend": null
+      },
+      "metrics": {
+        "dist_from_ema20_pct": 0.1,
+        "rsi": 51.4,
+        "adx": 18.4,
+        "pct_of_52w_high": 88.1,
+        "rs_line_new_high": false,
+        "rs_excess_20d_pct": -4.66
+      },
+      "risks": [
+        "High volatility (ATR 4.2% of price)."
+      ],
+      "rejected_reason": "portfolio: max open positions (6) reached"
+    },
+    {
+      "symbol": "KAJARIACER",
+      "sector": "Consumer Durables",
+      "as_of": "2026-11-20",
+      "close": 1200.5,
+      "setup_type": "Pre-Breakout",
+      "technical_score": 84.8,
+      "rs_percentile": 58.6,
+      "rs_excess_pct": -6.26,
+      "sector_score": 50.0,
+      "fundamental_score": 50.0,
+      "event_score": 100.0,
+      "confluence_score": 75.7,
+      "penalty": 0.0,
+      "final_score": 71.4,
+      "action": "WATCH",
+      "breakout_grade": "",
+      "live_status": "",
+      "follow_through": "Partial",
+      "loss_making": false,
+      "failed_breakout": false,
+      "confluence": {
+        "confluence_score": 75.7,
+        "conf_trend": 76.9,
+        "conf_momentum": 76.4,
+        "conf_overlap": 77.3,
+        "conf_volume": 72.2,
+        "indicators_computed": 403
+      },
+      "score_breakdown": {
+        "technical_pts": 28.8,
+        "relative_strength_pts": 10.0,
+        "fundamental_pts": 8.5,
+        "sector_pts": 4.2,
+        "event_pts": 8.5,
+        "confluence_pts": 11.4,
+        "weighted": 71.4,
+        "penalty": 0.0,
+        "final": 71.4
+      },
+      "fundamentals": {
+        "roe_pct": null,
+        "debt_to_equity": null,
+        "revenue_growth_pct": null,
+        "eps_growth_pct": null,
+        "profit_margin_pct": null,
+        "pe": null,
+        "market_cap_cr": null,
+        "trailing_eps": null,
+        "loss_making": false
+      },
+      "events": {
+        "next_earnings": null,
+        "ex_dividend": null
+      },
+      "metrics": {
+        "pivot": 1226.9,
+        "dist_to_pivot_pct": 2.2,
+        "base_depth_pct": 11.58,
+        "rsi": 55.7,
+        "adx": 15.3,
+        "pct_of_52w_high": 95.7,
+        "rs_line_new_high": false,
+        "rs_excess_20d_pct": -9.07
+      },
+      "risks": [
+        "Relative strength percentile 59 < 65 — lagging the market."
+      ],
+      "rejected_reason": "relative strength 59 < 65"
+    },
+    {
+      "symbol": "CPPLUS",
+      "sector": "Capital Goods",
+      "as_of": "2026-11-20",
+      "close": 4026.2,
+      "setup_type": "Pullback",
+      "technical_score": 89.2,
+      "rs_percentile": 77.7,
+      "rs_excess_pct": 14.72,
+      "sector_score": 4.8,
+      "fundamental_score": 50.0,
+      "event_score": 100.0,
+      "confluence_score": 63.5,
+      "penalty": 0.0,
+      "final_score": 70.5,
+      "action": "WATCH",
+      "breakout_grade": "",
+      "live_status": "",
+      "follow_through": "Partial",
+      "loss_making": false,
+      "failed_breakout": false,
+      "confluence": {
+        "confluence_score": 63.5,
+        "conf_trend": 69.2,
+        "conf_momentum": 54.5,
+        "conf_overlap": 60.6,
+        "conf_volume": 33.3,
+        "indicators_computed": 403
+      },
+      "score_breakdown": {
+        "technical_pts": 30.3,
+        "relative_strength_pts": 13.2,
+        "fundamental_pts": 8.5,
+        "sector_pts": 0.4,
+        "event_pts": 8.5,
+        "confluence_pts": 9.5,
+        "weighted": 70.5,
+        "penalty": 0.0,
+        "final": 70.5
+      },
+      "fundamentals": {
+        "roe_pct": null,
+        "debt_to_equity": null,
+        "revenue_growth_pct": null,
+        "eps_growth_pct": null,
+        "profit_margin_pct": null,
+        "pe": null,
+        "market_cap_cr": null,
+        "trailing_eps": null,
+        "loss_making": false
+      },
+      "events": {
+        "next_earnings": null,
+        "ex_dividend": null
+      },
+      "metrics": {
+        "dist_from_ema20_pct": 0.04,
+        "rsi": 51.1,
+        "adx": 13.1,
+        "pct_of_52w_high": 87.1,
+        "rs_line_new_high": false,
+        "rs_excess_20d_pct": -10.61
+      },
+      "risks": [
+        "High volatility (ATR 4.5% of price)."
+      ],
+      "rejected_reason": "portfolio: max open positions (6) reached"
+    },
+    {
+      "symbol": "TECHM",
+      "sector": "Information Technology",
+      "as_of": "2026-11-20",
+      "close": 1746.2,
+      "setup_type": "Pullback",
+      "technical_score": 89.2,
+      "rs_percentile": 63.0,
+      "rs_excess_pct": 3.59,
+      "sector_score": 50.0,
+      "fundamental_score": 50.0,
+      "event_score": 100.0,
+      "confluence_score": 43.8,
+      "penalty": 0.0,
+      "final_score": 68.9,
+      "action": "WATCH",
+      "breakout_grade": "",
+      "live_status": "",
+      "follow_through": "Partial",
+      "loss_making": false,
+      "failed_breakout": false,
+      "confluence": {
+        "confluence_score": 43.8,
+        "conf_trend": 46.2,
+        "conf_momentum": 45.5,
+        "conf_overlap": 50.0,
+        "conf_volume": 33.3,
+        "indicators_computed": 403
+      },
+      "score_breakdown": {
+        "technical_pts": 30.3,
+        "relative_strength_pts": 10.7,
+        "fundamental_pts": 8.5,
+        "sector_pts": 4.2,
+        "event_pts": 8.5,
+        "confluence_pts": 6.6,
+        "weighted": 68.9,
+        "penalty": 0.0,
+        "final": 68.9
+      },
+      "fundamentals": {
+        "roe_pct": null,
+        "debt_to_equity": null,
+        "revenue_growth_pct": null,
+        "eps_growth_pct": null,
+        "profit_margin_pct": null,
+        "pe": null,
+        "market_cap_cr": null,
+        "trailing_eps": null,
+        "loss_making": false
+      },
+      "events": {
+        "next_earnings": null,
+        "ex_dividend": null
+      },
+      "metrics": {
+        "dist_from_ema20_pct": 0.3,
+        "rsi": 52.1,
+        "adx": 26.4,
+        "pct_of_52w_high": 93.9,
+        "rs_line_new_high": false,
+        "rs_excess_20d_pct": -17.46
+      },
+      "risks": [
+        "Relative strength percentile 63 < 65 — lagging the market."
+      ],
+      "rejected_reason": "relative strength 63 < 65"
+    },
+    {
+      "symbol": "FSL",
+      "sector": "Services",
+      "as_of": "2026-11-20",
+      "close": 281.45,
+      "setup_type": "Pullback",
+      "technical_score": 84.8,
+      "rs_percentile": 54.7,
+      "rs_excess_pct": -4.08,
+      "sector_score": 71.4,
+      "fundamental_score": 50.0,
+      "event_score": 100.0,
+      "confluence_score": 41.7,
+      "penalty": 0.0,
+      "final_score": 67.5,
+      "action": "WATCH",
+      "breakout_grade": "",
+      "live_status": "",
+      "follow_through": "Partial",
+      "loss_making": false,
+      "failed_breakout": false,
+      "confluence": {
+        "confluence_score": 41.7,
+        "conf_trend": 38.5,
+        "conf_momentum": 36.4,
+        "conf_overlap": 36.4,
+        "conf_volume": 55.6,
+        "indicators_computed": 403
+      },
+      "score_breakdown": {
+        "technical_pts": 28.8,
+        "relative_strength_pts": 9.3,
+        "fundamental_pts": 8.5,
+        "sector_pts": 6.1,
+        "event_pts": 8.5,
+        "confluence_pts": 6.3,
+        "weighted": 67.5,
+        "penalty": 0.0,
+        "final": 67.5
+      },
+      "fundamentals": {
+        "roe_pct": null,
+        "debt_to_equity": null,
+        "revenue_growth_pct": null,
+        "eps_growth_pct": null,
+        "profit_margin_pct": null,
+        "pe": null,
+        "market_cap_cr": null,
+        "trailing_eps": null,
+        "loss_making": false
+      },
+      "events": {
+        "next_earnings": null,
+        "ex_dividend": null
+      },
+      "metrics": {
+        "dist_from_ema20_pct": 1.46,
+        "rsi": 47.4,
+        "adx": 23.5,
+        "pct_of_52w_high": 77.4,
+        "rs_line_new_high": false,
+        "rs_excess_20d_pct": -16.47
+      },
+      "risks": [
+        "High volatility (ATR 4.0% of price).",
+        "Relative strength percentile 55 < 65 — lagging the market."
+      ],
+      "rejected_reason": "relative strength 55 < 65"
+    },
+    {
+      "symbol": "TEXINFRA",
+      "sector": "Unclassified",
+      "as_of": "2026-11-20",
+      "close": 120.43,
+      "setup_type": "Pullback",
+      "technical_score": 78.2,
+      "rs_percentile": 66.8,
+      "rs_excess_pct": 5.06,
+      "sector_score": 14.3,
+      "fundamental_score": 50.0,
+      "event_score": 100.0,
+      "confluence_score": 39.5,
+      "penalty": 0.0,
+      "final_score": 62.1,
+      "action": "WATCH",
+      "breakout_grade": "",
+      "live_status": "",
+      "follow_through": "Partial",
+      "loss_making": false,
+      "failed_breakout": false,
+      "confluence": {
+        "confluence_score": 39.5,
+        "conf_trend": 61.5,
+        "conf_momentum": 45.5,
+        "conf_overlap": 34.8,
+        "conf_volume": 5.6,
+        "indicators_computed": 403
+      },
+      "score_breakdown": {
+        "technical_pts": 26.6,
+        "relative_strength_pts": 11.4,
+        "fundamental_pts": 8.5,
+        "sector_pts": 1.2,
+        "event_pts": 8.5,
+        "confluence_pts": 5.9,
+        "weighted": 62.1,
+        "penalty": 0.0,
+        "final": 62.1
+      },
+      "fundamentals": {
+        "roe_pct": null,
+        "debt_to_equity": null,
+        "revenue_growth_pct": null,
+        "eps_growth_pct": null,
+        "profit_margin_pct": null,
+        "pe": null,
+        "market_cap_cr": null,
+        "trailing_eps": null,
+        "loss_making": false
+      },
+      "events": {
+        "next_earnings": null,
+        "ex_dividend": null
+      },
+      "metrics": {
+        "dist_from_ema20_pct": 0.98,
+        "rsi": 48.8,
+        "adx": 15.0,
+        "pct_of_52w_high": 90.1,
+        "rs_line_new_high": false,
+        "rs_excess_20d_pct": -15.06
+      },
+      "risks": [
+        "High volatility (ATR 4.6% of price).",
+        "Indicator confluence only 40% bullish — most indicators disagree."
+      ],
+      "rejected_reason": "portfolio: max open positions (6) reached"
+    },
+    {
+      "symbol": "KTKBANK",
+      "sector": "Unclassified",
       "as_of": "2026-11-20",
       "close": 342.7,
       "setup_type": "Pullback",
       "technical_score": 100.0,
       "rs_percentile": 72.9,
       "rs_excess_pct": 0.25,
-      "sector_score": 66.7,
-      "fundamental_score": 68.8,
+      "sector_score": 14.3,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 72.2,
       "penalty": -15.0,
-      "final_score": 68.1,
+      "final_score": 60.4,
       "action": "WATCH",
       "breakout_grade": "Prior BO failed",
       "live_status": "",
@@ -3119,28 +3197,28 @@
       "score_breakdown": {
         "technical_pts": 34.0,
         "relative_strength_pts": 12.4,
-        "fundamental_pts": 11.7,
-        "sector_pts": 5.7,
+        "fundamental_pts": 8.5,
+        "sector_pts": 1.2,
         "event_pts": 8.5,
         "confluence_pts": 10.8,
-        "weighted": 83.1,
+        "weighted": 75.4,
         "penalty": -15.0,
-        "final": 68.1
+        "final": 60.4
       },
       "fundamentals": {
-        "roe_pct": 11.7180005,
+        "roe_pct": null,
         "debt_to_equity": null,
-        "revenue_growth_pct": 19.6,
-        "eps_growth_pct": 36.4,
-        "profit_margin_pct": 33.249,
-        "pe": 8.352426,
-        "market_cap_cr": 12967.3232384,
-        "trailing_eps": 41.03,
+        "revenue_growth_pct": null,
+        "eps_growth_pct": null,
+        "profit_margin_pct": null,
+        "pe": null,
+        "market_cap_cr": null,
+        "trailing_eps": null,
         "loss_making": false
       },
       "events": {
         "next_earnings": null,
-        "ex_dividend": "2026-09-15"
+        "ex_dividend": null
       },
       "metrics": {
         "dist_from_ema20_pct": 1.72,
@@ -3165,11 +3243,11 @@
       "rs_percentile": 54.7,
       "rs_excess_pct": -10.19,
       "sector_score": 81.0,
-      "fundamental_score": 100.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 78.3,
       "penalty": -15.0,
-      "final_score": 66.8,
+      "final_score": 58.3,
       "action": "WATCH",
       "breakout_grade": "Prior BO failed",
       "live_status": "",
@@ -3187,28 +3265,28 @@
       "score_breakdown": {
         "technical_pts": 28.4,
         "relative_strength_pts": 9.3,
-        "fundamental_pts": 17.0,
+        "fundamental_pts": 8.5,
         "sector_pts": 6.9,
         "event_pts": 8.5,
         "confluence_pts": 11.7,
-        "weighted": 81.8,
+        "weighted": 73.3,
         "penalty": -15.0,
-        "final": 66.8
+        "final": 58.3
       },
       "fundamentals": {
-        "roe_pct": 26.927,
-        "debt_to_equity": 0.06007,
-        "revenue_growth_pct": 22.5,
-        "eps_growth_pct": 42.199999999999996,
-        "profit_margin_pct": 11.2040006,
-        "pe": 18.474888,
-        "market_cap_cr": 110809.57952,
-        "trailing_eps": 299.65,
+        "roe_pct": null,
+        "debt_to_equity": null,
+        "revenue_growth_pct": null,
+        "eps_growth_pct": null,
+        "profit_margin_pct": null,
+        "pe": null,
+        "market_cap_cr": null,
+        "trailing_eps": null,
         "loss_making": false
       },
       "events": {
-        "next_earnings": "2027-01-28",
-        "ex_dividend": "2026-07-24"
+        "next_earnings": null,
+        "ex_dividend": null
       },
       "metrics": {
         "pivot": 5596.0,
@@ -3225,77 +3303,6 @@
         "Relative strength percentile 55 < 65 — lagging the market."
       ],
       "rejected_reason": "relative strength 55 < 65"
-    },
-    {
-      "symbol": "TEXINFRA",
-      "sector": "Real Estate",
-      "as_of": "2026-11-20",
-      "close": 120.43,
-      "setup_type": "Pullback",
-      "technical_score": 78.2,
-      "rs_percentile": 66.8,
-      "rs_excess_pct": 5.06,
-      "sector_score": 14.3,
-      "fundamental_score": 30.0,
-      "event_score": 100.0,
-      "confluence_score": 39.5,
-      "penalty": 0.0,
-      "final_score": 58.7,
-      "action": "WATCH",
-      "breakout_grade": "",
-      "live_status": "",
-      "follow_through": "Partial",
-      "loss_making": false,
-      "failed_breakout": false,
-      "confluence": {
-        "confluence_score": 39.5,
-        "conf_trend": 61.5,
-        "conf_momentum": 45.5,
-        "conf_overlap": 34.8,
-        "conf_volume": 5.6,
-        "indicators_computed": 403
-      },
-      "score_breakdown": {
-        "technical_pts": 26.6,
-        "relative_strength_pts": 11.4,
-        "fundamental_pts": 5.1,
-        "sector_pts": 1.2,
-        "event_pts": 8.5,
-        "confluence_pts": 5.9,
-        "weighted": 58.7,
-        "penalty": 0.0,
-        "final": 58.7
-      },
-      "fundamentals": {
-        "roe_pct": 0.624,
-        "debt_to_equity": 0.01583,
-        "revenue_growth_pct": -8.7,
-        "eps_growth_pct": -4.3,
-        "profit_margin_pct": 53.659,
-        "pe": 172.04286,
-        "market_cap_cr": 1534.5984512,
-        "trailing_eps": 0.7,
-        "loss_making": false
-      },
-      "events": {
-        "next_earnings": null,
-        "ex_dividend": "2026-09-07"
-      },
-      "metrics": {
-        "dist_from_ema20_pct": 0.98,
-        "rsi": 48.8,
-        "adx": 15.0,
-        "pct_of_52w_high": 90.1,
-        "rs_line_new_high": false,
-        "rs_excess_20d_pct": -15.06
-      },
-      "risks": [
-        "High volatility (ATR 4.6% of price).",
-        "Weak fundamentals (score 30) — treat as a pure trading setup.",
-        "Rich valuation: P/E 172 > 60 — less margin for error on bad news.",
-        "Indicator confluence only 40% bullish — most indicators disagree."
-      ],
-      "rejected_reason": "final score 58.7 < 60"
     }
   ],
   "sectors": [
@@ -3545,11 +3552,11 @@
       "status": "SETUP",
       "rs_percentile": 98.0,
       "sector_score": 57.1,
-      "fundamental_score": 65.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 95.0,
       "penalty": 0.0,
-      "final_score": 89.3,
+      "final_score": 86.8,
       "action": "BUY NOW"
     },
     {
@@ -3586,11 +3593,11 @@
       "status": "SETUP",
       "rs_percentile": 92.7,
       "sector_score": 14.3,
-      "fundamental_score": 75.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 97.8,
       "penalty": 0.0,
-      "final_score": 86.9,
+      "final_score": 82.6,
       "action": "BUY NOW"
     },
     {
@@ -3627,11 +3634,11 @@
       "status": "SETUP",
       "rs_percentile": 78.3,
       "sector_score": 100.0,
-      "fundamental_score": 100.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 95.6,
       "penalty": 0.0,
-      "final_score": 95.7,
+      "final_score": 87.2,
       "action": "BUY NOW"
     },
     {
@@ -3665,15 +3672,15 @@
       "pre_breakout_score": 0.0,
       "pullback_score": 60.0,
       "pct_of_52w_high": 99.3,
-      "status": "portfolio: max open positions (6) reached",
+      "status": "SETUP",
       "rs_percentile": 77.7,
       "sector_score": 66.7,
-      "fundamental_score": 55.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 98.2,
       "penalty": 0.0,
-      "final_score": 85.5,
-      "action": "WATCH"
+      "final_score": 84.6,
+      "action": "BUY NOW"
     },
     {
       "symbol": "KTKBANK",
@@ -3709,11 +3716,11 @@
       "status": "portfolio: max open positions (6) reached",
       "rs_percentile": 72.9,
       "sector_score": 14.3,
-      "fundamental_score": 68.8,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 72.2,
       "penalty": -15.0,
-      "final_score": 68.1,
+      "final_score": 60.4,
       "action": "WATCH"
     },
     {
@@ -3750,11 +3757,11 @@
       "status": "portfolio: max open positions (6) reached",
       "rs_percentile": 68.3,
       "sector_score": 4.8,
-      "fundamental_score": 45.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 73.1,
       "penalty": 0.0,
-      "final_score": 73.1,
+      "final_score": 74.0,
       "action": "WATCH"
     },
     {
@@ -3791,11 +3798,11 @@
       "status": "SETUP",
       "rs_percentile": 79.0,
       "sector_score": 66.7,
-      "fundamental_score": 100.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 95.9,
       "penalty": 0.0,
-      "final_score": 91.5,
+      "final_score": 83.0,
       "action": "BUY NOW"
     },
     {
@@ -3832,11 +3839,11 @@
       "status": "portfolio: max open positions (6) reached",
       "rs_percentile": 78.2,
       "sector_score": 14.3,
-      "fundamental_score": 100.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 71.1,
       "penalty": 0.0,
-      "final_score": 83.2,
+      "final_score": 74.7,
       "action": "WATCH"
     },
     {
@@ -3870,15 +3877,15 @@
       "pre_breakout_score": 0.0,
       "pullback_score": 60.0,
       "pct_of_52w_high": 83.4,
-      "status": "SETUP",
+      "status": "portfolio: max open positions (6) reached",
       "rs_percentile": 73.3,
       "sector_score": 38.1,
-      "fundamental_score": 100.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 95.7,
       "penalty": 0.0,
-      "final_score": 88.1,
-      "action": "BUY NOW"
+      "final_score": 79.6,
+      "action": "WATCH"
     },
     {
       "symbol": "IDFCFIRSTB",
@@ -3914,11 +3921,11 @@
       "status": "portfolio: max open positions (6) reached",
       "rs_percentile": 71.3,
       "sector_score": 66.7,
-      "fundamental_score": 68.8,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 94.5,
       "penalty": 0.0,
-      "final_score": 84.7,
+      "final_score": 81.5,
       "action": "WATCH"
     },
     {
@@ -3955,11 +3962,11 @@
       "status": "portfolio: max open positions (6) reached",
       "rs_percentile": 67.0,
       "sector_score": 50.0,
-      "fundamental_score": 100.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 76.8,
       "penalty": 0.0,
-      "final_score": 85.2,
+      "final_score": 76.7,
       "action": "WATCH"
     },
     {
@@ -3996,11 +4003,11 @@
       "status": "breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback",
       "rs_percentile": 98.2,
       "sector_score": 14.3,
-      "fundamental_score": 40.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 97.4,
       "penalty": 0.0,
-      "final_score": 79.6,
+      "final_score": 81.3,
       "action": "WATCH"
     },
     {
@@ -4037,11 +4044,11 @@
       "status": "breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback",
       "rs_percentile": 98.1,
       "sector_score": 14.3,
-      "fundamental_score": 65.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 95.4,
       "penalty": 0.0,
-      "final_score": 83.5,
+      "final_score": 81.0,
       "action": "WATCH"
     },
     {
@@ -4078,11 +4085,11 @@
       "status": "portfolio: max open positions (6) reached",
       "rs_percentile": 92.3,
       "sector_score": 14.3,
-      "fundamental_score": 65.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 70.0,
       "penalty": 0.0,
-      "final_score": 78.7,
+      "final_score": 76.2,
       "action": "WATCH"
     },
     {
@@ -4119,11 +4126,11 @@
       "status": "breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback",
       "rs_percentile": 89.3,
       "sector_score": 66.7,
-      "fundamental_score": 100.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 96.9,
       "penalty": 0.0,
-      "final_score": 92.7,
+      "final_score": 84.2,
       "action": "WATCH"
     },
     {
@@ -4160,11 +4167,11 @@
       "status": "breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback",
       "rs_percentile": 88.9,
       "sector_score": 66.7,
-      "fundamental_score": 100.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 95.4,
       "penalty": 0.0,
-      "final_score": 92.4,
+      "final_score": 83.9,
       "action": "WATCH"
     },
     {
@@ -4201,11 +4208,11 @@
       "status": "SETUP",
       "rs_percentile": 88.7,
       "sector_score": 95.2,
-      "fundamental_score": 60.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 94.7,
       "penalty": 0.0,
-      "final_score": 87.9,
+      "final_score": 86.2,
       "action": "BUY NOW"
     },
     {
@@ -4242,11 +4249,11 @@
       "status": "breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback",
       "rs_percentile": 85.4,
       "sector_score": 85.7,
-      "fundamental_score": 75.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 97.5,
       "penalty": 0.0,
-      "final_score": 89.5,
+      "final_score": 85.2,
       "action": "WATCH"
     },
     {
@@ -4283,11 +4290,11 @@
       "status": "portfolio: max open positions (6) reached",
       "rs_percentile": 72.3,
       "sector_score": 66.7,
-      "fundamental_score": 70.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 70.8,
       "penalty": 0.0,
-      "final_score": 80.8,
+      "final_score": 77.4,
       "action": "WATCH"
     },
     {
@@ -4324,11 +4331,11 @@
       "status": "portfolio: max open positions (6) reached",
       "rs_percentile": 73.4,
       "sector_score": 14.3,
-      "fundamental_score": 80.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 65.3,
       "penalty": 0.0,
-      "final_score": 81.1,
+      "final_score": 71.5,
       "action": "WATCH"
     },
     {
@@ -4365,11 +4372,11 @@
       "status": "portfolio: max open positions (6) reached",
       "rs_percentile": 77.7,
       "sector_score": 4.8,
-      "fundamental_score": 90.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 63.5,
       "penalty": 0.0,
-      "final_score": 77.3,
+      "final_score": 70.5,
       "action": "WATCH"
     },
     {
@@ -4406,11 +4413,11 @@
       "status": "relative strength 64 < 65",
       "rs_percentile": 64.5,
       "sector_score": 71.4,
-      "fundamental_score": 55.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 80.4,
       "penalty": 0.0,
-      "final_score": 77.3,
+      "final_score": 76.4,
       "action": "WATCH"
     },
     {
@@ -4447,11 +4454,11 @@
       "status": "relative strength 64 < 65",
       "rs_percentile": 63.6,
       "sector_score": 100.0,
-      "fundamental_score": 65.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 94.7,
       "penalty": 0.0,
-      "final_score": 83.4,
+      "final_score": 80.8,
       "action": "WATCH"
     },
     {
@@ -4488,11 +4495,11 @@
       "status": "relative strength 63 < 65",
       "rs_percentile": 63.0,
       "sector_score": 50.0,
-      "fundamental_score": 100.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 43.8,
       "penalty": 0.0,
-      "final_score": 77.4,
+      "final_score": 68.9,
       "action": "WATCH"
     },
     {
@@ -4570,11 +4577,11 @@
       "status": "portfolio: max open positions (6) reached",
       "rs_percentile": 69.9,
       "sector_score": 66.7,
-      "fundamental_score": 80.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 49.0,
       "penalty": 0.0,
-      "final_score": 76.6,
+      "final_score": 71.5,
       "action": "WATCH"
     },
     {
@@ -4611,11 +4618,11 @@
       "status": "relative strength 59 < 65",
       "rs_percentile": 58.6,
       "sector_score": 50.0,
-      "fundamental_score": 100.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 75.7,
       "penalty": 0.0,
-      "final_score": 79.9,
+      "final_score": 71.4,
       "action": "WATCH"
     },
     {
@@ -4652,11 +4659,11 @@
       "status": "relative strength 55 < 65",
       "rs_percentile": 54.7,
       "sector_score": 71.4,
-      "fundamental_score": 100.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 41.7,
       "penalty": 0.0,
-      "final_score": 76.0,
+      "final_score": 67.5,
       "action": "WATCH"
     },
     {
@@ -4693,11 +4700,11 @@
       "status": "relative strength 55 < 65",
       "rs_percentile": 54.7,
       "sector_score": 81.0,
-      "fundamental_score": 100.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 78.3,
       "penalty": -15.0,
-      "final_score": 66.8,
+      "final_score": 58.3,
       "action": "WATCH"
     },
     {
@@ -4816,11 +4823,11 @@
       "status": "portfolio: max open positions (6) reached",
       "rs_percentile": 74.4,
       "sector_score": 50.0,
-      "fundamental_score": 80.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 80.7,
       "penalty": 0.0,
-      "final_score": 78.0,
+      "final_score": 72.9,
       "action": "WATCH"
     },
     {
@@ -4854,14 +4861,14 @@
       "pre_breakout_score": 45.0,
       "pullback_score": 100.0,
       "pct_of_52w_high": 90.1,
-      "status": "final score 58.7 < 60",
+      "status": "portfolio: max open positions (6) reached",
       "rs_percentile": 66.8,
       "sector_score": 14.3,
-      "fundamental_score": 30.0,
+      "fundamental_score": 50.0,
       "event_score": 100.0,
       "confluence_score": 39.5,
       "penalty": 0.0,
-      "final_score": 58.7,
+      "final_score": 62.1,
       "action": "WATCH"
     },
     {
@@ -46849,10 +46856,10 @@
       "symbol": "ACEVECTOR",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:33<220"
       ],
       "last_date": "2026-11-20",
-      "bars": 1
+      "bars": 33
     },
     {
       "symbol": "ACGL",
@@ -47021,10 +47028,10 @@
       "symbol": "AONESTEELS",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:34<220"
       ],
       "last_date": "2026-11-20",
-      "bars": 1
+      "bars": 34
     },
     {
       "symbol": "APOORVA",
@@ -47230,10 +47237,10 @@
       "symbol": "BCSSL",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:11<220"
       ],
       "last_date": "2026-11-20",
-      "bars": 1
+      "bars": 11
     },
     {
       "symbol": "BEEKAY",
@@ -47375,10 +47382,10 @@
       "symbol": "BONFIG",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:20<220"
       ],
       "last_date": "2026-11-20",
-      "bars": 1
+      "bars": 20
     },
     {
       "symbol": "BONLON",
@@ -47690,10 +47697,10 @@
       "symbol": "ELEVATE",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:35<220"
       ],
       "last_date": "2026-11-20",
-      "bars": 1
+      "bars": 35
     },
     {
       "symbol": "ELITECON",
@@ -47808,10 +47815,10 @@
       "symbol": "FUSIONCX",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:21<220"
       ],
       "last_date": "2026-11-20",
-      "bars": 1
+      "bars": 21
     },
     {
       "symbol": "GAJA",
@@ -47862,10 +47869,10 @@
       "symbol": "GERMAN",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:33<220"
       ],
       "last_date": "2026-11-20",
-      "bars": 1
+      "bars": 33
     },
     {
       "symbol": "GKB",
@@ -48850,10 +48857,10 @@
       "symbol": "NITYAS",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:30<220"
       ],
       "last_date": "2026-11-20",
-      "bars": 1
+      "bars": 30
     },
     {
       "symbol": "NTCIND",
@@ -48904,10 +48911,10 @@
       "symbol": "ORIENTCABL",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:33<220"
       ],
       "last_date": "2026-11-20",
-      "bars": 1
+      "bars": 33
     },
     {
       "symbol": "ORIRAIL",
@@ -49331,10 +49338,10 @@
       "symbol": "SFCTECH",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:13<220"
       ],
       "last_date": "2026-11-20",
-      "bars": 1
+      "bars": 13
     },
     {
       "symbol": "SGLRES",
@@ -49476,10 +49483,10 @@
       "symbol": "SHUKRAMED",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:8<220"
       ],
       "last_date": "2026-11-20",
-      "bars": 1
+      "bars": 8
     },
     {
       "symbol": "SICAGEN",
@@ -49549,10 +49556,10 @@
       "symbol": "SMT",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:20<220"
       ],
       "last_date": "2026-11-20",
-      "bars": 1
+      "bars": 20
     },
     {
       "symbol": "SONA",
@@ -49603,10 +49610,10 @@
       "symbol": "SSRETAIL",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:40<220"
       ],
       "last_date": "2026-11-20",
-      "bars": 1
+      "bars": 40
     },
     {
       "symbol": "STEAMHOUSE",
@@ -49702,10 +49709,10 @@
       "symbol": "SWASTIKAIN",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:35<220"
       ],
       "last_date": "2026-11-20",
-      "bars": 1
+      "bars": 35
     },
     {
       "symbol": "SWISSMLTRY",
@@ -49838,10 +49845,10 @@
       "symbol": "TONBO",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:20<220"
       ],
       "last_date": "2026-11-20",
-      "bars": 1
+      "bars": 20
     },
     {
       "symbol": "TOYAMSL",
@@ -49901,10 +49908,10 @@
       "symbol": "TRIVENIPT",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:28<220"
       ],
       "last_date": "2026-11-20",
-      "bars": 1
+      "bars": 28
     },
     {
       "symbol": "TURTLEMINT",
@@ -50092,10 +50099,10 @@
       "symbol": "VNL",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:30<220"
       ],
       "last_date": "2026-11-20",
-      "bars": 1
+      "bars": 30
     },
     {
       "symbol": "VOEPL",
@@ -50184,10 +50191,10 @@
       "symbol": "ZETWERK",
       "status": "FAIL",
       "issues": [
-        "insufficient_history:1<220"
+        "insufficient_history:20<220"
       ],
       "last_date": "2026-11-20",
-      "bars": 1
+      "bars": 20
     },
     {
       "symbol": "ZFSTEERING",
