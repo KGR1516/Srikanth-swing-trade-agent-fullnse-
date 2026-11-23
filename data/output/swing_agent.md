@@ -1,103 +1,110 @@
-# Swing Trade Agent — setups for the session after 2026-11-20
+# Swing Trade Agent — setups for the session after 2026-11-23
 
-_Generated 2026-11-20 22:52 IST · Universe: Full NSE (2407 stocks) · Capital ₹500,000_
+_Generated 2026-11-23 20:42 IST · Universe: Full NSE (2419 stocks) · Capital ₹500,000_
 
-**Afternoon run 22:50 IST — PROVISIONAL: today's candle is not final until 15:30**
+**Morning run 20:41 IST — setups from the 2026-11-23 close, with live status today**
 
 ## Market regime: 🟡 NEUTRAL (risk × 0.5)
 
-- Nifty 50: 25,800.60 (+13.72% 20D)
+- Nifty 50: 25,349.65 (+12.17% 20D)
 - Nifty above 50-EMA, above 200-EMA; 50-EMA rising.
-- Breadth: 48% of universe above 50-EMA.
+- Breadth: 45% of universe above 50-EMA.
 - Neutral regime → position risk halved.
-- Verdicts: BUY NOW 6 · BUY 0 · WATCH 24 · AVOID 0 · SKIP 1026
+- Verdicts: BUY NOW 5 · BUY 1 · WATCH 20 · AVOID 0 · SKIP 1020
 
 ## Next-session setups (6)
 
 | # | Symbol | Action | Setup | Grade | Close | Entry ≥ | Don't chase > | Stop | Stop % | T1 (R) | T2 (R) | Qty | At risk | Score |
 |---:|---|---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 1 | **APOLLOHOSP** | BUY NOW | Breakout | Unconfirmed | 9,200.00 | 9,304.55 | 9,490.60 | 8,974.30 | 3.5% | 9,965.05 (2R) | 10,295.30 (3R) | 7 | ₹2,312 | 87 |
-| 2 | **WELSPUNLIV** | BUY NOW | Breakout | Unconfirmed | 268.78 | 275.35 | 280.85 | 255.20 | 7.3% | 315.65 (2R) | 335.80 (3R) | 124 | ₹2,499 | 87 |
-| 3 | **DLF** | BUY NOW | Breakout | Unconfirmed | 785.00 | 793.90 | 809.75 | 765.75 | 3.5% | 850.20 (2R) | 878.35 (3R) | 88 | ₹2,477 | 86 |
-| 4 | **POONAWALLA** | BUY NOW | Breakout | Unconfirmed | 518.40 | 523.85 | 534.30 | 496.10 | 5.3% | 579.35 (2R) | 607.10 (3R) | 90 | ₹2,498 | 85 |
-| 5 | **CUB** | BUY NOW | Breakout | Unconfirmed | 248.80 | 251.95 | 256.95 | 238.30 | 5.4% | 279.25 (2R) | 292.90 (3R) | 183 | ₹2,498 | 83 |
-| 6 | **ARIS** | BUY NOW | Breakout | Unconfirmed | 164.97 | 167.05 | 170.35 | 155.30 | 7.0% | 190.55 (2R) | 202.30 (3R) | 212 | ₹2,491 | 83 |
+| 1 | **ASTERDM** | BUY NOW | Breakout | Unconfirmed | 790.35 | 798.75 | 814.70 | 760.60 | 4.8% | 875.05 (2R) | 913.20 (3R) | 65 | ₹2,480 | 86 |
+| 2 | **HONASA** | BUY NOW | Breakout | Unconfirmed | 539.75 | 544.85 | 555.70 | 517.75 | 5.0% | 599.05 (2R) | 626.15 (3R) | 92 | ₹2,493 | 84 |
+| 3 | **JSWINFRA** | BUY NOW | Breakout | Unconfirmed | 353.55 | 356.25 | 363.35 | 339.60 | 4.7% | 389.55 (2R) | 406.20 (3R) | 150 | ₹2,498 | 83 |
+| 4 | **RATNAVEER** | BUY NOW | Breakout | Unconfirmed | 403.30 | 408.55 | 416.70 | 382.65 | 6.3% | 460.35 (2R) | 486.25 (3R) | 96 | ₹2,486 | 82 |
+| 5 | **PERSISTENT** | BUY NOW | Breakout | Unconfirmed | 6,282.50 | 6,356.95 | 6,484.05 | 6,095.35 | 4.1% | 6,880.15 (2R) | 7,141.75 (3R) | 9 | ₹2,354 | 82 |
+| 6 | **GESHIP** | BUY | Pullback | — | 1,538.30 | 1,555.25 | 1,586.35 | 1,478.10 | 5.0% | 1,709.55 (2R) | 1,786.70 (3R) | 32 | ₹2,469 | 80 |
+
+### Live status today
+
+- **ASTERDM** — Not triggered — needs ≥ 798.75 (now 790.35)
+- **HONASA** — Not triggered — needs ≥ 544.85 (now 539.75)
+- **JSWINFRA** — Not triggered — needs ≥ 356.25 (now 353.55)
+- **RATNAVEER** — Not triggered — needs ≥ 408.55 (now 403.30)
+- **PERSISTENT** — Not triggered — needs ≥ 6,356.95 (now 6,282.50)
+- **GESHIP** — Not triggered — needs ≥ 1,555.25 (now 1,538.30)
 
 **Execution rules:** buy-stop at the entry trigger · skip if the open gaps above the “don't chase” price · cancel if not triggered within 2 sessions · exit if T1 isn't hit within 5 sessions · book part at T1, trail the stop to entry.
 
 ### Risk notes
 
-- **APOLLOHOSP** — RSI 70 — short-term overbought.
-- **WELSPUNLIV** — Breakout volume is adequate but not exceptional (< 2× average).
-- **WELSPUNLIV** — High volatility (ATR 5.0% of price).
-- **DLF** — RSI 74 — short-term overbought.
-- **DLF** — Breakout volume is adequate but not exceptional (< 2× average).
-- **POONAWALLA** — RSI 72 — short-term overbought.
-- **ARIS** — High volatility (ATR 4.7% of price).
+- **ASTERDM** — Breakout volume is adequate but not exceptional (< 2× average).
+- **ASTERDM** — Still below the 60-day closing high — major resistance overhead.
+- **HONASA** — RSI 74 — short-term overbought.
+- **HONASA** — Breakout volume is adequate but not exceptional (< 2× average).
+- **JSWINFRA** — Still below the 60-day closing high — major resistance overhead.
+- **JSWINFRA** — 52-week high 375.50 is only 1.16R above entry — T1 faces overhead supply.
+- **RATNAVEER** — RSI 71 — short-term overbought.
+- **RATNAVEER** — High volatility (ATR 4.3% of price).
+- **PERSISTENT** — 52-week high 6552.65 is only 0.75R above entry — T1 faces overhead supply.
 
-## Watchlist (24)
+## Watchlist (20)
 
 | Symbol | Action | Setup | Score | Why not a setup |
 |---|---|---|---:|---|
-| ULTRACEMCO | WATCH | Breakout | 85 | breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback |
-| UNIONBANK | WATCH | Breakout | 84 | breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback |
-| AXISBANK | WATCH | Breakout | 84 | breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback |
-| IDFCFIRSTB | WATCH | Breakout | 82 | portfolio: max open positions (6) reached |
-| SGMART | WATCH | Breakout | 81 | breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback |
-| ALICON | WATCH | Breakout | 81 | breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback |
-| ASTERDM | WATCH | Breakout | 81 | relative strength 64 < 65 |
-| ADANIPOWER | WATCH | Breakout | 80 | portfolio: max open positions (6) reached |
-| ANANDRATHI | WATCH | Pre-Breakout | 77 | portfolio: max open positions (6) reached |
-| LGEINDIA | WATCH | Pullback | 77 | portfolio: max open positions (6) reached |
-| JSWINFRA | WATCH | Pullback | 76 | relative strength 64 < 65 |
-| NELCAST | WATCH | Pullback | 76 | portfolio: max open positions (6) reached |
-| LOTUSDEV | WATCH | Pullback | 75 | portfolio: max open positions (6) reached |
-| BEML | WATCH | Pullback | 74 | portfolio: max open positions (6) reached |
-| PERSISTENT | WATCH | Pre-Breakout | 73 | portfolio: max open positions (6) reached |
-| EDELWEISS | WATCH | Pullback | 72 | portfolio: max open positions (6) reached |
-| NUVAMA | WATCH | Pullback | 72 | portfolio: max open positions (6) reached |
-| KAJARIACER | WATCH | Pre-Breakout | 71 | relative strength 59 < 65 |
-| CPPLUS | WATCH | Pullback | 70 | portfolio: max open positions (6) reached |
-| TECHM | WATCH | Pullback | 69 | relative strength 63 < 65 |
-| FSL | WATCH | Pullback | 68 | relative strength 55 < 65 |
-| TEXINFRA | WATCH | Pullback | 62 | portfolio: max open positions (6) reached |
-| KTKBANK | WATCH | Pullback | 60 | portfolio: max open positions (6) reached |
-| HEROMOTOCO | WATCH | Pre-Breakout | 58 | relative strength 55 < 65 |
+| MOTHERSON | WATCH | Pullback | 80 | relative strength 58 < 65 |
+| ENGINERSIN | WATCH | Pullback | 79 | portfolio: max open positions (6) reached |
+| SPORTKING | WATCH | Breakout | 79 | portfolio: max open positions (6) reached |
+| COMSYN | WATCH | Breakout | 78 | setup: stop 8.6% wider than max 8.0% |
+| KOPRAN | WATCH | Pullback | 77 | portfolio: max open positions (6) reached |
+| STARHEALTH | WATCH | Pullback | 75 | relative strength 56 < 65 |
+| KAJARIACER | WATCH | Pre-Breakout | 75 | relative strength 59 < 65 |
+| GRANULES | WATCH | Pre-Breakout | 75 | relative strength 57 < 65 |
+| TORNTPHARM | WATCH | Pre-Breakout | 75 | relative strength 48 < 65 |
+| IIFL | WATCH | Pullback | 74 | relative strength 62 < 65 |
+| CPPLUS | WATCH | Pullback | 73 | portfolio: max open positions (6) reached |
+| ACMESOLAR | WATCH | Pullback | 71 | portfolio: max open positions (6) reached |
+| CHENNPETRO | WATCH | Pullback | 71 | relative strength 61 < 65 |
+| KSHINTL | WATCH | Pullback | 70 | portfolio: max open positions (6) reached |
+| FSL | WATCH | Pullback | 69 | relative strength 57 < 65 |
+| HCLTECH | WATCH | Pullback | 68 | relative strength 56 < 65 |
+| DIACABS | WATCH | Pullback | 67 | portfolio: max open positions (6) reached |
+| ZENTEC | WATCH | Pullback | 62 | relative strength 46 < 65 |
+| UTTAMSUGAR | WATCH | Pullback | 60 | relative strength 59 < 65 |
+| HEROMOTOCO | WATCH | Pre-Breakout | 58 | relative strength 56 < 65 |
 
 ## Strongest sectors
 
 | Sector | 3M median % | Breadth % | Score |
 |---|---:|---:|---:|
-| Healthcare | +4.0 | 75 | 100 |
-| Realty | -0.9 | 91 | 95 |
-| Media Entertainment & Publication | +14.0 | 50 | 90 |
-| Construction Materials | -0.9 | 82 | 86 |
-| Automobile and Auto Components | -0.9 | 70 | 81 |
+| Healthcare | +3.8 | 75 | 100 |
+| Media Entertainment & Publication | +11.6 | 50 | 95 |
+| Realty | -2.2 | 91 | 90 |
+| Automobile and Auto Components | -2.2 | 68 | 86 |
+| Oil Gas & Consumable Fuels | +2.6 | 65 | 81 |
 
-## Data quality — 374 excluded
+## Data quality — 381 excluded
 
-- 3BBLACKBIO: insufficient_history:65<220
-- AASTHA: insufficient_history:96<220
-- ABANSENT: insufficient_history:65<220
-- ABMKNO: insufficient_history:65<220
-- ACEVECTOR: insufficient_history:33<220
-- ACGL: insufficient_history:65<220
-- ADDIND: insufficient_history:64<220
-- ADROITIND: insufficient_history:35<220
-- ADVAIT: insufficient_history:206<220
-- ADVIKCA: insufficient_history:65<220
-- AEPL: insufficient_history:171<220
-- AEROPLANE: insufficient_history:158<220
-- AGL: insufficient_history:97<220
-- AKCAPIT: insufficient_history:65<220
-- ALFREDHE: insufficient_history:57<220
-- ALGOQUANT: insufficient_history:215<220
-- ALPINETEX: insufficient_history:85<220
-- AMAGI: insufficient_history:205<220
-- AMAL: insufficient_history:65<220
-- AMARJOTHI: insufficient_history:67<220, extreme_move:83.3%_on_2026-08-17 (unadjusted split/bonus?)
+- 3BBLACKBIO: insufficient_history:66<220
+- AARNAV: insufficient_history:182<220
+- AASTHA: insufficient_history:97<220
+- ABANSENT: insufficient_history:66<220
+- ABMKNO: insufficient_history:66<220
+- ACEVECTOR: insufficient_history:1<220
+- ACGL: insufficient_history:66<220
+- ADDIND: insufficient_history:65<220
+- ADROITIND: insufficient_history:36<220
+- ADVAIT: insufficient_history:207<220
+- ADVIKCA: insufficient_history:66<220
+- AEPL: insufficient_history:172<220
+- AEROPLANE: insufficient_history:159<220
+- AGL: insufficient_history:98<220
+- AKCAPIT: insufficient_history:66<220
+- ALFREDHE: insufficient_history:58<220
+- ALGOQUANT: insufficient_history:216<220
+- ALPINETEX: insufficient_history:86<220
+- AMAGI: insufficient_history:206<220
+- AMAL: insufficient_history:66<220
 
 ---
-Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), prefetched history + live refresh of 1177 liquid stocks at 22:51:55 IST, NSE bhavcopy 2026-11-20 (close cross-check), 977 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
+Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), NSE bhavcopy 2026-11-23 (close cross-check), 992 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
 
 > Research output only — not investment advice and not an order. Verify prices, results dates and liquidity before trading; size positions to your own risk tolerance.
